@@ -1,0 +1,86 @@
+# item_0024-S1（完整文字；[IMAGE] = 一張圖）
+使用者附上一張參考商品圖片，想找和它風格一樣的商品。參考圖片如下：
+[IMAGE]
+參考商品的風格是：traditional
+以下是 40 件候選商品。請從候選中挑 5 件和參考圖片**同風格**的商品，並且讓這 5 件盡量多樣：品項、顏色、材質、形狀盡量不同。
+POSITION 1; title=COSTWAY Tolix Style Dining Chairs Metal Stackable Cafe Chairs w/Curve Armrest Set of 4 (Copper)
+[IMAGE]
+POSITION 2; title=Anchor Link Chain Rope Trim Table Lamp White Shade
+[IMAGE]
+POSITION 3; title=Woven Seagrass Console Table - Sturdy Iron Frame w/ Glass Table Top - Style
+[IMAGE]
+POSITION 4; title=Jerry Rice Quotes Wall Art Prints - Unframed 8x10 in - Today I Will Do What Other's Won't, So Tomorrow I Will Do What Others Can't - Inspirational Poster with Motivational Football Quote
+[IMAGE]
+POSITION 5; title=Vwlvrsco Wooden Floor Lamp, Creative Hollow Geometric Floor Decorative Lamp, USB LED Colorful Diamond Lights 3D Night Light Desk Lamp Home Decor, Gifts for Family (A)
+[IMAGE]
+POSITION 6; title=QIYIZM Bedside Table Lamp for Living Room Bedroom, Rattan Nightstand Lamp with USB Charging Port and Remote Dimmable RGB Color Bulb,Wicker Bamboo Small Side Nightstand Night Light Decor
+[IMAGE]
+POSITION 7; title=Walker Edison Douglas Urban Faux Leather Armless Bar Chairs, Set of 2, Grey
+[IMAGE]
+POSITION 8; title=YUUSFJI Touch Control Table Lamps with 2 USB Ports,5W Bulb Desk Light,3-Way Dimmable Bedside Nightstand Reading Lamp for Bedroom Living Room Office. (Glass Cover)
+[IMAGE]
+POSITION 9; title=Zeckos Rooster Table Lamp with Burlap and Wire Shade
+[IMAGE]
+POSITION 10; title=Progress Lighting P4201-84 5-Light Le Jardin Chandelier, Espresso
+[IMAGE]
+POSITION 11; title=Capital Lighting 9082WG-484 Foyer with White Fabric Shades, Winter Gold Finish
+[IMAGE]
+POSITION 12; title=Stein World Furniture Ellsworth Pedestal Table, Rich Dark Distressed
+[IMAGE]
+POSITION 13; title=Laura Ashley TX0015 Camberley Complete Lamp, Satin Nickel
+[IMAGE]
+POSITION 14; title=Franklin Iron Works Salima Brushed Nickel Gray Wood Pendant Chandelier Lighting 21 1/4" Wide Openwork LED 5-Light Fixture for Dining Room Living House Foyer Kitchen Island Entryway
+[IMAGE]
+POSITION 15; title=SHINESTAR Set of 2 Style Table Lamps with USB Port and Outlet - 3 Way Dimmable Touch Control Bedside Desk Lamps for Living Room - Includes 2 Bulbs
+[IMAGE]
+POSITION 16; title=Fandian Post- Ceiling Light Chandelier Pendant Lamp, DNA Shaped with Bulb LED*16PCS Required (Bronze Gold)
+[IMAGE]
+POSITION 17; title=Drawealth Touch Table Lamp for Living Room Set of 2 Bedside Table Lamps for Bedrooms with USB Ports 3 Way Dimmable White Large Nightstand Lamps,Linen Shade,LED Bulbs Included,27"
+[IMAGE]
+POSITION 18; title=Set of 2 Wooden Nightstand, End Table Side Beside Table with 2 Drawers,for Bedroom Living Room Furniture, Solid Splayed Legs, 28.5inch H, Gray
+[IMAGE]
+POSITION 19; title=NA Kitchen Island Sputnik Chandelier 8 Lights Brass, Semi-Flush Mount Ceiling Light Fixture Chandelier Lighting for Foyer Hallway Dining Room Entry Way
+[IMAGE]
+POSITION 20; title=Savoy House 3-4089-6-16 Pendant with No Shades, Antique Copper Finish
+[IMAGE]
+POSITION 21; title=Creyer Metal Ceiling Pendant Lighting, Brass Finish, Adjustable Pendant Lights with Smooth Surface, E26 Base (Bulbs Not Included)
+[IMAGE]
+POSITION 22; title=Great Deal Furniture Louis Two Toned Fabric Dining Chair, Navy Blue and Blue Textured
+[IMAGE]
+POSITION 23; title=Mahogany Finish Queen Coffee Table
+[IMAGE]
+POSITION 24; title=Red Antique Lifering 15" Decorating Style Life Rings Beach Living - Brand New
+[IMAGE]
+POSITION 25; title=Black Metal Pendant Light Fixtures,Relassy Plug Hanging Light Shade Base E26 socket, Vantage Light with Adjustble 6ft Cord Switch for Kitchen Garage Hallway Dining Table(No bulb)
+[IMAGE]
+POSITION 26; title=King's Brand Plant Stand Accent Side End Table, Black Finish
+[IMAGE]
+POSITION 27; title=Tangkula 3-Light Floor Lamp, 64” 3 Light Tree, Standing Tall Pole Lamp with 3 LED Bulbs and Adjustable Heads, Reading Light for Living Room & Bedroom, 360 Lighting (Antique Brass)
+[IMAGE]
+POSITION 28; title=Fulesi Globe Table Lamp 3 Lights Gold Desk Lamp White Glass Globe Reading Lamp for Bedroom Living Room Study Room
+[IMAGE]
+POSITION 29; title=BOWERY HILL Windsor Rocking Chair in Medium Brown
+[IMAGE]
+POSITION 30; title=OFM 161 Collection 4 Pack Fully Assembled 18" High Back Metal Dining Chairs with Solid Ash Wood Seats, Galvanized Steel Chairs, in Black/Walnut
+[IMAGE]
+POSITION 31; title=Pendant Light Diamond Metal Cage Ceiling Lighting Fixture with E26 Bronze Lamp Socket 24" Adjustable Hanging Cord for Home Office Decoration
+[IMAGE]
+POSITION 32; title=BCP Wood Recliner Rocking Chair W/ Adjustable Foot Rest Comfy Relax Lounge Seat
+[IMAGE]
+POSITION 33; title=Wooden Table Lamp, USB Powered Heng Balance Lamp with Magnetic Floating Balls Switch, Warm Eye-Care LED Light, Decoration Night Lamp for Bedroom Living Room Office
+[IMAGE]
+POSITION 34; title=Soutas Mushroom Table Lamp Yellow Mushroom Desk Lamp LED Table Lamp with Dome Shade Beside Reading Lamp for Bedroom Study Office
+[IMAGE]
+POSITION 35; title=Light Society Morley 4-Light Kitchen Island Pendant, Matte Black Shade with Clear Glass Panels, Chandelier (LS-C104)
+[IMAGE]
+POSITION 36; title=K-Musculo Brushed Nickel Finish Table Lamp with Blue Starfish Shade
+[IMAGE]
+POSITION 37; title=House Of Troy N604-AB Newport Collection Portable 61-Inch Floor Lamp, Antique Brass with Off-White Softback Shade
+[IMAGE]
+POSITION 38; title=Signature Design by Ashley Porter Hand Finished Tufted Upholstered Dining Chair, Set of 2,Wood, Brown, 28D x 20.75W x 40.75H in
+[IMAGE]
+POSITION 39; title=Floor Lamp/ Lamps Lodge, Indoor 'Branching Out' Floor Lamp - Assembly Required OS90009. 61 in High x 12 in Wide x 12 in Deep
+[IMAGE]
+POSITION 40; title=Regency Hill Adley Downbridge Adjustable Desk Table Lamp 30 1/2" Tall Bronze Metal Tan Linen Shade for Living Room Bedroom House Bedside Nightstand Home Office Entryway Family
+[IMAGE]
+請只回傳 JSON，不要 Markdown。格式如下（尖括號是要你填入的內容，不是答案）：{"selected_positions":[<position>, ...]}。position 使用 1-based position；selected_positions 剛好 5 個且不得重複；請根據圖片和標題實際判斷後再選。

@@ -1,0 +1,435 @@
+{
+ "item_0035": {
+  "cell": "mid_century|chandelier_pendant",
+  "id": "item_0035",
+  "kw_style": "mid-century modern",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T06:52:59.801Z"
+ },
+ "item_0055": {
+  "cell": "boho|chair",
+  "id": "item_0055",
+  "kw_style": "bohemian",
+  "style": "bohemian",
+  "updated": "2026-11-17T07:00:18.736Z"
+ },
+ "item_0061": {
+  "cell": "boho|lamp",
+  "id": "item_0061",
+  "kw_style": "bohemian",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T07:00:36.069Z"
+ },
+ "item_0067": {
+  "cell": "coastal|lamp",
+  "id": "item_0067",
+  "kw_style": "coastal",
+  "style": "coastal",
+  "updated": "2026-11-17T07:03:12.364Z"
+ },
+ "item_0082": {
+  "cell": "coastal|chandelier_pendant",
+  "id": "item_0082",
+  "kw_style": "coastal",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T07:03:29.614Z"
+ },
+ "item_0089": {
+  "cell": "mid_century|chair",
+  "id": "item_0089",
+  "kw_style": "mid-century modern",
+  "style": "mixed/none",
+  "updated": "2026-11-17T06:49:08.875Z"
+ },
+ "item_0124": {
+  "cell": "traditional|table",
+  "id": "item_0124",
+  "kw_style": "traditional",
+  "showTitle": true,
+  "style": "mixed/none",
+  "updated": "2026-11-17T07:04:21.545Z"
+ },
+ "item_0134": {
+  "cell": "boho|wall_art",
+  "id": "item_0134",
+  "kw_style": "bohemian",
+  "style": "bohemian",
+  "updated": "2026-11-17T07:01:18.917Z"
+ },
+ "item_0152": {
+  "cell": "industrial|chandelier_pendant",
+  "id": "item_0152",
+  "kw_style": "industrial",
+  "style": "traditional",
+  "updated": "2026-11-17T06:57:13.758Z"
+ },
+ "item_0157": {
+  "cell": "coastal|table",
+  "id": "item_0157",
+  "kw_style": "coastal",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T07:02:57.731Z"
+ },
+ "item_0175": {
+  "cell": "farmhouse_rustic|wall_art",
+  "id": "item_0175",
+  "kw_style": "farmhouse/rustic",
+  "style": "farmhouse/rustic",
+  "updated": "2026-11-17T07:00:09.353Z"
+ },
+ "item_0204": {
+  "cell": "boho|chair",
+  "id": "item_0204",
+  "kw_style": "bohemian",
+  "style": "mixed/none",
+  "updated": "2026-11-17T07:00:14.636Z"
+ },
+ "item_0206": {
+  "cell": "industrial|lamp",
+  "id": "item_0206",
+  "kw_style": "industrial",
+  "style": "mixed/none",
+  "updated": "2026-11-17T06:56:06.778Z"
+ },
+ "item_0207": {
+  "cell": "traditional|table",
+  "id": "item_0207",
+  "kw_style": "traditional",
+  "style": "farmhouse/rustic",
+  "updated": "2026-11-17T07:04:27.795Z"
+ },
+ "item_0221": {
+  "cell": "coastal|wall_art",
+  "id": "item_0221",
+  "kw_style": "coastal",
+  "style": "coastal",
+  "updated": "2026-11-17T07:03:34.395Z"
+ },
+ "item_0245": {
+  "cell": "industrial|chandelier_pendant",
+  "id": "item_0245",
+  "kw_style": "industrial",
+  "style": "other",
+  "updated": "2026-11-17T06:56:56.376Z"
+ },
+ "item_0258": {
+  "cell": "farmhouse_rustic|chair",
+  "id": "item_0258",
+  "kw_style": "farmhouse/rustic",
+  "style": "bohemian",
+  "updated": "2026-11-17T06:58:53.089Z"
+ },
+ "item_0264": {
+  "cell": "industrial|table",
+  "id": "item_0264",
+  "kw_style": "industrial",
+  "style": "mixed/none",
+  "updated": "2026-11-17T06:55:46.727Z"
+ },
+ "item_0272": {
+  "cell": "farmhouse_rustic|chandelier_pendant",
+  "id": "item_0272",
+  "kw_style": "farmhouse/rustic",
+  "showTitle": true,
+  "style": "modern minimalist",
+  "updated": "2026-11-17T06:59:52.920Z"
+ },
+ "item_0277": {
+  "cell": "industrial|chair",
+  "id": "item_0277",
+  "kw_style": "industrial",
+  "style": "mixed/none",
+  "updated": "2026-11-17T06:54:01.630Z"
+ },
+ "item_0317": {
+  "cell": "mid_century|lamp",
+  "id": "item_0317",
+  "kw_style": "mid-century modern",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T06:51:06.103Z"
+ },
+ "item_0341": {
+  "cell": "industrial|chair",
+  "id": "item_0341",
+  "kw_style": "industrial",
+  "style": "mixed/none",
+  "updated": "2026-11-17T06:54:40.329Z"
+ },
+ "item_0343": {
+  "cell": "traditional|wall_art",
+  "id": "item_0343",
+  "kw_style": "traditional",
+  "showTitle": true,
+  "style": "other",
+  "updated": "2026-11-17T07:05:35.426Z"
+ },
+ "item_0345": {
+  "cell": "farmhouse_rustic|lamp",
+  "id": "item_0345",
+  "kw_style": "farmhouse/rustic",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T06:59:28.120Z"
+ },
+ "item_0369": {
+  "cell": "farmhouse_rustic|table",
+  "id": "item_0369",
+  "kw_style": "farmhouse/rustic",
+  "showTitle": true,
+  "style": "farmhouse/rustic",
+  "updated": "2026-11-17T06:59:13.038Z"
+ },
+ "item_0371": {
+  "cell": "traditional|chair",
+  "id": "item_0371",
+  "kw_style": "traditional",
+  "showTitle": true,
+  "style": "mixed/none",
+  "updated": "2026-11-17T07:04:03.347Z"
+ },
+ "item_0376": {
+  "cell": "mid_century|chandelier_pendant",
+  "id": "item_0376",
+  "kw_style": "mid-century modern",
+  "style": "scandinavian",
+  "updated": "2026-11-17T06:52:17.333Z"
+ },
+ "item_0405": {
+  "cell": "mid_century|wall_art",
+  "id": "item_0405",
+  "kw_style": "mid-century modern",
+  "style": "other",
+  "updated": "2026-11-17T06:53:19.014Z"
+ },
+ "item_0436": {
+  "cell": "boho|table",
+  "id": "item_0436",
+  "kw_style": "bohemian",
+  "style": "other",
+  "updated": "2026-11-17T07:00:24.186Z"
+ },
+ "item_0455": {
+  "cell": "farmhouse_rustic|chandelier_pendant",
+  "id": "item_0455",
+  "kw_style": "farmhouse/rustic",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T06:59:43.138Z"
+ },
+ "item_0468": {
+  "cell": "boho|lamp",
+  "id": "item_0468",
+  "kw_style": "bohemian",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T07:00:51.368Z"
+ },
+ "item_0469": {
+  "cell": "industrial|lamp",
+  "id": "item_0469",
+  "kw_style": "industrial",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T06:56:21.642Z"
+ },
+ "item_0486": {
+  "cell": "traditional|lamp",
+  "id": "item_0486",
+  "kw_style": "traditional",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T07:04:41.693Z"
+ },
+ "item_0526": {
+  "cell": "boho|wall_art",
+  "id": "item_0526",
+  "kw_style": "bohemian",
+  "style": "other",
+  "updated": "2026-11-17T07:01:12.934Z"
+ },
+ "item_0551": {
+  "cell": "traditional|chandelier_pendant",
+  "id": "item_0551",
+  "kw_style": "traditional",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T07:05:04.092Z"
+ },
+ "item_0554": {
+  "cell": "coastal|wall_art",
+  "id": "item_0554",
+  "kw_style": "coastal",
+  "style": "coastal",
+  "updated": "2026-11-17T07:03:38.446Z"
+ },
+ "item_0597": {
+  "cell": "coastal|chair",
+  "id": "item_0597",
+  "kw_style": "coastal",
+  "style": "farmhouse/rustic",
+  "updated": "2026-11-17T07:01:30.868Z"
+ },
+ "item_0598": {
+  "cell": "coastal|table",
+  "id": "item_0598",
+  "kw_style": "coastal",
+  "showTitle": true,
+  "style": "coastal",
+  "updated": "2026-11-17T07:02:36.432Z"
+ },
+ "item_0612": {
+  "cell": "traditional|chandelier_pendant",
+  "id": "item_0612",
+  "kw_style": "traditional",
+  "style": "traditional",
+  "updated": "2026-11-17T07:04:57.994Z"
+ },
+ "item_0623": {
+  "cell": "coastal|lamp",
+  "id": "item_0623",
+  "kw_style": "coastal",
+  "style": "coastal",
+  "updated": "2026-11-17T07:03:05.681Z"
+ },
+ "item_0642": {
+  "cell": "mid_century|wall_art",
+  "id": "item_0642",
+  "kw_style": "mid-century modern",
+  "style": "other",
+  "updated": "2026-11-17T06:53:14.898Z"
+ },
+ "item_0651": {
+  "cell": "farmhouse_rustic|chair",
+  "id": "item_0651",
+  "kw_style": "farmhouse/rustic",
+  "style": "mixed/none",
+  "updated": "2026-11-17T06:58:21.456Z"
+ },
+ "item_0658": {
+  "cell": "boho|chandelier_pendant",
+  "id": "item_0658",
+  "kw_style": "bohemian",
+  "style": "bohemian",
+  "updated": "2026-11-17T07:01:08.218Z"
+ },
+ "item_0737": {
+  "cell": "industrial|table",
+  "id": "item_0737",
+  "kw_style": "industrial",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T06:55:04.113Z"
+ },
+ "item_0743": {
+  "cell": "mid_century|table",
+  "id": "item_0743",
+  "kw_style": "mid-century modern",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T06:50:46.754Z"
+ },
+ "item_0753": {
+  "cell": "farmhouse_rustic|wall_art",
+  "id": "item_0753",
+  "kw_style": "farmhouse/rustic",
+  "showTitle": true,
+  "style": "farmhouse/rustic",
+  "updated": "2026-11-17T07:00:03.536Z"
+ },
+ "item_0766": {
+  "cell": "mid_century|chair",
+  "id": "item_0766",
+  "kw_style": "mid-century modern",
+  "style": "mid-century modern",
+  "updated": "2026-11-17T06:49:53.857Z"
+ },
+ "item_0776": {
+  "cell": "coastal|chair",
+  "id": "item_0776",
+  "kw_style": "coastal",
+  "style": "farmhouse/rustic",
+  "updated": "2026-11-17T07:01:26.334Z"
+ },
+ "item_0790": {
+  "cell": "industrial|wall_art",
+  "id": "item_0790",
+  "kw_style": "industrial",
+  "showTitle": true,
+  "style": "bohemian",
+  "updated": "2026-11-17T06:58:06.857Z"
+ },
+ "item_0796": {
+  "cell": "industrial|wall_art",
+  "id": "item_0796",
+  "kw_style": "industrial",
+  "style": "other",
+  "updated": "2026-11-17T06:58:14.439Z"
+ },
+ "item_0807": {
+  "cell": "farmhouse_rustic|lamp",
+  "id": "item_0807",
+  "kw_style": "farmhouse/rustic",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T06:59:23.019Z"
+ },
+ "item_0817": {
+  "cell": "boho|table",
+  "id": "item_0817",
+  "kw_style": "bohemian",
+  "style": "other",
+  "updated": "2026-11-17T07:00:28.418Z"
+ },
+ "item_0825": {
+  "cell": "coastal|chandelier_pendant",
+  "id": "item_0825",
+  "kw_style": "coastal",
+  "showTitle": true,
+  "style": "coastal",
+  "updated": "2026-11-17T07:03:22.163Z"
+ },
+ "item_0831": {
+  "cell": "mid_century|lamp",
+  "id": "item_0831",
+  "kw_style": "mid-century modern",
+  "showTitle": true,
+  "style": "mid-century modern",
+  "updated": "2026-11-17T06:51:55.168Z"
+ },
+ "item_0858": {
+  "cell": "farmhouse_rustic|table",
+  "id": "item_0858",
+  "kw_style": "farmhouse/rustic",
+  "style": "other",
+  "updated": "2026-11-17T06:58:59.671Z"
+ },
+ "item_0867": {
+  "cell": "traditional|lamp",
+  "id": "item_0867",
+  "kw_style": "traditional",
+  "showTitle": true,
+  "style": "other",
+  "updated": "2026-11-17T07:04:51.393Z"
+ },
+ "item_0868": {
+  "cell": "mid_century|table",
+  "id": "item_0868",
+  "kw_style": "mid-century modern",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T06:50:27.004Z"
+ },
+ "item_0881": {
+  "cell": "traditional|chair",
+  "id": "item_0881",
+  "kw_style": "traditional",
+  "style": "modern minimalist",
+  "updated": "2026-11-17T07:04:09.362Z"
+ },
+ "item_0882": {
+  "cell": "boho|chandelier_pendant",
+  "id": "item_0882",
+  "kw_style": "bohemian",
+  "showTitle": true,
+  "style": "bohemian",
+  "updated": "2026-11-17T07:01:03.801Z"
+ },
+ "item_0889": {
+  "cell": "traditional|wall_art",
+  "id": "item_0889",
+  "kw_style": "traditional",
+  "showTitle": true,
+  "style": "mixed/none",
+  "updated": "2026-11-17T07:05:27.376Z"
+ }
+}

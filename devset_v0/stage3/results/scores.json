@@ -1,0 +1,3198 @@
+{
+ "models": {
+  "qwen38-27b": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8055555555555556,
+      "Div": 0.6816269841269842,
+      "EffCov": 0.5880015432098765,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8055555555555556,
+      "Div": 0.6711084905660377,
+      "EffCov": 0.583179012345679,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.8037037037037037,
+      "Div": 0.6621825396825397,
+      "EffCov": 0.5729938271604939,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8049382716049384,
+    "Align_sd": 0.0008729713347982212,
+    "Div": 0.6716393381251873,
+    "Div_sd": 0.007947031071897783,
+    "EffCov": 0.5813914609053498,
+    "EffCov_sd": 0.00625589803671127,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.48086419753086423,
+    "Dup": 0.7993827160493827,
+    "pos1_rate": 0.1419753086419753,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.5630555555555555,
+     "boho|chandelier_pendant": 0.6472222222222223,
+     "boho|lamp": 0.6171296296296296,
+     "coastal|chair": 0.575,
+     "coastal|lamp": 0.7730555555555555,
+     "coastal|table": 0.655,
+     "farmhouse_rustic|chair": 0.46111111111111114,
+     "farmhouse_rustic|chandelier_pendant": 0.4961111111111111,
+     "farmhouse_rustic|lamp": 0.5663888888888889,
+     "farmhouse_rustic|table": 0.46888888888888886,
+     "industrial|chair": 0.6375,
+     "industrial|chandelier_pendant": 0.3933333333333333,
+     "industrial|lamp": 0.5122222222222222,
+     "industrial|table": 0.575,
+     "mid_century|chair": 0.5783333333333334,
+     "mid_century|chandelier_pendant": 0.45666666666666667,
+     "mid_century|lamp": 0.4741666666666667,
+     "mid_century|table": 0.6174999999999999,
+     "traditional|chair": 0.6627777777777778,
+     "traditional|chandelier_pendant": 0.6586111111111111,
+     "traditional|lamp": 0.6591666666666666,
+     "traditional|table": 0.7566666666666666
+    },
+    "by_style": {
+     "traditional": 0.6843055555555555,
+     "coastal": 0.6676851851851852,
+     "farmhouse/rustic": 0.498125,
+     "bohemian": 0.6079059829059829,
+     "mid-century modern": 0.5316666666666666,
+     "industrial": 0.5295138888888888
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9129629629629629,
+      "Div": 0.6877248677248677,
+      "EffCov": 0.6604681069958848,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9111111111111112,
+      "Div": 0.686214953271028,
+      "EffCov": 0.6581532921810699,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9166666666666666,
+      "Div": 0.6936656282450676,
+      "EffCov": 0.6723508230452675,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9135802469135802,
+    "Align_sd": 0.00230966505356412,
+    "Div": 0.6892018164136545,
+    "Div_sd": 0.003216019533955668,
+    "EffCov": 0.6636574074074074,
+    "EffCov_sd": 0.006219388956918771,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.7037037037037037,
+    "pos1_rate": 0.10185185185185185,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8007407407407408,
+     "boho|chandelier_pendant": 0.7388888888888889,
+     "boho|lamp": 0.46913580246913583,
+     "coastal|chair": 0.7081481481481481,
+     "coastal|lamp": 0.7366666666666667,
+     "coastal|table": 0.6440740740740741,
+     "farmhouse_rustic|chair": 0.6733333333333333,
+     "farmhouse_rustic|chandelier_pendant": 0.5918518518518519,
+     "farmhouse_rustic|lamp": 0.6618518518518518,
+     "farmhouse_rustic|table": 0.615,
+     "industrial|chair": 0.6177777777777779,
+     "industrial|chandelier_pendant": 0.672962962962963,
+     "industrial|lamp": 0.6951851851851851,
+     "industrial|table": 0.6814814814814816,
+     "mid_century|chair": 0.8211111111111111,
+     "mid_century|chandelier_pendant": 0.6407407407407407,
+     "mid_century|lamp": 0.5722222222222223,
+     "mid_century|table": 0.7166666666666667,
+     "traditional|chair": 0.6303703703703704,
+     "traditional|chandelier_pendant": 0.5751851851851852,
+     "traditional|lamp": 0.7203703703703703,
+     "traditional|table": 0.538888888888889
+    },
+    "by_style": {
+     "traditional": 0.6162037037037037,
+     "coastal": 0.6962962962962963,
+     "farmhouse/rustic": 0.6355092592592592,
+     "bohemian": 0.7004273504273504,
+     "mid-century modern": 0.6876851851851852,
+     "industrial": 0.6668518518518519
+    }
+   },
+   "img|avg_EffCov": 0.6225244341563786,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9055555555555556,
+      "Div": 0.7137971698113207,
+      "EffCov": 0.670408950617284,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9018518518518519,
+      "Div": 0.7108333333333333,
+      "EffCov": 0.6672067901234568,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9185185185185185,
+      "Div": 0.7154088050314465,
+      "EffCov": 0.6774691358024691,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.908641975308642,
+    "Align_sd": 0.007145578335055675,
+    "Div": 0.7133464360587002,
+    "Div_sd": 0.00189492409731407,
+    "EffCov": 0.6716949588477367,
+    "EffCov_sd": 0.004287135608264923,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.3709876543209877,
+    "Dup": 0.6975308641975309,
+    "pos1_rate": 0.1697530864197531,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.6941666666666666,
+     "boho|chandelier_pendant": 0.7302777777777777,
+     "boho|lamp": 0.7375,
+     "coastal|chair": 0.7922222222222222,
+     "coastal|lamp": 0.7469444444444445,
+     "coastal|table": 0.6408333333333334,
+     "farmhouse_rustic|chair": 0.4880555555555555,
+     "farmhouse_rustic|chandelier_pendant": 0.5580555555555555,
+     "farmhouse_rustic|lamp": 0.6866666666666668,
+     "farmhouse_rustic|table": 0.5625,
+     "industrial|chair": 0.7100000000000001,
+     "industrial|chandelier_pendant": 0.5708333333333333,
+     "industrial|lamp": 0.5708333333333333,
+     "industrial|table": 0.6391666666666667,
+     "mid_century|chair": 0.6758333333333333,
+     "mid_century|chandelier_pendant": 0.6755555555555556,
+     "mid_century|lamp": 0.6586111111111111,
+     "mid_century|table": 0.7105555555555555,
+     "traditional|chair": 0.7119444444444445,
+     "traditional|chandelier_pendant": 0.7311111111111112,
+     "traditional|lamp": 0.7458333333333333,
+     "traditional|table": 0.7661111111111112
+    },
+    "by_style": {
+     "traditional": 0.73875,
+     "coastal": 0.7266666666666667,
+     "farmhouse/rustic": 0.5738194444444444,
+     "bohemian": 0.7180555555555556,
+     "mid-century modern": 0.680138888888889,
+     "industrial": 0.6227083333333333
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9518518518518518,
+      "Div": 0.7119084362139917,
+      "EffCov": 0.7026234567901235,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9481481481481482,
+      "Div": 0.6936471193415638,
+      "EffCov": 0.6840277777777778,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9611111111111111,
+      "Div": 0.7170010288065845,
+      "EffCov": 0.7104681069958848,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9537037037037037,
+    "Align_sd": 0.005451704238473981,
+    "Div": 0.7075188614540466,
+    "Div_sd": 0.010026715871608737,
+    "EffCov": 0.6990397805212621,
+    "EffCov_sd": 0.011087674958874277,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.7314814814814814,
+    "pos1_rate": 0.15123456790123457,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8407407407407407,
+     "boho|chandelier_pendant": 0.7472222222222222,
+     "boho|lamp": 0.5098765432098765,
+     "coastal|chair": 0.7996296296296296,
+     "coastal|lamp": 0.7681481481481481,
+     "coastal|table": 0.6603703703703704,
+     "farmhouse_rustic|chair": 0.7088888888888889,
+     "farmhouse_rustic|chandelier_pendant": 0.604074074074074,
+     "farmhouse_rustic|lamp": 0.6918518518518518,
+     "farmhouse_rustic|table": 0.5844444444444444,
+     "industrial|chair": 0.7588888888888888,
+     "industrial|chandelier_pendant": 0.672962962962963,
+     "industrial|lamp": 0.6666666666666666,
+     "industrial|table": 0.7148148148148148,
+     "mid_century|chair": 0.8577777777777779,
+     "mid_century|chandelier_pendant": 0.6444444444444444,
+     "mid_century|lamp": 0.6722222222222223,
+     "mid_century|table": 0.8088888888888889,
+     "traditional|chair": 0.725925925925926,
+     "traditional|chandelier_pendant": 0.5774074074074075,
+     "traditional|lamp": 0.712962962962963,
+     "traditional|table": 0.575
+    },
+    "by_style": {
+     "traditional": 0.6478240740740742,
+     "coastal": 0.7427160493827161,
+     "farmhouse/rustic": 0.6473148148148148,
+     "bohemian": 0.7284188034188035,
+     "mid-century modern": 0.7458333333333333,
+     "industrial": 0.7033333333333334
+    }
+   },
+   "style_given|avg_EffCov": 0.6853673696844994,
+   "style_acc": {
+    "acc": 0.9351851851851852,
+    "n": 108,
+    "n_failed": 0,
+    "per_style": {
+     "mid-century modern": 0.85,
+     "industrial": 0.95,
+     "farmhouse/rustic": 0.9,
+     "bohemian": 1.0,
+     "coastal": 0.9333333333333333,
+     "traditional": 1.0
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "glam",
+      2
+     ],
+     "industrial": [
+      "modern minimalist",
+      1
+     ],
+     "farmhouse/rustic": [
+      "coastal",
+      1
+     ],
+     "bohemian": null,
+     "coastal": [
+      "farmhouse/rustic",
+      1
+     ],
+     "traditional": null
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 202,
+      "n_queries": 101,
+      "img_Align": 0.8636963696369637,
+      "style_given_Align": 0.9488448844884488,
+      "img_EffCov": 0.6304340850751742,
+      "style_given_EffCov": 0.7001856435643564
+     },
+     "style_wrong": {
+      "n_questions": 14,
+      "n_queries": 7,
+      "img_Align": 0.7952380952380952,
+      "style_given_Align": 0.6761904761904762,
+      "img_EffCov": 0.5083994708994709,
+      "style_given_EffCov": 0.47156084656084657
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.07191358024691359,
+      "lo": 0.051851851851851864,
+      "hi": 0.09290123456790125,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.08514851485148514,
+      "lo": 0.066006600660066,
+      "hi": 0.10594884488448836,
+      "n": 202
+     },
+     "Align|style_wrong": {
+      "mean": -0.119047619047619,
+      "lo": -0.1857142857142857,
+      "hi": -0.057142857142857065,
+      "n": 14
+     },
+     "EffCov|all": {
+      "mean": 0.0628429355281207,
+      "lo": 0.048210251628943754,
+      "hi": 0.07820237482853223,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.06975155848918224,
+      "lo": 0.054665612394572786,
+      "hi": 0.0857674413274661,
+      "n": 202
+     },
+     "EffCov|style_wrong": {
+      "mean": -0.036838624338624344,
+      "lo": -0.0827075066137566,
+      "hi": -0.00128802910052914,
+      "n": 14
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.014753668763102738,
+     "lo": -0.03215474318658282,
+     "hi": 0.06229035639412997,
+     "n": 106
+    },
+    "material": {
+     "mean": -0.05163989290495316,
+     "lo": -0.10251087684069612,
+     "hi": 0.0009370816599732112,
+     "n": 83
+    },
+    "shape": {
+     "mean": 0.0003174603174603132,
+     "lo": -0.05312169312169314,
+     "hi": 0.05275132275132274,
+     "n": 105
+    }
+   }
+  },
+  "qwen36-35b": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.7296296296296296,
+      "Div": 0.666875,
+      "EffCov": 0.5333333333333333,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.7333333333333334,
+      "Div": 0.664522653721683,
+      "EffCov": 0.5357253086419753,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.7370370370370369,
+      "Div": 0.6587009803921569,
+      "EffCov": 0.5344135802469135,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.7333333333333334,
+    "Align_sd": 0.0030240614108433886,
+    "Div": 0.6633662113712799,
+    "Div_sd": 0.0034357598208358785,
+    "EffCov": 0.5344907407407408,
+    "EffCov_sd": 0.0009780428673781733,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.5574074074074074,
+    "Dup": 0.7777777777777778,
+    "pos1_rate": 0.12345679012345678,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.5844444444444444,
+     "boho|chandelier_pendant": 0.6405555555555555,
+     "boho|lamp": 0.6449074074074075,
+     "coastal|chair": 0.5916666666666667,
+     "coastal|lamp": 0.6777777777777777,
+     "coastal|table": 0.7052777777777778,
+     "farmhouse_rustic|chair": 0.3675,
+     "farmhouse_rustic|chandelier_pendant": 0.42250000000000004,
+     "farmhouse_rustic|lamp": 0.49333333333333335,
+     "farmhouse_rustic|table": 0.4791666666666667,
+     "industrial|chair": 0.5605555555555556,
+     "industrial|chandelier_pendant": 0.4261111111111111,
+     "industrial|lamp": 0.5361111111111112,
+     "industrial|table": 0.5797222222222221,
+     "mid_century|chair": 0.49583333333333335,
+     "mid_century|chandelier_pendant": 0.39166666666666666,
+     "mid_century|lamp": 0.4330555555555556,
+     "mid_century|table": 0.55,
+     "traditional|chair": 0.5636111111111111,
+     "traditional|chandelier_pendant": 0.5283333333333333,
+     "traditional|lamp": 0.5583333333333333,
+     "traditional|table": 0.5725
+    },
+    "by_style": {
+     "traditional": 0.5556944444444445,
+     "coastal": 0.6582407407407408,
+     "farmhouse/rustic": 0.440625,
+     "bohemian": 0.6199786324786325,
+     "mid-century modern": 0.4676388888888889,
+     "industrial": 0.525625
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9277777777777778,
+      "Div": 0.6950155763239875,
+      "EffCov": 0.6781121399176955,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9129629629629629,
+      "Div": 0.6845125786163523,
+      "EffCov": 0.6589763374485597,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9203703703703704,
+      "Div": 0.6878764278296988,
+      "EffCov": 0.6668981481481482,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9203703703703704,
+    "Align_sd": 0.006048122821686913,
+    "Div": 0.6891348609233462,
+    "Div_sd": 0.004379191751913258,
+    "EffCov": 0.6679955418381344,
+    "EffCov_sd": 0.007850602470195622,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.6728395061728396,
+    "pos1_rate": 0.10802469135802469,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8066666666666666,
+     "boho|chandelier_pendant": 0.7138888888888889,
+     "boho|lamp": 0.508641975308642,
+     "coastal|chair": 0.6992592592592592,
+     "coastal|lamp": 0.7448148148148148,
+     "coastal|table": 0.6862962962962963,
+     "farmhouse_rustic|chair": 0.6388888888888888,
+     "farmhouse_rustic|chandelier_pendant": 0.5951851851851852,
+     "farmhouse_rustic|lamp": 0.69,
+     "farmhouse_rustic|table": 0.5488888888888889,
+     "industrial|chair": 0.6418518518518519,
+     "industrial|chandelier_pendant": 0.6785185185185185,
+     "industrial|lamp": 0.6851851851851851,
+     "industrial|table": 0.7166666666666667,
+     "mid_century|chair": 0.8144444444444444,
+     "mid_century|chandelier_pendant": 0.6888888888888889,
+     "mid_century|lamp": 0.5703703703703703,
+     "mid_century|table": 0.65,
+     "traditional|chair": 0.6581481481481481,
+     "traditional|chandelier_pendant": 0.5844444444444444,
+     "traditional|lamp": 0.7166666666666667,
+     "traditional|table": 0.5944444444444444
+    },
+    "by_style": {
+     "traditional": 0.638425925925926,
+     "coastal": 0.7101234567901235,
+     "farmhouse/rustic": 0.6182407407407406,
+     "bohemian": 0.7022079772079772,
+     "mid-century modern": 0.6809259259259259,
+     "industrial": 0.6805555555555556
+    }
+   },
+   "img|avg_EffCov": 0.6012431412894376,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8685185185185185,
+      "Div": 0.6946261682242991,
+      "EffCov": 0.6402006172839506,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8796296296296297,
+      "Div": 0.6784657320872274,
+      "EffCov": 0.6346450617283951,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.85,
+      "Div": 0.6887578616352202,
+      "EffCov": 0.6311342592592593,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8660493827160494,
+    "Align_sd": 0.01222159868717491,
+    "Div": 0.6872832539822489,
+    "Div_sd": 0.006679359990934499,
+    "EffCov": 0.635326646090535,
+    "EffCov_sd": 0.0037325710433075113,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.4185185185185185,
+    "Dup": 0.7283950617283951,
+    "pos1_rate": 0.17901234567901234,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.6991666666666667,
+     "boho|chandelier_pendant": 0.7,
+     "boho|lamp": 0.7328703703703704,
+     "coastal|chair": 0.7225,
+     "coastal|lamp": 0.7183333333333334,
+     "coastal|table": 0.7563888888888889,
+     "farmhouse_rustic|chair": 0.48833333333333334,
+     "farmhouse_rustic|chandelier_pendant": 0.5747222222222222,
+     "farmhouse_rustic|lamp": 0.6336111111111111,
+     "farmhouse_rustic|table": 0.5863888888888888,
+     "industrial|chair": 0.6816666666666666,
+     "industrial|chandelier_pendant": 0.5247222222222222,
+     "industrial|lamp": 0.5847222222222223,
+     "industrial|table": 0.6325000000000001,
+     "mid_century|chair": 0.6275,
+     "mid_century|chandelier_pendant": 0.5008333333333334,
+     "mid_century|lamp": 0.48638888888888887,
+     "mid_century|table": 0.7272222222222222,
+     "traditional|chair": 0.7086111111111111,
+     "traditional|chandelier_pendant": 0.6313888888888889,
+     "traditional|lamp": 0.6783333333333333,
+     "traditional|table": 0.62
+    },
+    "by_style": {
+     "traditional": 0.6595833333333334,
+     "coastal": 0.7324074074074075,
+     "farmhouse/rustic": 0.5707638888888888,
+     "bohemian": 0.7072649572649572,
+     "mid-century modern": 0.5854861111111112,
+     "industrial": 0.6059027777777778
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9592592592592593,
+      "Div": 0.7054783950617284,
+      "EffCov": 0.6982510288065844,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9462962962962963,
+      "Div": 0.6923156801661475,
+      "EffCov": 0.6814814814814815,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9537037037037037,
+      "Div": 0.7088265835929388,
+      "EffCov": 0.7004115226337448,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9530864197530864,
+    "Align_sd": 0.0053100773253349515,
+    "Div": 0.702206886273605,
+    "Div_sd": 0.007126455888929359,
+    "EffCov": 0.6933813443072703,
+    "EffCov_sd": 0.008460574639614882,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.6450617283950617,
+    "pos1_rate": 0.14506172839506173,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8503703703703704,
+     "boho|chandelier_pendant": 0.7,
+     "boho|lamp": 0.567283950617284,
+     "coastal|chair": 0.7692592592592592,
+     "coastal|lamp": 0.7644444444444445,
+     "coastal|table": 0.6888888888888889,
+     "farmhouse_rustic|chair": 0.6433333333333333,
+     "farmhouse_rustic|chandelier_pendant": 0.5766666666666667,
+     "farmhouse_rustic|lamp": 0.7007407407407408,
+     "farmhouse_rustic|table": 0.4777777777777778,
+     "industrial|chair": 0.7081481481481481,
+     "industrial|chandelier_pendant": 0.6829629629629629,
+     "industrial|lamp": 0.7622222222222222,
+     "industrial|table": 0.7518518518518518,
+     "mid_century|chair": 0.8944444444444444,
+     "mid_century|chandelier_pendant": 0.6777777777777777,
+     "mid_century|lamp": 0.5462962962962963,
+     "mid_century|table": 0.7403703703703705,
+     "traditional|chair": 0.7462962962962963,
+     "traditional|chandelier_pendant": 0.6122222222222222,
+     "traditional|lamp": 0.7481481481481481,
+     "traditional|table": 0.5944444444444444
+    },
+    "by_style": {
+     "traditional": 0.6752777777777778,
+     "coastal": 0.7408641975308642,
+     "farmhouse/rustic": 0.5996296296296296,
+     "bohemian": 0.7272079772079773,
+     "mid-century modern": 0.7147222222222223,
+     "industrial": 0.7262962962962962
+    }
+   },
+   "style_given|avg_EffCov": 0.6643539951989026,
+   "style_acc": {
+    "acc": 0.8981481481481481,
+    "n": 108,
+    "n_failed": 0,
+    "per_style": {
+     "mid-century modern": 0.55,
+     "industrial": 1.0,
+     "farmhouse/rustic": 0.95,
+     "bohemian": 1.0,
+     "coastal": 1.0,
+     "traditional": 0.95
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "glam",
+      7
+     ],
+     "industrial": null,
+     "farmhouse/rustic": [
+      "traditional",
+      1
+     ],
+     "bohemian": null,
+     "coastal": null,
+     "traditional": [
+      "glam",
+      1
+     ]
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 194,
+      "n_queries": 97,
+      "img_Align": 0.8264604810996564,
+      "style_given_Align": 0.9161512027491409,
+      "img_EffCov": 0.6090301641848033,
+      "style_given_EffCov": 0.6786321114929362
+     },
+     "style_wrong": {
+      "n_questions": 22,
+      "n_queries": 11,
+      "img_Align": 0.8303030303030302,
+      "style_given_Align": 0.8515151515151516,
+      "img_EffCov": 0.5325757575757576,
+      "style_given_EffCov": 0.5384469696969697
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.08271604938271605,
+      "lo": 0.06234567901234569,
+      "hi": 0.10432098765432098,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.08969072164948455,
+      "lo": 0.0683848797250859,
+      "hi": 0.11203608247422668,
+      "n": 194
+     },
+     "Align|style_wrong": {
+      "mean": 0.021212121212121227,
+      "lo": -0.024242424242424267,
+      "hi": 0.07575757575757579,
+      "n": 22
+     },
+     "EffCov|all": {
+      "mean": 0.06311085390946501,
+      "lo": 0.048683288323045255,
+      "hi": 0.07809938700274348,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.06960194730813286,
+      "lo": 0.054187726708667436,
+      "hi": 0.0856278636884307,
+      "n": 194
+     },
+     "EffCov|style_wrong": {
+      "mean": 0.005871212121212103,
+      "lo": -0.018625315656565684,
+      "hi": 0.0333980429292929,
+      "n": 22
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.036448598130841114,
+     "lo": -0.013137331256490128,
+     "hi": 0.08634475597092418,
+     "n": 107
+    },
+    "material": {
+     "mean": -0.07166005291005292,
+     "lo": -0.12414103835978836,
+     "hi": -0.017426421957671984,
+     "n": 84
+    },
+    "shape": {
+     "mean": 0.027201257861635207,
+     "lo": -0.023270440251572346,
+     "hi": 0.07903694968553455,
+     "n": 106
+    }
+   }
+  },
+  "gemma4-12b": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.6759259259259259,
+      "Div": 0.683843537414966,
+      "EffCov": 0.5207947530864198,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.6796296296296297,
+      "Div": 0.6808922558922559,
+      "EffCov": 0.5203703703703704,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.7277777777777777,
+      "Div": 0.6840277777777777,
+      "EffCov": 0.554320987654321,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.6944444444444445,
+    "Align_sd": 0.023618674653961686,
+    "Div": 0.6829211903616664,
+    "Div_sd": 0.0014366436437507554,
+    "EffCov": 0.5318287037037037,
+    "EffCov_sd": 0.015905390137912746,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.5376543209876543,
+    "Dup": 0.6944444444444444,
+    "pos1_rate": 0.13580246913580246,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.5825,
+     "boho|chandelier_pendant": 0.5830555555555555,
+     "boho|lamp": 0.5944444444444444,
+     "coastal|chair": 0.6372222222222222,
+     "coastal|lamp": 0.7944444444444444,
+     "coastal|table": 0.7741666666666667,
+     "farmhouse_rustic|chair": 0.42388888888888887,
+     "farmhouse_rustic|chandelier_pendant": 0.475,
+     "farmhouse_rustic|lamp": 0.41916666666666663,
+     "farmhouse_rustic|table": 0.4627777777777778,
+     "industrial|chair": 0.4766666666666667,
+     "industrial|chandelier_pendant": 0.3927777777777778,
+     "industrial|lamp": 0.5708333333333333,
+     "industrial|table": 0.5625,
+     "mid_century|chair": 0.40166666666666667,
+     "mid_century|chandelier_pendant": 0.37194444444444447,
+     "mid_century|lamp": 0.3683333333333333,
+     "mid_century|table": 0.33305555555555555,
+     "traditional|chair": 0.6688888888888889,
+     "traditional|chandelier_pendant": 0.548611111111111,
+     "traditional|lamp": 0.6041666666666666,
+     "traditional|table": 0.6791666666666667
+    },
+    "by_style": {
+     "traditional": 0.6252083333333334,
+     "coastal": 0.7352777777777777,
+     "farmhouse/rustic": 0.4452083333333333,
+     "bohemian": 0.5854700854700854,
+     "mid-century modern": 0.36875,
+     "industrial": 0.5006944444444444
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8833333333333334,
+      "Div": 0.6997089947089947,
+      "EffCov": 0.6626286008230452,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9018518518518519,
+      "Div": 0.677128764278297,
+      "EffCov": 0.6533693415637859,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9055555555555556,
+      "Div": 0.7087788259958072,
+      "EffCov": 0.680324074074074,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8969135802469136,
+    "Align_sd": 0.009720997375323195,
+    "Div": 0.6952055283276998,
+    "Div_sd": 0.01330770475491903,
+    "EffCov": 0.6654406721536351,
+    "EffCov_sd": 0.011182432950884462,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.623456790123457,
+    "pos1_rate": 0.12654320987654322,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8162962962962964,
+     "boho|chandelier_pendant": 0.7101851851851853,
+     "boho|lamp": 0.5962962962962963,
+     "coastal|chair": 0.7066666666666667,
+     "coastal|lamp": 0.7725925925925926,
+     "coastal|table": 0.6892592592592592,
+     "farmhouse_rustic|chair": 0.6555555555555554,
+     "farmhouse_rustic|chandelier_pendant": 0.5707407407407407,
+     "farmhouse_rustic|lamp": 0.6203703703703703,
+     "farmhouse_rustic|table": 0.5072222222222222,
+     "industrial|chair": 0.6755555555555556,
+     "industrial|chandelier_pendant": 0.7155555555555555,
+     "industrial|lamp": 0.6522222222222223,
+     "industrial|table": 0.538888888888889,
+     "mid_century|chair": 0.7844444444444444,
+     "mid_century|chandelier_pendant": 0.7407407407407407,
+     "mid_century|lamp": 0.5666666666666667,
+     "mid_century|table": 0.6014814814814815,
+     "traditional|chair": 0.7151851851851851,
+     "traditional|chandelier_pendant": 0.6288888888888889,
+     "traditional|lamp": 0.7574074074074074,
+     "traditional|table": 0.5898148148148148
+    },
+    "by_style": {
+     "traditional": 0.6728240740740741,
+     "coastal": 0.7228395061728395,
+     "farmhouse/rustic": 0.5884722222222222,
+     "bohemian": 0.7247150997150997,
+     "mid-century modern": 0.6733333333333333,
+     "industrial": 0.6455555555555555
+    }
+   },
+   "img|avg_EffCov": 0.5986346879286695,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9129629629629629,
+      "Div": 0.7508873456790123,
+      "EffCov": 0.7152006172839506,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9074074074074074,
+      "Div": 0.74,
+      "EffCov": 0.6978395061728394,
+      "fail": 0.009259259259259259,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9333333333333333,
+      "Div": 0.7315031152647975,
+      "EffCov": 0.7047839506172839,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9179012345679012,
+    "Align_sd": 0.0111453519044863,
+    "Div": 0.7407968203146033,
+    "Div_sd": 0.007933611583978872,
+    "EffCov": 0.7059413580246913,
+    "EffCov_sd": 0.007134738429362258,
+    "fail": 0.0030864197530864196,
+    "fail_sd": 0.004364856673991034,
+    "SameCat": 0.2835913312693499,
+    "Dup": 0.5727554179566563,
+    "pos1_rate": 0.24148606811145512,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.7372222222222222,
+     "boho|chandelier_pendant": 0.7105555555555555,
+     "boho|lamp": 0.7444444444444445,
+     "coastal|chair": 0.7980555555555555,
+     "coastal|lamp": 0.8016666666666666,
+     "coastal|table": 0.6430555555555556,
+     "farmhouse_rustic|chair": 0.7611111111111111,
+     "farmhouse_rustic|chandelier_pendant": 0.6933333333333334,
+     "farmhouse_rustic|lamp": 0.6725,
+     "farmhouse_rustic|table": 0.61,
+     "industrial|chair": 0.7277777777777777,
+     "industrial|chandelier_pendant": 0.5808333333333333,
+     "industrial|lamp": 0.5519444444444445,
+     "industrial|table": 0.6791666666666667,
+     "mid_century|chair": 0.6608333333333333,
+     "mid_century|chandelier_pendant": 0.7702777777777778,
+     "mid_century|lamp": 0.6788888888888889,
+     "mid_century|table": 0.7805555555555556,
+     "traditional|chair": 0.7413888888888889,
+     "traditional|chandelier_pendant": 0.7847222222222222,
+     "traditional|lamp": 0.6766666666666666,
+     "traditional|table": 0.7411111111111112
+    },
+    "by_style": {
+     "traditional": 0.7359722222222221,
+     "coastal": 0.7475925925925926,
+     "farmhouse/rustic": 0.6842361111111112,
+     "bohemian": 0.7286324786324787,
+     "mid-century modern": 0.7226388888888889,
+     "industrial": 0.6349305555555556
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9685185185185184,
+      "Div": 0.7041666666666666,
+      "EffCov": 0.6980195473251029,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9537037037037037,
+      "Div": 0.6970421810699589,
+      "EffCov": 0.687988683127572,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9611111111111111,
+      "Div": 0.7055298353909465,
+      "EffCov": 0.6984310699588477,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9611111111111111,
+    "Align_sd": 0.006048122821686823,
+    "Div": 0.7022462277091907,
+    "Div_sd": 0.003721660320357795,
+    "EffCov": 0.6948131001371741,
+    "EffCov_sd": 0.004828515186558005,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.7685185185185186,
+    "pos1_rate": 0.14814814814814814,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.7792592592592592,
+     "boho|chandelier_pendant": 0.6944444444444445,
+     "boho|lamp": 0.615432098765432,
+     "coastal|chair": 0.8603703703703703,
+     "coastal|lamp": 0.7751851851851852,
+     "coastal|table": 0.6133333333333334,
+     "farmhouse_rustic|chair": 0.7355555555555555,
+     "farmhouse_rustic|chandelier_pendant": 0.6133333333333333,
+     "farmhouse_rustic|lamp": 0.6396296296296297,
+     "farmhouse_rustic|table": 0.44166666666666665,
+     "industrial|chair": 0.714074074074074,
+     "industrial|chandelier_pendant": 0.6940740740740741,
+     "industrial|lamp": 0.6562962962962964,
+     "industrial|table": 0.7,
+     "mid_century|chair": 0.8622222222222222,
+     "mid_century|chandelier_pendant": 0.7296296296296296,
+     "mid_century|lamp": 0.6333333333333333,
+     "mid_century|table": 0.7722222222222223,
+     "traditional|chair": 0.7637037037037037,
+     "traditional|chandelier_pendant": 0.5807407407407407,
+     "traditional|lamp": 0.7564814814814814,
+     "traditional|table": 0.6231481481481481
+    },
+    "by_style": {
+     "traditional": 0.6810185185185186,
+     "coastal": 0.7496296296296296,
+     "farmhouse/rustic": 0.6075462962962963,
+     "bohemian": 0.7088319088319088,
+     "mid-century modern": 0.7493518518518518,
+     "industrial": 0.6911111111111111
+    }
+   },
+   "style_given|avg_EffCov": 0.7003772290809327,
+   "style_acc": {
+    "acc": 0.9629629629629629,
+    "n": 108,
+    "n_failed": 0,
+    "per_style": {
+     "mid-century modern": 0.95,
+     "industrial": 0.9,
+     "farmhouse/rustic": 1.0,
+     "bohemian": 1.0,
+     "coastal": 0.9333333333333333,
+     "traditional": 1.0
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "scandinavian",
+      1
+     ],
+     "industrial": [
+      "modern minimalist",
+      2
+     ],
+     "farmhouse/rustic": null,
+     "bohemian": null,
+     "coastal": [
+      "farmhouse/rustic",
+      1
+     ],
+     "traditional": null
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 208,
+      "n_queries": 104,
+      "img_Align": 0.792948717948718,
+      "style_given_Align": 0.9493589743589743,
+      "img_EffCov": 0.5964164886039887,
+      "style_given_EffCov": 0.7084312678062678
+     },
+     "style_wrong": {
+      "n_questions": 8,
+      "n_queries": 4,
+      "img_Align": 0.8666666666666666,
+      "style_given_Align": 0.6833333333333333,
+      "img_EffCov": 0.6563078703703704,
+      "style_given_EffCov": 0.4909722222222222
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.14382716049382716,
+      "lo": 0.1154320987654321,
+      "hi": 0.17253086419753086,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.1564102564102564,
+      "lo": 0.1294871794871795,
+      "hi": 0.18493589743589745,
+      "n": 208
+     },
+     "Align|style_wrong": {
+      "mean": -0.1833333333333333,
+      "lo": -0.34999999999999987,
+      "hi": -0.0416666666666667,
+      "n": 8
+     },
+     "EffCov|all": {
+      "mean": 0.10174254115226339,
+      "lo": 0.07918322402263377,
+      "hi": 0.12339704432441702,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.11201477920227922,
+      "lo": 0.09120147792022792,
+      "hi": 0.13341357282763536,
+      "n": 208
+     },
+     "EffCov|style_wrong": {
+      "mean": -0.16533564814814816,
+      "lo": -0.2976851851851852,
+      "hi": -0.059197048611111185,
+      "n": 8
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.03846560846560847,
+     "lo": -0.010531084656084657,
+     "hi": 0.0873055555555555,
+     "n": 105
+    },
+    "material": {
+     "mean": -0.046375338753387535,
+     "lo": -0.09701981707317074,
+     "hi": 0.0050143970189701756,
+     "n": 82
+    },
+    "shape": {
+     "mean": 0.0005341880341880045,
+     "lo": -0.04903979700854705,
+     "hi": 0.05002670940170936,
+     "n": 104
+    }
+   }
+  },
+  "qwen35-9b": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.7277777777777777,
+      "Div": 0.6811274509803921,
+      "EffCov": 0.5501157407407408,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.7351851851851853,
+      "Div": 0.6683823529411764,
+      "EffCov": 0.5418595679012346,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.7666666666666666,
+      "Div": 0.6753174603174603,
+      "EffCov": 0.5682870370370371,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.7432098765432098,
+    "Align_sd": 0.0168598768935156,
+    "Div": 0.6749424214130096,
+    "Div_sd": 0.005209918210630777,
+    "EffCov": 0.5534207818930041,
+    "EffCov_sd": 0.011039180343804652,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.5092592592592593,
+    "Dup": 0.7777777777777778,
+    "pos1_rate": 0.14814814814814814,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.6230555555555556,
+     "boho|chandelier_pendant": 0.6458333333333334,
+     "boho|lamp": 0.6365740740740741,
+     "coastal|chair": 0.6002777777777778,
+     "coastal|lamp": 0.6988888888888888,
+     "coastal|table": 0.7100000000000001,
+     "farmhouse_rustic|chair": 0.3252777777777778,
+     "farmhouse_rustic|chandelier_pendant": 0.48694444444444446,
+     "farmhouse_rustic|lamp": 0.5122222222222222,
+     "farmhouse_rustic|table": 0.4047222222222222,
+     "industrial|chair": 0.6244444444444445,
+     "industrial|chandelier_pendant": 0.49138888888888893,
+     "industrial|lamp": 0.5491666666666667,
+     "industrial|table": 0.5633333333333332,
+     "mid_century|chair": 0.4933333333333333,
+     "mid_century|chandelier_pendant": 0.47305555555555556,
+     "mid_century|lamp": 0.44666666666666666,
+     "mid_century|table": 0.5822222222222223,
+     "traditional|chair": 0.6558333333333334,
+     "traditional|chandelier_pendant": 0.4697222222222222,
+     "traditional|lamp": 0.5983333333333333,
+     "traditional|table": 0.6172222222222222
+    },
+    "by_style": {
+     "traditional": 0.5852777777777778,
+     "coastal": 0.6697222222222222,
+     "farmhouse/rustic": 0.4322916666666667,
+     "bohemian": 0.6349358974358974,
+     "mid-century modern": 0.4988194444444444,
+     "industrial": 0.5570833333333333
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.887037037037037,
+      "Div": 0.7048611111111112,
+      "EffCov": 0.6725823045267489,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8851851851851852,
+      "Div": 0.6974056603773585,
+      "EffCov": 0.6689814814814815,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9055555555555556,
+      "Div": 0.7054526748971193,
+      "EffCov": 0.6795267489711934,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8925925925925925,
+    "Align_sd": 0.00919732371959961,
+    "Div": 0.7025731487951963,
+    "Div_sd": 0.0036619384065086726,
+    "EffCov": 0.6736968449931413,
+    "EffCov_sd": 0.004376628607030222,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.4691358024691359,
+    "pos1_rate": 0.1111111111111111,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8162962962962962,
+     "boho|chandelier_pendant": 0.701851851851852,
+     "boho|lamp": 0.5456790123456791,
+     "coastal|chair": 0.6851851851851852,
+     "coastal|lamp": 0.7811111111111111,
+     "coastal|table": 0.6807407407407406,
+     "farmhouse_rustic|chair": 0.5966666666666666,
+     "farmhouse_rustic|chandelier_pendant": 0.6551851851851852,
+     "farmhouse_rustic|lamp": 0.6566666666666666,
+     "farmhouse_rustic|table": 0.5216666666666667,
+     "industrial|chair": 0.62,
+     "industrial|chandelier_pendant": 0.7711111111111111,
+     "industrial|lamp": 0.6785185185185185,
+     "industrial|table": 0.75,
+     "mid_century|chair": 0.792962962962963,
+     "mid_century|chandelier_pendant": 0.674074074074074,
+     "mid_century|lamp": 0.5833333333333334,
+     "mid_century|table": 0.6677777777777777,
+     "traditional|chair": 0.63,
+     "traditional|chandelier_pendant": 0.6344444444444444,
+     "traditional|lamp": 0.7231481481481481,
+     "traditional|table": 0.6037037037037037
+    },
+    "by_style": {
+     "traditional": 0.6478240740740742,
+     "coastal": 0.715679012345679,
+     "farmhouse/rustic": 0.6075462962962963,
+     "bohemian": 0.7098290598290599,
+     "mid-century modern": 0.6795370370370369,
+     "industrial": 0.7049074074074074
+    }
+   },
+   "img|avg_EffCov": 0.6135588134430727,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8777777777777778,
+      "Div": 0.716358024691358,
+      "EffCov": 0.669483024691358,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.862962962962963,
+      "Div": 0.7326003086419753,
+      "EffCov": 0.6738425925925926,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.8833333333333334,
+      "Div": 0.6874614197530865,
+      "EffCov": 0.6455632716049382,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8746913580246914,
+    "Align_sd": 0.008597770541471669,
+    "Div": 0.7121399176954734,
+    "Div_sd": 0.018667692992661803,
+    "EffCov": 0.662962962962963,
+    "EffCov_sd": 0.012431503062442053,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.3685185185185185,
+    "Dup": 0.6666666666666666,
+    "pos1_rate": 0.24382716049382716,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.7200000000000001,
+     "boho|chandelier_pendant": 0.69,
+     "boho|lamp": 0.6574074074074074,
+     "coastal|chair": 0.7744444444444445,
+     "coastal|lamp": 0.7227777777777777,
+     "coastal|table": 0.7727777777777778,
+     "farmhouse_rustic|chair": 0.6008333333333333,
+     "farmhouse_rustic|chandelier_pendant": 0.6319444444444445,
+     "farmhouse_rustic|lamp": 0.6838888888888889,
+     "farmhouse_rustic|table": 0.5988888888888889,
+     "industrial|chair": 0.6475000000000001,
+     "industrial|chandelier_pendant": 0.5744444444444444,
+     "industrial|lamp": 0.5775,
+     "industrial|table": 0.6125,
+     "mid_century|chair": 0.5966666666666666,
+     "mid_century|chandelier_pendant": 0.5988888888888889,
+     "mid_century|lamp": 0.5841666666666666,
+     "mid_century|table": 0.7075,
+     "traditional|chair": 0.6955555555555556,
+     "traditional|chandelier_pendant": 0.7155555555555555,
+     "traditional|lamp": 0.7222222222222222,
+     "traditional|table": 0.6975
+    },
+    "by_style": {
+     "traditional": 0.7077083333333333,
+     "coastal": 0.7566666666666666,
+     "farmhouse/rustic": 0.6288888888888889,
+     "bohemian": 0.694017094017094,
+     "mid-century modern": 0.6218055555555555,
+     "industrial": 0.6029861111111111
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9370370370370371,
+      "Div": 0.7146347736625515,
+      "EffCov": 0.7025977366255144,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9222222222222222,
+      "Div": 0.7102284527518172,
+      "EffCov": 0.6936728395061729,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9537037037037037,
+      "Div": 0.7162808641975309,
+      "EffCov": 0.7080504115226338,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.9376543209876543,
+    "Align_sd": 0.01285967077530846,
+    "Div": 0.7137146968706332,
+    "Div_sd": 0.0025551030056629037,
+    "EffCov": 0.701440329218107,
+    "EffCov_sd": 0.005926400717814668,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.5432098765432098,
+    "pos1_rate": 0.16358024691358025,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8459259259259259,
+     "boho|chandelier_pendant": 0.6935185185185185,
+     "boho|lamp": 0.5851851851851851,
+     "coastal|chair": 0.7251851851851853,
+     "coastal|lamp": 0.7577777777777778,
+     "coastal|table": 0.7048148148148149,
+     "farmhouse_rustic|chair": 0.6433333333333333,
+     "farmhouse_rustic|chandelier_pendant": 0.627037037037037,
+     "farmhouse_rustic|lamp": 0.7396296296296296,
+     "farmhouse_rustic|table": 0.5272222222222223,
+     "industrial|chair": 0.7200000000000001,
+     "industrial|chandelier_pendant": 0.7525925925925926,
+     "industrial|lamp": 0.6822222222222222,
+     "industrial|table": 0.7777777777777778,
+     "mid_century|chair": 0.8014814814814815,
+     "mid_century|chandelier_pendant": 0.6925925925925926,
+     "mid_century|lamp": 0.6444444444444444,
+     "mid_century|table": 0.7211111111111111,
+     "traditional|chair": 0.722962962962963,
+     "traditional|chandelier_pendant": 0.6351851851851852,
+     "traditional|lamp": 0.750925925925926,
+     "traditional|table": 0.6342592592592593
+    },
+    "by_style": {
+     "traditional": 0.6858333333333333,
+     "coastal": 0.7292592592592594,
+     "farmhouse/rustic": 0.6343055555555555,
+     "bohemian": 0.7271367521367521,
+     "mid-century modern": 0.7149074074074074,
+     "industrial": 0.7331481481481481
+    }
+   },
+   "style_given|avg_EffCov": 0.6822016460905349,
+   "style_acc": {
+    "acc": 0.8888888888888888,
+    "n": 108,
+    "n_failed": 0,
+    "per_style": {
+     "mid-century modern": 0.45,
+     "industrial": 1.0,
+     "farmhouse/rustic": 1.0,
+     "bohemian": 0.9230769230769231,
+     "coastal": 1.0,
+     "traditional": 1.0
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "modern minimalist",
+      8
+     ],
+     "industrial": null,
+     "farmhouse/rustic": null,
+     "bohemian": [
+      "other",
+      1
+     ],
+     "coastal": null,
+     "traditional": null
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 192,
+      "n_queries": 96,
+      "img_Align": 0.8163194444444444,
+      "style_given_Align": 0.9083333333333333,
+      "img_EffCov": 0.6202305169753086,
+      "style_given_EffCov": 0.6904827353395061
+     },
+     "style_wrong": {
+      "n_questions": 24,
+      "n_queries": 12,
+      "img_Align": 0.8305555555555556,
+      "style_given_Align": 0.8888888888888888,
+      "img_EffCov": 0.5601851851851852,
+      "style_given_EffCov": 0.6159529320987654
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.08827160493827159,
+      "lo": 0.06944444444444443,
+      "hi": 0.10925925925925926,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.09201388888888888,
+      "lo": 0.07152777777777776,
+      "hi": 0.11459201388888876,
+      "n": 192
+     },
+     "Align|style_wrong": {
+      "mean": 0.058333333333333355,
+      "lo": 0.019444444444444455,
+      "hi": 0.10555555555555556,
+      "n": 24
+     },
+     "EffCov|all": {
+      "mean": 0.06864283264746229,
+      "lo": 0.05381639017489713,
+      "hi": 0.08391648448216737,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.07025221836419755,
+      "lo": 0.05461974344135803,
+      "hi": 0.08720666956018518,
+      "n": 192
+     },
+     "EffCov|style_wrong": {
+      "mean": 0.05576774691358025,
+      "lo": 0.021141975308641998,
+      "hi": 0.09326919367283949,
+      "n": 24
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.03325545171339564,
+     "lo": -0.008464434060228449,
+     "hi": 0.07671469366562825,
+     "n": 107
+    },
+    "material": {
+     "mean": -0.08062169312169312,
+     "lo": -0.13273974867724866,
+     "hi": -0.028768187830687846,
+     "n": 84
+    },
+    "shape": {
+     "mean": -0.014675052410901477,
+     "lo": -0.06541011530398325,
+     "hi": 0.035693134171907726,
+     "n": 106
+    }
+   }
+  },
+  "qwen35-4b": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.6296296296296297,
+      "Div": 0.6730034722222222,
+      "EffCov": 0.487962962962963,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.6388888888888888,
+      "Div": 0.6588804713804715,
+      "EffCov": 0.4747685185185185,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.6685185185185185,
+      "Div": 0.6707508250825083,
+      "EffCov": 0.5028549382716049,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.645679012345679,
+    "Align_sd": 0.016586455361165927,
+    "Div": 0.6675449228950674,
+    "Div_sd": 0.006195328606867291,
+    "EffCov": 0.4885288065843621,
+    "EffCov_sd": 0.011473211636664747,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.6530864197530865,
+    "Dup": 0.7592592592592593,
+    "pos1_rate": 0.16049382716049382,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.5919444444444444,
+     "boho|chandelier_pendant": 0.61,
+     "boho|lamp": 0.6712962962962963,
+     "coastal|chair": 0.5258333333333334,
+     "coastal|lamp": 0.528611111111111,
+     "coastal|table": 0.58,
+     "farmhouse_rustic|chair": 0.3611111111111111,
+     "farmhouse_rustic|chandelier_pendant": 0.4522222222222222,
+     "farmhouse_rustic|lamp": 0.43027777777777776,
+     "farmhouse_rustic|table": 0.32166666666666666,
+     "industrial|chair": 0.5527777777777777,
+     "industrial|chandelier_pendant": 0.42694444444444446,
+     "industrial|lamp": 0.49444444444444446,
+     "industrial|table": 0.5591666666666667,
+     "mid_century|chair": 0.49166666666666664,
+     "mid_century|chandelier_pendant": 0.3863888888888889,
+     "mid_century|lamp": 0.36416666666666664,
+     "mid_century|table": 0.5116666666666666,
+     "traditional|chair": 0.5091666666666667,
+     "traditional|chandelier_pendant": 0.47694444444444445,
+     "traditional|lamp": 0.4744444444444445,
+     "traditional|table": 0.5
+    },
+    "by_style": {
+     "traditional": 0.4901388888888889,
+     "coastal": 0.5448148148148148,
+     "farmhouse/rustic": 0.39131944444444444,
+     "bohemian": 0.6172008547008547,
+     "mid-century modern": 0.4384722222222222,
+     "industrial": 0.5083333333333333
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8574074074074074,
+      "Div": 0.6838359788359788,
+      "EffCov": 0.6428755144032922,
+      "fail": 0.009259259259259259,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8759259259259259,
+      "Div": 0.6925052410901467,
+      "EffCov": 0.6606481481481481,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.887037037037037,
+      "Div": 0.6926624737945493,
+      "EffCov": 0.6633230452674896,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8734567901234568,
+    "Align_sd": 0.012221598687174868,
+    "Div": 0.6896678979068915,
+    "Div_sd": 0.004124289075553146,
+    "EffCov": 0.6556155692729767,
+    "EffCov_sd": 0.009074525413180707,
+    "fail": 0.0030864197530864196,
+    "fail_sd": 0.004364856673991034,
+    "SameCat": null,
+    "Dup": 1.6873065015479876,
+    "pos1_rate": 0.16408668730650156,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8651851851851852,
+     "boho|chandelier_pendant": 0.6611111111111112,
+     "boho|lamp": 0.5209876543209877,
+     "coastal|chair": 0.6540740740740741,
+     "coastal|lamp": 0.7555555555555556,
+     "coastal|table": 0.6300000000000001,
+     "farmhouse_rustic|chair": 0.6033333333333333,
+     "farmhouse_rustic|chandelier_pendant": 0.5974074074074074,
+     "farmhouse_rustic|lamp": 0.6307407407407407,
+     "farmhouse_rustic|table": 0.5272222222222223,
+     "industrial|chair": 0.6422222222222221,
+     "industrial|chandelier_pendant": 0.7062962962962963,
+     "industrial|lamp": 0.6677777777777778,
+     "industrial|table": 0.638888888888889,
+     "mid_century|chair": 0.7388888888888889,
+     "mid_century|chandelier_pendant": 0.7407407407407407,
+     "mid_century|lamp": 0.5796296296296296,
+     "mid_century|table": 0.682962962962963,
+     "traditional|chair": 0.6607407407407407,
+     "traditional|chandelier_pendant": 0.6455555555555555,
+     "traditional|lamp": 0.6944444444444444,
+     "traditional|table": 0.5259259259259259
+    },
+    "by_style": {
+     "traditional": 0.6316666666666666,
+     "coastal": 0.6798765432098766,
+     "farmhouse/rustic": 0.5896759259259259,
+     "bohemian": 0.7072649572649572,
+     "mid-century modern": 0.6855555555555556,
+     "industrial": 0.6637962962962962
+    }
+   },
+   "img|avg_EffCov": 0.5720721879286694,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.7814814814814816,
+      "Div": 0.6754323899371069,
+      "EffCov": 0.5803626543209877,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.7925925925925925,
+      "Div": 0.6880015432098765,
+      "EffCov": 0.5972993827160494,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.7814814814814816,
+      "Div": 0.6897012578616353,
+      "EffCov": 0.5952546296296296,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.7851851851851852,
+    "Align_sd": 0.00523782800878917,
+    "Div": 0.684378397002873,
+    "Div_sd": 0.006363727382066924,
+    "EffCov": 0.5909722222222222,
+    "EffCov_sd": 0.0075483972728999935,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.49074074074074076,
+    "Dup": 0.691358024691358,
+    "pos1_rate": 0.19444444444444445,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.6741666666666667,
+     "boho|chandelier_pendant": 0.6794444444444444,
+     "boho|lamp": 0.6777777777777777,
+     "coastal|chair": 0.6033333333333334,
+     "coastal|lamp": 0.6261111111111112,
+     "coastal|table": 0.7547222222222222,
+     "farmhouse_rustic|chair": 0.5494444444444445,
+     "farmhouse_rustic|chandelier_pendant": 0.5344444444444445,
+     "farmhouse_rustic|lamp": 0.47527777777777774,
+     "farmhouse_rustic|table": 0.49583333333333335,
+     "industrial|chair": 0.6594444444444444,
+     "industrial|chandelier_pendant": 0.4905555555555556,
+     "industrial|lamp": 0.5858333333333333,
+     "industrial|table": 0.6058333333333333,
+     "mid_century|chair": 0.6075,
+     "mid_century|chandelier_pendant": 0.4955555555555556,
+     "mid_century|lamp": 0.4772222222222222,
+     "mid_century|table": 0.6516666666666667,
+     "traditional|chair": 0.6022222222222222,
+     "traditional|chandelier_pendant": 0.5705555555555556,
+     "traditional|lamp": 0.576388888888889,
+     "traditional|table": 0.6427777777777778
+    },
+    "by_style": {
+     "traditional": 0.5979861111111112,
+     "coastal": 0.6613888888888889,
+     "farmhouse/rustic": 0.51375,
+     "bohemian": 0.6770299145299146,
+     "mid-century modern": 0.5579861111111111,
+     "industrial": 0.5854166666666667
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.9277777777777778,
+      "Div": 0.6939252336448598,
+      "EffCov": 0.6791152263374486,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.9148148148148147,
+      "Div": 0.6959876543209877,
+      "EffCov": 0.6792695473251029,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.9296296296296297,
+      "Div": 0.7213477366255143,
+      "EffCov": 0.706738683127572,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.924074074074074,
+    "Align_sd": 0.006590789044463829,
+    "Div": 0.703753541530454,
+    "Div_sd": 0.012469433842897991,
+    "EffCov": 0.6883744855967079,
+    "EffCov_sd": 0.012985601435340005,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.5925925925925926,
+    "pos1_rate": 0.18518518518518517,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8725925925925926,
+     "boho|chandelier_pendant": 0.6907407407407408,
+     "boho|lamp": 0.5981481481481481,
+     "coastal|chair": 0.7040740740740741,
+     "coastal|lamp": 0.7377777777777778,
+     "coastal|table": 0.6937037037037037,
+     "farmhouse_rustic|chair": 0.6244444444444445,
+     "farmhouse_rustic|chandelier_pendant": 0.5940740740740741,
+     "farmhouse_rustic|lamp": 0.6537037037037037,
+     "farmhouse_rustic|table": 0.4938888888888889,
+     "industrial|chair": 0.7288888888888889,
+     "industrial|chandelier_pendant": 0.7192592592592593,
+     "industrial|lamp": 0.7014814814814815,
+     "industrial|table": 0.7444444444444444,
+     "mid_century|chair": 0.8266666666666667,
+     "mid_century|chandelier_pendant": 0.7703703703703704,
+     "mid_century|lamp": 0.5685185185185185,
+     "mid_century|table": 0.6755555555555556,
+     "traditional|chair": 0.7355555555555555,
+     "traditional|chandelier_pendant": 0.6381481481481482,
+     "traditional|lamp": 0.7166666666666667,
+     "traditional|table": 0.6194444444444444
+    },
+    "by_style": {
+     "traditional": 0.6774537037037036,
+     "coastal": 0.7118518518518518,
+     "farmhouse/rustic": 0.5915277777777778,
+     "bohemian": 0.7393162393162392,
+     "mid-century modern": 0.7102777777777778,
+     "industrial": 0.7235185185185186
+    }
+   },
+   "style_given|avg_EffCov": 0.639673353909465,
+   "style_acc": {
+    "acc": 0.9259259259259259,
+    "n": 108,
+    "n_failed": 1,
+    "per_style": {
+     "mid-century modern": 0.65,
+     "industrial": 1.0,
+     "farmhouse/rustic": 0.95,
+     "bohemian": 1.0,
+     "coastal": 1.0,
+     "traditional": 1.0
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "modern minimalist",
+      5
+     ],
+     "industrial": null,
+     "farmhouse/rustic": [
+      null,
+      1
+     ],
+     "bohemian": null,
+     "coastal": null,
+     "traditional": null
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 200,
+      "n_queries": 100,
+      "img_Align": 0.7576666666666667,
+      "style_given_Align": 0.8556666666666666,
+      "img_EffCov": 0.5767430555555556,
+      "style_given_EffCov": 0.6464837962962963
+     },
+     "style_wrong": {
+      "n_questions": 16,
+      "n_queries": 8,
+      "img_Align": 0.7833333333333333,
+      "style_given_Align": 0.8416666666666667,
+      "img_EffCov": 0.5136863425925926,
+      "style_given_EffCov": 0.5545428240740741
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.09506172839506172,
+      "lo": 0.07777777777777777,
+      "hi": 0.11327160493827161,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.09799999999999999,
+      "lo": 0.08,
+      "hi": 0.11600000000000002,
+      "n": 200
+     },
+     "Align|style_wrong": {
+      "mean": 0.058333333333333307,
+      "lo": -0.025000000000000043,
+      "hi": 0.1333333333333333,
+      "n": 16
+     },
+     "EffCov|all": {
+      "mean": 0.0676011659807956,
+      "lo": 0.055240483539094644,
+      "hi": 0.08015592849794237,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.06974074074074073,
+      "lo": 0.05693958333333333,
+      "hi": 0.08263692129629628,
+      "n": 200
+     },
+     "EffCov|style_wrong": {
+      "mean": 0.04085648148148149,
+      "lo": 0.0011566840277777769,
+      "hi": 0.08185763888888889,
+      "n": 16
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.0639148494288681,
+     "lo": 0.012538940809968832,
+     "hi": 0.1148234683281412,
+     "n": 107
+    },
+    "material": {
+     "mean": -0.0677910052910053,
+     "lo": -0.1279811507936508,
+     "hi": -0.009656084656084675,
+     "n": 84
+    },
+    "shape": {
+     "mean": -0.003668763102725386,
+     "lo": -0.052620545073375276,
+     "hi": 0.04596567085953877,
+     "n": 106
+    }
+   }
+  },
+  "internvl35-1tile": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.4314814814814815,
+      "Div": 0.7124421296296296,
+      "EffCov": 0.37527006172839505,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.40185185185185185,
+      "Div": 0.7341911764705882,
+      "EffCov": 0.3650077160493827,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.4388888888888889,
+      "Div": 0.6903755868544601,
+      "EffCov": 0.38395061728395063,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.42407407407407405,
+    "Align_sd": 0.016001828884957686,
+    "Div": 0.7123362976515594,
+    "Div_sd": 0.017887796094133088,
+    "EffCov": 0.3747427983539095,
+    "EffCov_sd": 0.007742389028166275,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.7018518518518518,
+    "Dup": 0.691358024691358,
+    "pos1_rate": 0.1111111111111111,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.5375,
+     "boho|chandelier_pendant": 0.5080555555555556,
+     "boho|lamp": 0.6337962962962963,
+     "coastal|chair": 0.4488888888888889,
+     "coastal|lamp": 0.35888888888888887,
+     "coastal|table": 0.5905555555555556,
+     "farmhouse_rustic|chair": 0.27749999999999997,
+     "farmhouse_rustic|chandelier_pendant": 0.2708333333333333,
+     "farmhouse_rustic|lamp": 0.24222222222222223,
+     "farmhouse_rustic|table": 0.23444444444444443,
+     "industrial|chair": 0.21416666666666667,
+     "industrial|chandelier_pendant": 0.23777777777777775,
+     "industrial|lamp": 0.2788888888888889,
+     "industrial|table": 0.23027777777777778,
+     "mid_century|chair": 0.29916666666666664,
+     "mid_century|chandelier_pendant": 0.3347222222222222,
+     "mid_century|lamp": 0.3422222222222222,
+     "mid_century|table": 0.31222222222222223,
+     "traditional|chair": 0.5325,
+     "traditional|chandelier_pendant": 0.4966666666666667,
+     "traditional|lamp": 0.5533333333333333,
+     "traditional|table": 0.41333333333333333
+    },
+    "by_style": {
+     "traditional": 0.49895833333333334,
+     "coastal": 0.46611111111111114,
+     "farmhouse/rustic": 0.25625,
+     "bohemian": 0.5483974358974358,
+     "mid-century modern": 0.32208333333333333,
+     "industrial": 0.24027777777777776
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8037037037037037,
+      "Div": 0.6864550264550265,
+      "EffCov": 0.632175925925926,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8037037037037037,
+      "Div": 0.6935617860851505,
+      "EffCov": 0.646656378600823,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.8222222222222222,
+      "Div": 0.6955867082035306,
+      "EffCov": 0.6431069958847736,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8098765432098766,
+    "Align_sd": 0.008729713347982055,
+    "Div": 0.6918678402479026,
+    "Div_sd": 0.003915694256334624,
+    "EffCov": 0.6406464334705075,
+    "EffCov_sd": 0.006162340083840309,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.5524691358024691,
+    "pos1_rate": 0.14506172839506173,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8170370370370371,
+     "boho|chandelier_pendant": 0.6462962962962963,
+     "boho|lamp": 0.5376543209876543,
+     "coastal|chair": 0.7251851851851853,
+     "coastal|lamp": 0.6440740740740741,
+     "coastal|table": 0.6214814814814815,
+     "farmhouse_rustic|chair": 0.6611111111111111,
+     "farmhouse_rustic|chandelier_pendant": 0.5603703703703703,
+     "farmhouse_rustic|lamp": 0.5433333333333333,
+     "farmhouse_rustic|table": 0.48944444444444446,
+     "industrial|chair": 0.6711111111111111,
+     "industrial|chandelier_pendant": 0.652962962962963,
+     "industrial|lamp": 0.5959259259259259,
+     "industrial|table": 0.6333333333333333,
+     "mid_century|chair": 0.7296296296296296,
+     "mid_century|chandelier_pendant": 0.725925925925926,
+     "mid_century|lamp": 0.5814814814814814,
+     "mid_century|table": 0.5955555555555556,
+     "traditional|chair": 0.7485185185185185,
+     "traditional|chandelier_pendant": 0.6133333333333333,
+     "traditional|lamp": 0.6842592592592592,
+     "traditional|table": 0.575
+    },
+    "by_style": {
+     "traditional": 0.6552777777777778,
+     "coastal": 0.6635802469135802,
+     "farmhouse/rustic": 0.5635648148148148,
+     "bohemian": 0.6868945868945868,
+     "mid-century modern": 0.6581481481481481,
+     "industrial": 0.6383333333333333
+    }
+   },
+   "img|avg_EffCov": 0.5076946159122085,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.5592592592592592,
+      "Div": 0.7213014981273409,
+      "EffCov": 0.47789351851851847,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.4981481481481482,
+      "Div": 0.7315928270042195,
+      "EffCov": 0.43603395061728395,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.5277777777777778,
+      "Div": 0.7000496031746032,
+      "EffCov": 0.443479938271605,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.5283950617283951,
+    "Align_sd": 0.024952324606676197,
+    "Div": 0.7176479761020546,
+    "Div_sd": 0.013134050144142071,
+    "EffCov": 0.4524691358024691,
+    "EffCov_sd": 0.01823293924753012,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.5746913580246914,
+    "Dup": 0.6666666666666666,
+    "pos1_rate": 0.25,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.46555555555555556,
+     "boho|chandelier_pendant": 0.611111111111111,
+     "boho|lamp": 0.6652777777777777,
+     "coastal|chair": 0.5505555555555556,
+     "coastal|lamp": 0.6369444444444444,
+     "coastal|table": 0.6158333333333333,
+     "farmhouse_rustic|chair": 0.275,
+     "farmhouse_rustic|chandelier_pendant": 0.35194444444444445,
+     "farmhouse_rustic|lamp": 0.3983333333333333,
+     "farmhouse_rustic|table": 0.25805555555555554,
+     "industrial|chair": 0.41555555555555557,
+     "industrial|chandelier_pendant": 0.295,
+     "industrial|lamp": 0.3277777777777778,
+     "industrial|table": 0.42833333333333334,
+     "mid_century|chair": 0.4125,
+     "mid_century|chandelier_pendant": 0.4008333333333333,
+     "mid_century|lamp": 0.3875,
+     "mid_century|table": 0.33083333333333337,
+     "traditional|chair": 0.4691666666666666,
+     "traditional|chandelier_pendant": 0.5736111111111111,
+     "traditional|lamp": 0.6238888888888888,
+     "traditional|table": 0.5458333333333333
+    },
+    "by_style": {
+     "traditional": 0.553125,
+     "coastal": 0.6011111111111112,
+     "farmhouse/rustic": 0.32083333333333336,
+     "bohemian": 0.5676282051282051,
+     "mid-century modern": 0.3829166666666667,
+     "industrial": 0.36666666666666664
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8351851851851853,
+      "Div": 0.7024895178197065,
+      "EffCov": 0.6555298353909464,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8555555555555556,
+      "Div": 0.6984942886812047,
+      "EffCov": 0.6603909465020577,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.862962962962963,
+      "Div": 0.6881027253668762,
+      "EffCov": 0.6549639917695473,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8512345679012346,
+    "Align_sd": 0.011744628142247195,
+    "Div": 0.6963621772892624,
+    "Div_sd": 0.006063792735625711,
+    "EffCov": 0.6569615912208505,
+    "EffCov_sd": 0.0024358986000416302,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.626543209876543,
+    "pos1_rate": 0.22839506172839505,
+    "pos1to5_rate": 0.0,
+    "by_cell": {
+     "boho|chair": 0.8511111111111112,
+     "boho|chandelier_pendant": 0.6722222222222223,
+     "boho|lamp": 0.6179012345679012,
+     "coastal|chair": 0.7462962962962963,
+     "coastal|lamp": 0.737037037037037,
+     "coastal|table": 0.6033333333333334,
+     "farmhouse_rustic|chair": 0.64,
+     "farmhouse_rustic|chandelier_pendant": 0.5066666666666666,
+     "farmhouse_rustic|lamp": 0.6207407407407408,
+     "farmhouse_rustic|table": 0.4744444444444444,
+     "industrial|chair": 0.6777777777777777,
+     "industrial|chandelier_pendant": 0.6722222222222223,
+     "industrial|lamp": 0.5744444444444444,
+     "industrial|table": 0.6148148148148148,
+     "mid_century|chair": 0.7092592592592593,
+     "mid_century|chandelier_pendant": 0.7592592592592593,
+     "mid_century|lamp": 0.611111111111111,
+     "mid_century|table": 0.6203703703703703,
+     "traditional|chair": 0.7670370370370371,
+     "traditional|chandelier_pendant": 0.6448148148148148,
+     "traditional|lamp": 0.6888888888888889,
+     "traditional|table": 0.6277777777777778
+    },
+    "by_style": {
+     "traditional": 0.6821296296296296,
+     "coastal": 0.6955555555555556,
+     "farmhouse/rustic": 0.560462962962963,
+     "bohemian": 0.7284900284900285,
+     "mid-century modern": 0.675,
+     "industrial": 0.6348148148148148
+    }
+   },
+   "style_given|avg_EffCov": 0.5547153635116598,
+   "style_acc": {
+    "acc": 0.6944444444444444,
+    "n": 108,
+    "n_failed": 0,
+    "per_style": {
+     "mid-century modern": 0.75,
+     "industrial": 0.55,
+     "farmhouse/rustic": 0.55,
+     "bohemian": 0.46153846153846156,
+     "coastal": 0.9333333333333333,
+     "traditional": 0.9
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "scandinavian",
+      3
+     ],
+     "industrial": [
+      "mid-century modern",
+      5
+     ],
+     "farmhouse/rustic": [
+      "mid-century modern",
+      5
+     ],
+     "bohemian": [
+      "coastal",
+      7
+     ],
+     "coastal": [
+      "farmhouse/rustic",
+      1
+     ],
+     "traditional": [
+      "mid-century modern",
+      1
+     ]
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 150,
+      "n_queries": 75,
+      "img_Align": 0.632,
+      "style_given_Align": 0.7382222222222222,
+      "img_EffCov": 0.5166975308641976,
+      "style_given_EffCov": 0.5840493827160493
+     },
+     "style_wrong": {
+      "n_questions": 66,
+      "n_queries": 33,
+      "img_Align": 0.5828282828282828,
+      "style_given_Align": 0.5797979797979798,
+      "img_EffCov": 0.48723344556677883,
+      "style_given_EffCov": 0.488047138047138
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.0728395061728395,
+      "lo": 0.05462962962962963,
+      "hi": 0.09166666666666666,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.10622222222222222,
+      "lo": 0.08622222222222223,
+      "hi": 0.12666666666666668,
+      "n": 150
+     },
+     "Align|style_wrong": {
+      "mean": -0.003030303030303039,
+      "lo": -0.03636363636363637,
+      "hi": 0.03131313131313131,
+      "n": 66
+     },
+     "EffCov|all": {
+      "mean": 0.0470207475994513,
+      "lo": 0.03253584747942386,
+      "hi": 0.06187237439986281,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.06735185185185186,
+      "lo": 0.05058618827160493,
+      "hi": 0.08406180555555556,
+      "n": 150
+     },
+     "EffCov|style_wrong": {
+      "mean": 0.0008136924803591486,
+      "lo": -0.02580773007856342,
+      "hi": 0.027490179573512904,
+      "n": 66
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.10350241545893722,
+     "lo": 0.04601449275362319,
+     "hi": 0.161081672705314,
+     "n": 92
+    },
+    "material": {
+     "mean": 0.02556306306306307,
+     "lo": -0.04437030780780782,
+     "hi": 0.0946715465465465,
+     "n": 74
+    },
+    "shape": {
+     "mean": 0.024053724053724038,
+     "lo": -0.02915293040293042,
+     "hi": 0.07692536630036627,
+     "n": 91
+    }
+   }
+  },
+  "llavaov2-8b": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.4796296296296297,
+      "Div": 0.6951550387596899,
+      "EffCov": 0.4092978395061728,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.4740740740740741,
+      "Div": 0.6932926829268293,
+      "EffCov": 0.40435956790123456,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.4537037037037037,
+      "Div": 0.6984437751004016,
+      "EffCov": 0.39047067901234567,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.46913580246913583,
+    "Align_sd": 0.011145351904486301,
+    "Div": 0.6956304989289736,
+    "Div_sd": 0.0021296297682290165,
+    "EffCov": 0.40137602880658435,
+    "EffCov_sd": 0.007970429608331919,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.6648148148148149,
+    "Dup": 0.6635802469135802,
+    "pos1_rate": 0.30246913580246915,
+    "pos1to5_rate": 0.08333333333333333,
+    "by_cell": {
+     "boho|chair": 0.5069444444444444,
+     "boho|chandelier_pendant": 0.5688888888888889,
+     "boho|lamp": 0.5560185185185185,
+     "coastal|chair": 0.4919444444444444,
+     "coastal|lamp": 0.5272222222222223,
+     "coastal|table": 0.538888888888889,
+     "farmhouse_rustic|chair": 0.2961111111111111,
+     "farmhouse_rustic|chandelier_pendant": 0.36583333333333334,
+     "farmhouse_rustic|lamp": 0.36583333333333334,
+     "farmhouse_rustic|table": 0.33,
+     "industrial|chair": 0.36777777777777776,
+     "industrial|chandelier_pendant": 0.3491666666666667,
+     "industrial|lamp": 0.4091666666666667,
+     "industrial|table": 0.38805555555555554,
+     "mid_century|chair": 0.23166666666666666,
+     "mid_century|chandelier_pendant": 0.28305555555555556,
+     "mid_century|lamp": 0.3641666666666667,
+     "mid_century|table": 0.3236111111111111,
+     "traditional|chair": 0.3958333333333333,
+     "traditional|chandelier_pendant": 0.47694444444444445,
+     "traditional|lamp": 0.3983333333333333,
+     "traditional|table": 0.3566666666666667
+    },
+    "by_style": {
+     "traditional": 0.40694444444444444,
+     "coastal": 0.5193518518518518,
+     "farmhouse/rustic": 0.33944444444444444,
+     "bohemian": 0.542094017094017,
+     "mid-century modern": 0.30062500000000003,
+     "industrial": 0.37854166666666667
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8314814814814815,
+      "Div": 0.6873689727463312,
+      "EffCov": 0.6400462962962963,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8574074074074074,
+      "Div": 0.7047839506172839,
+      "EffCov": 0.670164609053498,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.8055555555555556,
+      "Div": 0.6954232804232804,
+      "EffCov": 0.6403292181069958,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8314814814814815,
+    "Align_sd": 0.021168429875903994,
+    "Div": 0.6958587345956319,
+    "Div_sd": 0.0071162995446419465,
+    "EffCov": 0.6501800411522634,
+    "EffCov_sd": 0.014131695506603457,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.4351851851851851,
+    "pos1_rate": 0.27469135802469136,
+    "pos1to5_rate": 0.009259259259259259,
+    "by_cell": {
+     "boho|chair": 0.8096296296296296,
+     "boho|chandelier_pendant": 0.687962962962963,
+     "boho|lamp": 0.5006172839506173,
+     "coastal|chair": 0.7203703703703703,
+     "coastal|lamp": 0.7303703703703703,
+     "coastal|table": 0.6522222222222223,
+     "farmhouse_rustic|chair": 0.6488888888888888,
+     "farmhouse_rustic|chandelier_pendant": 0.6003703703703703,
+     "farmhouse_rustic|lamp": 0.667037037037037,
+     "farmhouse_rustic|table": 0.5483333333333333,
+     "industrial|chair": 0.6977777777777778,
+     "industrial|chandelier_pendant": 0.6662962962962963,
+     "industrial|lamp": 0.6225925925925926,
+     "industrial|table": 0.6648148148148147,
+     "mid_century|chair": 0.6737037037037037,
+     "mid_century|chandelier_pendant": 0.7333333333333333,
+     "mid_century|lamp": 0.5462962962962963,
+     "mid_century|table": 0.5766666666666667,
+     "traditional|chair": 0.6448148148148148,
+     "traditional|chandelier_pendant": 0.6029629629629629,
+     "traditional|lamp": 0.7138888888888889,
+     "traditional|table": 0.5351851851851852
+    },
+    "by_style": {
+     "traditional": 0.6242129629629629,
+     "coastal": 0.7009876543209876,
+     "farmhouse/rustic": 0.6161574074074073,
+     "bohemian": 0.6915242165242166,
+     "mid-century modern": 0.6325000000000001,
+     "industrial": 0.6628703703703703
+    }
+   },
+   "img|avg_EffCov": 0.5257780349794239,
+   "style_given|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.5833333333333334,
+      "Div": 0.7106336805555555,
+      "EffCov": 0.4882716049382716,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.5648148148148148,
+      "Div": 0.7054166666666666,
+      "EffCov": 0.46793981481481484,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.5777777777777777,
+      "Div": 0.6909364261168385,
+      "EffCov": 0.46655092592592595,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.5753086419753086,
+    "Align_sd": 0.007759138944429987,
+    "Div": 0.7023289244463534,
+    "Div_sd": 0.00833250951075435,
+    "EffCov": 0.4742541152263375,
+    "EffCov_sd": 0.009928066829433755,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.5740740740740741,
+    "Dup": 0.6203703703703703,
+    "pos1_rate": 0.2623456790123457,
+    "pos1to5_rate": 0.040123456790123455,
+    "by_cell": {
+     "boho|chair": 0.601388888888889,
+     "boho|chandelier_pendant": 0.6113888888888889,
+     "boho|lamp": 0.6254629629629629,
+     "coastal|chair": 0.5697222222222221,
+     "coastal|lamp": 0.6563888888888889,
+     "coastal|table": 0.5652777777777778,
+     "farmhouse_rustic|chair": 0.3622222222222222,
+     "farmhouse_rustic|chandelier_pendant": 0.46222222222222226,
+     "farmhouse_rustic|lamp": 0.3983333333333334,
+     "farmhouse_rustic|table": 0.305,
+     "industrial|chair": 0.5102777777777778,
+     "industrial|chandelier_pendant": 0.4227777777777778,
+     "industrial|lamp": 0.47,
+     "industrial|table": 0.4897222222222222,
+     "mid_century|chair": 0.37,
+     "mid_century|chandelier_pendant": 0.33555555555555555,
+     "mid_century|lamp": 0.37472222222222223,
+     "mid_century|table": 0.4388888888888889,
+     "traditional|chair": 0.45888888888888885,
+     "traditional|chandelier_pendant": 0.5588888888888889,
+     "traditional|lamp": 0.47583333333333333,
+     "traditional|table": 0.4311111111111111
+    },
+    "by_style": {
+     "traditional": 0.48118055555555556,
+     "coastal": 0.5971296296296297,
+     "farmhouse/rustic": 0.3819444444444445,
+     "bohemian": 0.6107905982905982,
+     "mid-century modern": 0.3797916666666667,
+     "industrial": 0.4731944444444444
+    }
+   },
+   "style_given|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8722222222222222,
+      "Div": 0.7078446502057614,
+      "EffCov": 0.6751286008230453,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o1": {
+      "n": 108,
+      "Align": 0.8944444444444444,
+      "Div": 0.6981481481481482,
+      "EffCov": 0.6789609053497943,
+      "fail": 0.0,
+      "n_expected": 108
+     },
+     "o2": {
+      "n": 108,
+      "Align": 0.8685185185185185,
+      "Div": 0.6901609553478713,
+      "EffCov": 0.6590020576131687,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8783950617283951,
+    "Align_sd": 0.011448911722834182,
+    "Div": 0.6987179179005936,
+    "Div_sd": 0.007230571399036347,
+    "EffCov": 0.6710305212620028,
+    "EffCov_sd": 0.008648105488484251,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.5617283950617284,
+    "pos1_rate": 0.2191358024691358,
+    "pos1to5_rate": 0.0030864197530864196,
+    "by_cell": {
+     "boho|chair": 0.8051851851851851,
+     "boho|chandelier_pendant": 0.6787037037037037,
+     "boho|lamp": 0.5537037037037037,
+     "coastal|chair": 0.735925925925926,
+     "coastal|lamp": 0.7807407407407408,
+     "coastal|table": 0.6496296296296296,
+     "farmhouse_rustic|chair": 0.6066666666666667,
+     "farmhouse_rustic|chandelier_pendant": 0.6222222222222222,
+     "farmhouse_rustic|lamp": 0.6874074074074075,
+     "farmhouse_rustic|table": 0.6027777777777777,
+     "industrial|chair": 0.7051851851851851,
+     "industrial|chandelier_pendant": 0.6892592592592592,
+     "industrial|lamp": 0.6555555555555556,
+     "industrial|table": 0.6666666666666666,
+     "mid_century|chair": 0.7455555555555555,
+     "mid_century|chandelier_pendant": 0.762962962962963,
+     "mid_century|lamp": 0.5462962962962963,
+     "mid_century|table": 0.6411111111111112,
+     "traditional|chair": 0.6807407407407406,
+     "traditional|chandelier_pendant": 0.6244444444444445,
+     "traditional|lamp": 0.7148148148148148,
+     "traditional|table": 0.5601851851851852
+    },
+    "by_style": {
+     "traditional": 0.6450462962962963,
+     "coastal": 0.7220987654320988,
+     "farmhouse/rustic": 0.6297685185185186,
+     "bohemian": 0.6985042735042735,
+     "mid-century modern": 0.6739814814814815,
+     "industrial": 0.6791666666666667
+    }
+   },
+   "style_given|avg_EffCov": 0.5726423182441701,
+   "style_acc": {
+    "acc": 0.9629629629629629,
+    "n": 108,
+    "n_failed": 0,
+    "per_style": {
+     "mid-century modern": 0.85,
+     "industrial": 1.0,
+     "farmhouse/rustic": 1.0,
+     "bohemian": 1.0,
+     "coastal": 0.9333333333333333,
+     "traditional": 1.0
+    },
+    "top_wrong": {
+     "mid-century modern": [
+      "glam",
+      1
+     ],
+     "industrial": null,
+     "farmhouse/rustic": null,
+     "bohemian": null,
+     "coastal": [
+      "farmhouse/rustic",
+      1
+     ],
+     "traditional": null
+    }
+   },
+   "H5": {
+    "groups": {
+     "style_right": {
+      "n_questions": 208,
+      "n_queries": 104,
+      "img_Align": 0.6522435897435896,
+      "style_given_Align": 0.7307692307692307,
+      "img_EffCov": 0.5286124465811965,
+      "style_given_EffCov": 0.5768362713675214
+     },
+     "style_wrong": {
+      "n_questions": 8,
+      "n_queries": 4,
+      "img_Align": 0.6,
+      "style_given_Align": 0.625,
+      "img_EffCov": 0.45208333333333334,
+      "style_given_EffCov": 0.46359953703703705
+     }
+    },
+    "paired": {
+     "Align|all": {
+      "mean": 0.0765432098765432,
+      "lo": 0.061728395061728385,
+      "hi": 0.09135802469135801,
+      "n": 216
+     },
+     "Align|style_right": {
+      "mean": 0.07852564102564102,
+      "lo": 0.06410256410256408,
+      "hi": 0.09358974358974356,
+      "n": 208
+     },
+     "Align|style_wrong": {
+      "mean": 0.02499999999999999,
+      "lo": -0.05000000000000003,
+      "hi": 0.11666666666666664,
+      "n": 8
+     },
+     "EffCov|all": {
+      "mean": 0.046864283264746225,
+      "lo": 0.03588563100137174,
+      "hi": 0.058260673868312754,
+      "n": 216
+     },
+     "EffCov|style_right": {
+      "mean": 0.04822382478632478,
+      "lo": 0.03748425258190883,
+      "hi": 0.059537537838319096,
+      "n": 208
+     },
+     "EffCov|style_wrong": {
+      "mean": 0.011516203703703695,
+      "lo": -0.05393518518518517,
+      "hi": 0.08599537037037033,
+      "n": 8
+     }
+    }
+   },
+   "H2": {
+    "color": {
+     "mean": 0.11447222222222223,
+     "lo": 0.06319444444444446,
+     "hi": 0.1653069444444444,
+     "n": 100
+    },
+    "material": {
+     "mean": -0.04817158931082982,
+     "lo": -0.10973980309423347,
+     "hi": 0.011533052039381143,
+     "n": 79
+    },
+    "shape": {
+     "mean": -0.010072951739618417,
+     "lo": -0.06251543209876545,
+     "hi": 0.0424810606060606,
+     "n": 99
+    }
+   }
+  }
+ },
+ "baselines": {
+  "siglip2-top5": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.562962962962963,
+      "Div": 0.6715425531914894,
+      "EffCov": 0.4481095679012346,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.562962962962963,
+    "Align_sd": 0.0,
+    "Div": 0.6715425531914894,
+    "Div_sd": 0.0,
+    "EffCov": 0.4481095679012346,
+    "EffCov_sd": 0.0,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.7518518518518519,
+    "Dup": 0.6851851851851852,
+    "pos1_rate": null,
+    "pos1to5_rate": null,
+    "by_cell": {
+     "boho|chair": 0.5133333333333333,
+     "boho|chandelier_pendant": 0.5508333333333333,
+     "boho|lamp": 0.6847222222222222,
+     "coastal|chair": 0.43083333333333335,
+     "coastal|lamp": 0.41,
+     "coastal|table": 0.5116666666666667,
+     "farmhouse_rustic|chair": 0.27083333333333337,
+     "farmhouse_rustic|chandelier_pendant": 0.4458333333333333,
+     "farmhouse_rustic|lamp": 0.37916666666666665,
+     "farmhouse_rustic|table": 0.3958333333333333,
+     "industrial|chair": 0.4033333333333333,
+     "industrial|chandelier_pendant": 0.36083333333333334,
+     "industrial|lamp": 0.465,
+     "industrial|table": 0.38416666666666666,
+     "mid_century|chair": 0.325,
+     "mid_century|chandelier_pendant": 0.31833333333333336,
+     "mid_century|lamp": 0.3683333333333333,
+     "mid_century|table": 0.4608333333333333,
+     "traditional|chair": 0.6900000000000001,
+     "traditional|chandelier_pendant": 0.51,
+     "traditional|lamp": 0.5083333333333334,
+     "traditional|table": 0.5658333333333333
+    },
+    "by_style": {
+     "traditional": 0.5685416666666667,
+     "coastal": 0.45083333333333336,
+     "farmhouse/rustic": 0.3729166666666667,
+     "bohemian": 0.5673076923076923,
+     "mid-century modern": 0.368125,
+     "industrial": 0.4033333333333333
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.8611111111111112,
+      "Div": 0.6996593291404613,
+      "EffCov": 0.6607253086419753,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.8611111111111112,
+    "Align_sd": 0.0,
+    "Div": 0.6996593291404613,
+    "Div_sd": 0.0,
+    "EffCov": 0.6607253086419753,
+    "EffCov_sd": 0.0,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.462962962962963,
+    "pos1_rate": null,
+    "pos1to5_rate": null,
+    "by_cell": {
+     "boho|chair": 0.7422222222222222,
+     "boho|chandelier_pendant": 0.711111111111111,
+     "boho|lamp": 0.5407407407407407,
+     "coastal|chair": 0.65,
+     "coastal|lamp": 0.6977777777777778,
+     "coastal|table": 0.6900000000000001,
+     "farmhouse_rustic|chair": 0.62,
+     "farmhouse_rustic|chandelier_pendant": 0.6733333333333333,
+     "farmhouse_rustic|lamp": 0.6588888888888889,
+     "farmhouse_rustic|table": 0.7266666666666667,
+     "industrial|chair": 0.6755555555555556,
+     "industrial|chandelier_pendant": 0.6988888888888889,
+     "industrial|lamp": 0.7633333333333333,
+     "industrial|table": 0.65,
+     "mid_century|chair": 0.7366666666666667,
+     "mid_century|chandelier_pendant": 0.5777777777777777,
+     "mid_century|lamp": 0.538888888888889,
+     "mid_century|table": 0.5933333333333334,
+     "traditional|chair": 0.7333333333333333,
+     "traditional|chandelier_pendant": 0.5677777777777778,
+     "traditional|lamp": 0.7166666666666667,
+     "traditional|table": 0.525
+    },
+    "by_style": {
+     "traditional": 0.6356944444444445,
+     "coastal": 0.6792592592592592,
+     "farmhouse/rustic": 0.6697222222222222,
+     "bohemian": 0.6837606837606838,
+     "mid-century modern": 0.6116666666666666,
+     "industrial": 0.6969444444444444
+    }
+   },
+   "img|avg_EffCov": 0.554417438271605
+  },
+  "siglip2-mmr-free": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.5740740740740741,
+      "Div": 0.7592543859649122,
+      "EffCov": 0.5106095679012346,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.5740740740740741,
+    "Align_sd": 0.0,
+    "Div": 0.7592543859649122,
+    "Div_sd": 0.0,
+    "EffCov": 0.5106095679012346,
+    "EffCov_sd": 0.0,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.6574074074074074,
+    "Dup": 0.2777777777777778,
+    "pos1_rate": null,
+    "pos1to5_rate": null,
+    "by_cell": {
+     "boho|chair": 0.5525,
+     "boho|chandelier_pendant": 0.6458333333333333,
+     "boho|lamp": 0.7597222222222223,
+     "coastal|chair": 0.45999999999999996,
+     "coastal|lamp": 0.42000000000000004,
+     "coastal|table": 0.6041666666666667,
+     "farmhouse_rustic|chair": 0.2375,
+     "farmhouse_rustic|chandelier_pendant": 0.4458333333333333,
+     "farmhouse_rustic|lamp": 0.3591666666666667,
+     "farmhouse_rustic|table": 0.425,
+     "industrial|chair": 0.4758333333333333,
+     "industrial|chandelier_pendant": 0.35083333333333333,
+     "industrial|lamp": 0.5675,
+     "industrial|table": 0.44666666666666666,
+     "mid_century|chair": 0.4125,
+     "mid_century|chandelier_pendant": 0.38333333333333336,
+     "mid_century|lamp": 0.5233333333333333,
+     "mid_century|table": 0.585,
+     "traditional|chair": 0.8300000000000001,
+     "traditional|chandelier_pendant": 0.5941666666666666,
+     "traditional|lamp": 0.5891666666666666,
+     "traditional|table": 0.665
+    },
+    "by_style": {
+     "traditional": 0.6695833333333334,
+     "coastal": 0.49472222222222223,
+     "farmhouse/rustic": 0.366875,
+     "bohemian": 0.6362179487179488,
+     "mid-century modern": 0.4760416666666667,
+     "industrial": 0.4602083333333333
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.7962962962962963,
+      "Div": 0.7955026455026455,
+      "EffCov": 0.7398148148148148,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.7962962962962963,
+    "Align_sd": 0.0,
+    "Div": 0.7955026455026455,
+    "Div_sd": 0.0,
+    "EffCov": 0.7398148148148148,
+    "EffCov_sd": 0.0,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 0.48148148148148145,
+    "pos1_rate": null,
+    "pos1to5_rate": null,
+    "by_cell": {
+     "boho|chair": 0.9066666666666666,
+     "boho|chandelier_pendant": 0.8083333333333333,
+     "boho|lamp": 0.5314814814814816,
+     "coastal|chair": 0.6666666666666667,
+     "coastal|lamp": 0.6844444444444444,
+     "coastal|table": 0.7177777777777778,
+     "farmhouse_rustic|chair": 0.67,
+     "farmhouse_rustic|chandelier_pendant": 0.7611111111111111,
+     "farmhouse_rustic|lamp": 0.7188888888888889,
+     "farmhouse_rustic|table": 0.7516666666666667,
+     "industrial|chair": 0.7155555555555556,
+     "industrial|chandelier_pendant": 0.6988888888888889,
+     "industrial|lamp": 0.8333333333333334,
+     "industrial|table": 0.6722222222222223,
+     "mid_century|chair": 0.7666666666666666,
+     "mid_century|chandelier_pendant": 0.6666666666666666,
+     "mid_century|lamp": 0.7166666666666667,
+     "mid_century|table": 0.7233333333333334,
+     "traditional|chair": 0.7633333333333333,
+     "traditional|chandelier_pendant": 0.8466666666666667,
+     "traditional|lamp": 0.8916666666666666,
+     "traditional|table": 0.6805555555555556
+    },
+    "by_style": {
+     "traditional": 0.7955555555555556,
+     "coastal": 0.6896296296296297,
+     "farmhouse/rustic": 0.7254166666666666,
+     "bohemian": 0.7822649572649573,
+     "mid-century modern": 0.7183333333333334,
+     "industrial": 0.73
+    }
+   },
+   "img|avg_EffCov": 0.6252121913580246
+  },
+  "siglip2-mmr-std": {
+   "img|S1": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.5592592592592592,
+      "Div": 0.7295493197278912,
+      "EffCov": 0.48761574074074077,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.5592592592592592,
+    "Align_sd": 0.0,
+    "Div": 0.7295493197278912,
+    "Div_sd": 0.0,
+    "EffCov": 0.48761574074074077,
+    "EffCov_sd": 0.0,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": 0.7148148148148148,
+    "Dup": 0.4444444444444444,
+    "pos1_rate": null,
+    "pos1to5_rate": null,
+    "by_cell": {
+     "boho|chair": 0.5133333333333333,
+     "boho|chandelier_pendant": 0.675,
+     "boho|lamp": 0.6472222222222223,
+     "coastal|chair": 0.4333333333333333,
+     "coastal|lamp": 0.5433333333333333,
+     "coastal|table": 0.5850000000000001,
+     "farmhouse_rustic|chair": 0.20083333333333334,
+     "farmhouse_rustic|chandelier_pendant": 0.42333333333333334,
+     "farmhouse_rustic|lamp": 0.44833333333333336,
+     "farmhouse_rustic|table": 0.43499999999999994,
+     "industrial|chair": 0.45999999999999996,
+     "industrial|chandelier_pendant": 0.375,
+     "industrial|lamp": 0.5833333333333334,
+     "industrial|table": 0.44666666666666666,
+     "mid_century|chair": 0.36,
+     "mid_century|chandelier_pendant": 0.31833333333333336,
+     "mid_century|lamp": 0.4683333333333334,
+     "mid_century|table": 0.4058333333333334,
+     "traditional|chair": 0.73,
+     "traditional|chandelier_pendant": 0.5675,
+     "traditional|lamp": 0.5891666666666666,
+     "traditional|table": 0.5825
+    },
+    "by_style": {
+     "traditional": 0.6172916666666667,
+     "coastal": 0.5205555555555555,
+     "farmhouse/rustic": 0.37687499999999996,
+     "bohemian": 0.6064102564102564,
+     "mid-century modern": 0.388125,
+     "industrial": 0.46624999999999994
+    }
+   },
+   "img|S2": {
+    "orders": {
+     "o0": {
+      "n": 108,
+      "Align": 0.7981481481481482,
+      "Div": 0.7353098290598291,
+      "EffCov": 0.6716563786008231,
+      "fail": 0.0,
+      "n_expected": 108
+     }
+    },
+    "Align": 0.7981481481481482,
+    "Align_sd": 0.0,
+    "Div": 0.7353098290598291,
+    "Div_sd": 0.0,
+    "EffCov": 0.6716563786008231,
+    "EffCov_sd": 0.0,
+    "fail": 0.0,
+    "fail_sd": 0.0,
+    "SameCat": null,
+    "Dup": 1.0833333333333333,
+    "pos1_rate": null,
+    "pos1to5_rate": null,
+    "by_cell": {
+     "boho|chair": 0.8222222222222222,
+     "boho|chandelier_pendant": 0.711111111111111,
+     "boho|lamp": 0.4222222222222222,
+     "coastal|chair": 0.5688888888888889,
+     "coastal|lamp": 0.6055555555555555,
+     "coastal|table": 0.6866666666666668,
+     "farmhouse_rustic|chair": 0.6066666666666667,
+     "farmhouse_rustic|chandelier_pendant": 0.6922222222222223,
+     "farmhouse_rustic|lamp": 0.711111111111111,
+     "farmhouse_rustic|table": 0.7016666666666667,
+     "industrial|chair": 0.6188888888888888,
+     "industrial|chandelier_pendant": 0.7511111111111111,
+     "industrial|lamp": 0.7266666666666667,
+     "industrial|table": 0.6722222222222223,
+     "mid_century|chair": 0.77,
+     "mid_century|chandelier_pendant": 0.6,
+     "mid_century|lamp": 0.538888888888889,
+     "mid_century|table": 0.6611111111111111,
+     "traditional|chair": 0.75,
+     "traditional|chandelier_pendant": 0.6566666666666666,
+     "traditional|lamp": 0.7944444444444445,
+     "traditional|table": 0.6083333333333333
+    },
+    "by_style": {
+     "traditional": 0.7023611111111111,
+     "coastal": 0.6203703703703703,
+     "farmhouse/rustic": 0.6779166666666667,
+     "bohemian": 0.6871794871794872,
+     "mid-century modern": 0.6425,
+     "industrial": 0.6922222222222223
+    }
+   },
+   "img|avg_EffCov": 0.5796360596707819
+  },
+  "random": {
+   "S1": {
+    "Align": 0.30054444444444245,
+    "EffCov": 0.3267569830246916,
+    "Div": 0.8453134519755631
+   },
+   "S2": {
+    "Align": 0.30002592592592403,
+    "EffCov": 0.3895331532921805,
+    "Div": 0.7658650304124014
+   },
+   "avg_EffCov": 0.35814506815843605
+  },
+  "oracle": {
+   "S1": {
+    "Align": 1.0,
+    "EffCov": 1.0,
+    "Div": 1.0
+   },
+   "S2": {
+    "Align": 1.0,
+    "EffCov": 1.0,
+    "Div": 1.0
+   },
+   "avg_EffCov": 1.0
+  }
+ },
+ "meta": {
+  "n_questions": 216,
+  "n_queries": 108
+ },
+ "samecat_ref": {
+  "valid_pool": 0.2029320987654321,
+  "oracle": 0.21481481481481485
+ },
+ "dup_ref": {
+  "valid_pairs_per_question": {
+   "S1": 3.4722222222222223,
+   "S2": 8.324074074074074
+  },
+  "oracle_dup": {
+   "S1": 0.018518518518518517,
+   "S2": 0.24074074074074073
+  }
+ }
+}

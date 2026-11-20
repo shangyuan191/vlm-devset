@@ -1,0 +1,10 @@
+# DECISIONS（階段 4）
+1. 沿用階段 3 的資格規則「三方都標過」：stage2/qualified.jsonl 的 891 件中有 10 件只有 2 位標註者（Gemma 缺），不能算多數決屬性，所以出題可用的合格商品是 881 件（和階段 3 一致）。Opus 11/17 用 891 試算 25 組合 / 17 格，我實算 23 組合 / 16 格，以實際計算為準（build_report4.json 的 combos 與 combos_rejected）。
+2. 標題去風格字：`clean()` 反覆對 STYLE_PAT 做 sub 直到字串不再變（Opus 審查 3）。只用在 T3 / T4 新題；S1 / S2 完整沿用 `stage3/questions.json`（含原 title_clean，不重建），複製進 questions4.json（`source: stage3`）以便同一套腳本處理。
+3. T4：query 用階段 3 的 108 個；合格 12 件依品項輪流取（spread=ci）、陷阱 12（同風格同品項）、困難干擾 8（其他風格、品項 ≠ C，依風格輪流）、隨機 8。allowed = style={X}, category=全部 5 個品項−{C}（category 仍是自由維度）。bucket 名：valid / trap / hard / random。
+4. T3：combos 條件照 RUNBOOK（n≥12、排除比例≥30%、另兩屬性在符合商品中各≥2 種值）。每組合 3 題（n=12 出 2 題）；query 先用「query 等級」（三位風格=格子風格、Claude style_conf=3、single_item yes conf≥2）依 seed 洗牌，某 query 建題失敗（例如 n=12 且 query 自己 a=v → 合格不足 12）就換下一個；仍不夠才放寬（合格 + single yes conf≥2）。同一組合內 query 不重複。每題記 `query_attr_equals_v`。
+5. T3 候選補位：屬性陷阱不足 12 → 用風格 X 其他品項、a=v 的合格商品補（bucket `attr_trap_fill`）；風格陷阱不足 8 → 放寬 a 任意（bucket `style_trap_loose`）。計分時 Trap 欄：屬性陷阱 = attr_trap + attr_trap_fill（都是「風格對、但屬性或品項不對」），風格陷阱 = style_trap + style_trap_loose。補位記在 build_report4.json relaxed。
+6. 英文任務框架（syn_en）：以 tmpl_en 為基礎，只把「限制條件那一小句」換成 LLM 改寫的需求句；「盡量多樣：…」子句留在固定框架（和 tmpl_en 相同）。框架開頭不寫「風格」，由 syn 句自己表達。
+- （主控 Opus，2026-11-18 08:0x UTC，Skyler 同意）合成 query（syn_en）改由 **Claude Sonnet 5.5** 產生（`gen_syn_claude.py`），不用本地 Qwen3.8-27B：Qwen3.8 需要 2 張 GPU 等卡數小時未排到，且 Skyler 剩餘的 Claude 額度即將重置會浪費。prompt 規則（make_prompt）與自動檢查（check_syn）和 gen_syn.py 完全相同，不給圖；388 題全部通過檢查、0 題退回模板；花費 $0.86。附帶好處：qwen38-27b 不再是「自己改寫、自己作答」，RUNBOOK 的 ‡ 提醒中「改寫者」那一句改為「改寫者 = Claude Sonnet 5.5（非受測模型）」。已 touch logs/query_texts_done；qwen38-27b 啟動時會跳過 gen_syn。等待 syn_en 的模型請用 relaunch.sh 補排隊。
+- （主控 Opus，2026-11-18 08:24 UTC）Skyler 要求讓出 GPU 3。serve_devset4.sh 預設 GPUS 改為「0 1 4」；重新排隊請用 resume.sh。不要再使用 GPU 3，除非 Skyler 另外允許。
+- （主控 Opus，2026-11-18 08:30 UTC）更正上一條：要讓出的是 nvidia-smi 的 **GPU 4**（admin 的 CUDA_VISIBLE_DEVICES=3）。serve_devset4.sh 預設 GPUS 改為「0 1 3」；resume.sh 同步。不要再使用 GPU 4，除非 Skyler 另外允許。

@@ -1,0 +1,18 @@
+{
+ "home": {
+  "rows_read": 1816552,
+  "kept": 325721
+ },
+ "lighting": {
+  "rows_read": 280498,
+  "kept": 122202
+ },
+ "patio": {
+  "rows_read": 87405,
+  "kept": 31361
+ },
+ "handmade": {
+  "rows_read": 55616,
+  "kept": 25656
+ }
+}

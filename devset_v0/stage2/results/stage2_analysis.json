@@ -1,0 +1,2031 @@
+{
+ "cells": {
+  "boho|chair": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 7,
+     "values": {
+      "beige/cream": 10,
+      "black": 5,
+      "gray": 3,
+      "multicolor": 1,
+      "natural wood": 3,
+      "white": 10,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "fabric": 11,
+      "rattan/wicker/rope": 22
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "curved": 18,
+      "rectilinear": 2,
+      "round": 13
+     }
+    }
+   },
+   "claude_pos": 32,
+   "confirm_rate": 1.0312,
+   "incomplete": 0,
+   "labeled": 59,
+   "n_stage1": 30,
+   "n_stage2": 29,
+   "qualified": 33,
+   "qualified_stage1": 16,
+   "qualified_stage2": 17,
+   "queue_left": 29,
+   "queue_total": 58,
+   "scenario2": {
+    "free_dims": {
+     "color": 7,
+     "material": 2,
+     "shape": 3
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 4,
+    "room": 4,
+    "white": 25
+   },
+   "single_item_labeled": 33,
+   "single_item_yes_conf2": 29,
+   "stage1_claude_pos_rate": 0.5333,
+   "stage1_n": 30,
+   "stage1_qualified": 16,
+   "stage1_qualified_rate": 0.5333,
+   "stage2_claude_pos_rate": 0.5517,
+   "stage2_n": 29,
+   "stage2_qualified": 17,
+   "stage2_qualified_rate": 0.5862,
+   "status": "達標",
+   "target": 26
+  },
+  "boho|chandelier_pendant": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 2,
+     "n_values": 6,
+     "values": {
+      "beige/cream": 19,
+      "brown": 1,
+      "gray": 1,
+      "natural wood": 9,
+      "white": 1,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 1,
+     "values": {
+      "rattan/wicker/rope": 33
+     }
+    },
+    "shape": {
+     "n_no_majority": 1,
+     "n_values": 4,
+     "values": {
+      "angular/geometric": 1,
+      "curved": 7,
+      "organic/irregular": 3,
+      "round": 22
+     }
+    }
+   },
+   "claude_pos": 33,
+   "confirm_rate": 1.0303,
+   "incomplete": 0,
+   "labeled": 50,
+   "n_stage1": 30,
+   "n_stage2": 20,
+   "qualified": 34,
+   "qualified_stage1": 21,
+   "qualified_stage2": 13,
+   "queue_left": 121,
+   "queue_total": 141,
+   "scenario2": {
+    "free_dims": {
+     "color": 6,
+     "shape": 4
+    },
+    "n_free": 2
+   },
+   "scene": {
+    "other": 2,
+    "room": 14,
+    "white": 18
+   },
+   "single_item_labeled": 34,
+   "single_item_yes_conf2": 28,
+   "stage1_claude_pos_rate": 0.7333,
+   "stage1_n": 30,
+   "stage1_qualified": 21,
+   "stage1_qualified_rate": 0.7,
+   "stage2_claude_pos_rate": 0.55,
+   "stage2_n": 20,
+   "stage2_qualified": 13,
+   "stage2_qualified_rate": 0.65,
+   "status": "達標",
+   "target": 26
+  },
+  "boho|lamp": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 8,
+     "values": {
+      "beige/cream": 2,
+      "black": 2,
+      "brown": 3,
+      "metallic": 2,
+      "multicolor": 11,
+      "natural wood": 6,
+      "white": 1,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 5,
+     "n_values": 4,
+     "values": {
+      "glass": 4,
+      "metal": 5,
+      "rattan/wicker/rope": 12,
+      "wood": 3
+     }
+    },
+    "shape": {
+     "n_no_majority": 1,
+     "n_values": 4,
+     "values": {
+      "angular/geometric": 12,
+      "curved": 4,
+      "rectilinear": 1,
+      "round": 11
+     }
+    }
+   },
+   "claude_pos": 37,
+   "confirm_rate": 0.7838,
+   "incomplete": 0,
+   "labeled": 146,
+   "n_stage1": 30,
+   "n_stage2": 116,
+   "qualified": 29,
+   "qualified_stage1": 6,
+   "qualified_stage2": 23,
+   "queue_left": 0,
+   "queue_total": 116,
+   "scenario2": {
+    "free_dims": {
+     "color": 8,
+     "material": 4,
+     "shape": 4
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 5,
+    "room": 15,
+    "white": 9
+   },
+   "single_item_labeled": 29,
+   "single_item_yes_conf2": 25,
+   "stage1_claude_pos_rate": 0.3,
+   "stage1_n": 30,
+   "stage1_qualified": 6,
+   "stage1_qualified_rate": 0.2,
+   "stage2_claude_pos_rate": 0.2414,
+   "stage2_n": 116,
+   "stage2_qualified": 23,
+   "stage2_qualified_rate": 0.1983,
+   "status": "達標",
+   "target": 26
+  },
+  "boho|wall_art": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "blue": 1,
+      "multicolor": 18
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "fabric": 14,
+      "paper/canvas": 5
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "rectilinear": 18,
+      "round": 1
+     }
+    }
+   },
+   "claude_pos": 20,
+   "confirm_rate": 0.95,
+   "incomplete": 0,
+   "labeled": 30,
+   "n_stage1": 30,
+   "n_stage2": 0,
+   "qualified": 19,
+   "qualified_stage1": 19,
+   "qualified_stage2": 0,
+   "queue_left": 270,
+   "queue_total": 270,
+   "scenario2": null,
+   "scene": {
+    "other": 5,
+    "room": 11,
+    "white": 3
+   },
+   "single_item_labeled": 19,
+   "single_item_yes_conf2": 16,
+   "stage1_claude_pos_rate": 0.6667,
+   "stage1_n": 30,
+   "stage1_qualified": 19,
+   "stage1_qualified_rate": 0.6333,
+   "stage2_claude_pos_rate": null,
+   "stage2_n": 0,
+   "stage2_qualified": 0,
+   "stage2_qualified_rate": null,
+   "status": "達標",
+   "target": 13
+  },
+  "coastal|chair": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 5,
+     "values": {
+      "beige/cream": 2,
+      "blue": 12,
+      "multicolor": 3,
+      "natural wood": 1,
+      "white": 12
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 5,
+     "values": {
+      "fabric": 5,
+      "metal": 1,
+      "plastic/acrylic": 9,
+      "rattan/wicker/rope": 7,
+      "wood": 8
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "curved": 10,
+      "rectilinear": 20
+     }
+    }
+   },
+   "claude_pos": 29,
+   "confirm_rate": 1.0345,
+   "incomplete": 0,
+   "labeled": 153,
+   "n_stage1": 30,
+   "n_stage2": 123,
+   "qualified": 30,
+   "qualified_stage1": 8,
+   "qualified_stage2": 22,
+   "queue_left": 0,
+   "queue_total": 123,
+   "scenario2": {
+    "free_dims": {
+     "color": 5,
+     "material": 5,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 2,
+    "room": 2,
+    "white": 26
+   },
+   "single_item_labeled": 30,
+   "single_item_yes_conf2": 26,
+   "stage1_claude_pos_rate": 0.2667,
+   "stage1_n": 30,
+   "stage1_qualified": 8,
+   "stage1_qualified_rate": 0.2667,
+   "stage2_claude_pos_rate": 0.1707,
+   "stage2_n": 123,
+   "stage2_qualified": 22,
+   "stage2_qualified_rate": 0.1789,
+   "status": "達標",
+   "target": 26
+  },
+  "coastal|lamp": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 5,
+     "n_values": 7,
+     "values": {
+      "beige/cream": 5,
+      "blue": 7,
+      "brown": 1,
+      "green": 1,
+      "metallic": 6,
+      "red/pink": 2,
+      "white": 4
+     }
+    },
+    "material": {
+     "n_no_majority": 2,
+     "n_values": 6,
+     "values": {
+      "glass": 7,
+      "metal": 6,
+      "plastic/acrylic": 2,
+      "rattan/wicker/rope": 1,
+      "stone/ceramic/concrete": 12,
+      "wood": 1
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 4,
+     "values": {
+      "curved": 8,
+      "organic/irregular": 6,
+      "rectilinear": 4,
+      "round": 13
+     }
+    }
+   },
+   "claude_pos": 38,
+   "confirm_rate": 0.8158,
+   "incomplete": 0,
+   "labeled": 75,
+   "n_stage1": 30,
+   "n_stage2": 45,
+   "qualified": 31,
+   "qualified_stage1": 14,
+   "qualified_stage2": 17,
+   "queue_left": 225,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 7,
+     "material": 6,
+     "shape": 4
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 2,
+    "room": 6,
+    "white": 23
+   },
+   "single_item_labeled": 31,
+   "single_item_yes_conf2": 22,
+   "stage1_claude_pos_rate": 0.5667,
+   "stage1_n": 30,
+   "stage1_qualified": 14,
+   "stage1_qualified_rate": 0.4667,
+   "stage2_claude_pos_rate": 0.4667,
+   "stage2_n": 45,
+   "stage2_qualified": 17,
+   "stage2_qualified_rate": 0.3778,
+   "status": "達標",
+   "target": 26
+  },
+  "coastal|table": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 7,
+     "values": {
+      "beige/cream": 1,
+      "blue": 8,
+      "gray": 1,
+      "metallic": 4,
+      "multicolor": 3,
+      "natural wood": 1,
+      "white": 14
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 4,
+     "values": {
+      "glass": 7,
+      "metal": 5,
+      "rattan/wicker/rope": 3,
+      "wood": 16
+     }
+    },
+    "shape": {
+     "n_no_majority": 2,
+     "n_values": 2,
+     "values": {
+      "rectilinear": 6,
+      "round": 24
+     }
+    }
+   },
+   "claude_pos": 41,
+   "confirm_rate": 0.7805,
+   "incomplete": 0,
+   "labeled": 162,
+   "n_stage1": 30,
+   "n_stage2": 132,
+   "qualified": 32,
+   "qualified_stage1": 6,
+   "qualified_stage2": 26,
+   "queue_left": 11,
+   "queue_total": 143,
+   "scenario2": {
+    "free_dims": {
+     "color": 7,
+     "material": 4,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 5,
+    "room": 2,
+    "white": 25
+   },
+   "single_item_labeled": 32,
+   "single_item_yes_conf2": 30,
+   "stage1_claude_pos_rate": 0.2667,
+   "stage1_n": 30,
+   "stage1_qualified": 6,
+   "stage1_qualified_rate": 0.2,
+   "stage2_claude_pos_rate": 0.25,
+   "stage2_n": 132,
+   "stage2_qualified": 26,
+   "stage2_qualified_rate": 0.197,
+   "status": "達標",
+   "target": 26
+  },
+  "coastal|wall_art": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 7,
+     "values": {
+      "beige/cream": 1,
+      "black": 1,
+      "blue": 3,
+      "brown": 1,
+      "gray": 1,
+      "multicolor": 12,
+      "white": 3
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 5,
+     "values": {
+      "metal": 3,
+      "paper/canvas": 12,
+      "plastic/acrylic": 1,
+      "rattan/wicker/rope": 1,
+      "wood": 5
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "organic/irregular": 6,
+      "rectilinear": 14,
+      "round": 3
+     }
+    }
+   },
+   "claude_pos": 26,
+   "confirm_rate": 0.8846,
+   "incomplete": 0,
+   "labeled": 30,
+   "n_stage1": 30,
+   "n_stage2": 0,
+   "qualified": 23,
+   "qualified_stage1": 23,
+   "qualified_stage2": 0,
+   "queue_left": 270,
+   "queue_total": 270,
+   "scenario2": null,
+   "scene": {
+    "other": 8,
+    "white": 15
+   },
+   "single_item_labeled": 23,
+   "single_item_yes_conf2": 19,
+   "stage1_claude_pos_rate": 0.8667,
+   "stage1_n": 30,
+   "stage1_qualified": 23,
+   "stage1_qualified_rate": 0.7667,
+   "stage2_claude_pos_rate": null,
+   "stage2_n": 0,
+   "stage2_qualified": 0,
+   "stage2_qualified_rate": null,
+   "status": "達標",
+   "target": 13
+  },
+  "farmhouse_rustic|chair": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 8,
+     "values": {
+      "beige/cream": 2,
+      "black": 3,
+      "blue": 1,
+      "brown": 12,
+      "gray": 3,
+      "green": 1,
+      "natural wood": 14,
+      "white": 14
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "fabric": 4,
+      "wood": 47
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "curved": 11,
+      "rectilinear": 40
+     }
+    }
+   },
+   "claude_pos": 54,
+   "confirm_rate": 0.9444,
+   "incomplete": 0,
+   "labeled": 300,
+   "n_stage1": 30,
+   "n_stage2": 270,
+   "qualified": 51,
+   "qualified_stage1": 3,
+   "qualified_stage2": 48,
+   "queue_left": 0,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 8,
+     "material": 2,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 1,
+    "room": 6,
+    "white": 44
+   },
+   "single_item_labeled": 51,
+   "single_item_yes_conf2": 30,
+   "stage1_claude_pos_rate": 0.1,
+   "stage1_n": 30,
+   "stage1_qualified": 3,
+   "stage1_qualified_rate": 0.1,
+   "stage2_claude_pos_rate": 0.1889,
+   "stage2_n": 270,
+   "stage2_qualified": 48,
+   "stage2_qualified_rate": 0.1778,
+   "status": "達標",
+   "target": 26
+  },
+  "farmhouse_rustic|chandelier_pendant": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 4,
+     "n_values": 5,
+     "values": {
+      "black": 4,
+      "brown": 2,
+      "gray": 2,
+      "natural wood": 16,
+      "white": 5
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 3,
+     "values": {
+      "glass": 2,
+      "metal": 6,
+      "wood": 24
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 5,
+     "values": {
+      "angular/geometric": 2,
+      "curved": 9,
+      "organic/irregular": 2,
+      "rectilinear": 5,
+      "round": 15
+     }
+    }
+   },
+   "claude_pos": 50,
+   "confirm_rate": 0.66,
+   "incomplete": 0,
+   "labeled": 131,
+   "n_stage1": 30,
+   "n_stage2": 101,
+   "qualified": 33,
+   "qualified_stage1": 9,
+   "qualified_stage2": 24,
+   "queue_left": 169,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 5,
+     "material": 3,
+     "shape": 5
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 2,
+    "room": 20,
+    "white": 11
+   },
+   "single_item_labeled": 33,
+   "single_item_yes_conf2": 31,
+   "stage1_claude_pos_rate": 0.4,
+   "stage1_n": 30,
+   "stage1_qualified": 9,
+   "stage1_qualified_rate": 0.3,
+   "stage2_claude_pos_rate": 0.3762,
+   "stage2_n": 101,
+   "stage2_qualified": 24,
+   "stage2_qualified_rate": 0.2376,
+   "status": "達標",
+   "target": 26
+  },
+  "farmhouse_rustic|lamp": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 9,
+     "values": {
+      "beige/cream": 2,
+      "black": 3,
+      "brown": 12,
+      "gray": 4,
+      "green": 1,
+      "metallic": 3,
+      "multicolor": 1,
+      "natural wood": 6,
+      "white": 5
+     }
+    },
+    "material": {
+     "n_no_majority": 4,
+     "n_values": 4,
+     "values": {
+      "metal": 12,
+      "plastic/acrylic": 1,
+      "stone/ceramic/concrete": 3,
+      "wood": 18
+     }
+    },
+    "shape": {
+     "n_no_majority": 1,
+     "n_values": 4,
+     "values": {
+      "curved": 15,
+      "organic/irregular": 13,
+      "rectilinear": 5,
+      "round": 4
+     }
+    }
+   },
+   "claude_pos": 47,
+   "confirm_rate": 0.8085,
+   "incomplete": 0,
+   "labeled": 186,
+   "n_stage1": 30,
+   "n_stage2": 156,
+   "qualified": 38,
+   "qualified_stage1": 3,
+   "qualified_stage2": 35,
+   "queue_left": 114,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 9,
+     "material": 4,
+     "shape": 4
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 1,
+    "room": 19,
+    "white": 18
+   },
+   "single_item_labeled": 38,
+   "single_item_yes_conf2": 21,
+   "stage1_claude_pos_rate": 0.1667,
+   "stage1_n": 30,
+   "stage1_qualified": 3,
+   "stage1_qualified_rate": 0.1,
+   "stage2_claude_pos_rate": 0.2692,
+   "stage2_n": 156,
+   "stage2_qualified": 35,
+   "stage2_qualified_rate": 0.2244,
+   "status": "達標",
+   "target": 26
+  },
+  "farmhouse_rustic|table": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 5,
+     "values": {
+      "black": 2,
+      "brown": 5,
+      "gray": 2,
+      "natural wood": 13,
+      "white": 7
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 1,
+     "values": {
+      "wood": 30
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "curved": 1,
+      "rectilinear": 28,
+      "round": 1
+     }
+    }
+   },
+   "claude_pos": 34,
+   "confirm_rate": 0.8824,
+   "incomplete": 0,
+   "labeled": 105,
+   "n_stage1": 30,
+   "n_stage2": 75,
+   "qualified": 30,
+   "qualified_stage1": 10,
+   "qualified_stage2": 20,
+   "queue_left": 195,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 5,
+     "shape": 3
+    },
+    "n_free": 2
+   },
+   "scene": {
+    "room": 7,
+    "white": 23
+   },
+   "single_item_labeled": 30,
+   "single_item_yes_conf2": 28,
+   "stage1_claude_pos_rate": 0.3667,
+   "stage1_n": 30,
+   "stage1_qualified": 10,
+   "stage1_qualified_rate": 0.3333,
+   "stage2_claude_pos_rate": 0.3067,
+   "stage2_n": 75,
+   "stage2_qualified": 20,
+   "stage2_qualified_rate": 0.2667,
+   "status": "達標",
+   "target": 26
+  },
+  "farmhouse_rustic|wall_art": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 3,
+     "n_values": 5,
+     "values": {
+      "brown": 1,
+      "gray": 2,
+      "multicolor": 5,
+      "natural wood": 2,
+      "white": 3
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 3,
+     "values": {
+      "metal": 1,
+      "paper/canvas": 9,
+      "wood": 5
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "organic/irregular": 1,
+      "rectilinear": 15
+     }
+    }
+   },
+   "claude_pos": 17,
+   "confirm_rate": 0.9412,
+   "incomplete": 0,
+   "labeled": 30,
+   "n_stage1": 30,
+   "n_stage2": 0,
+   "qualified": 16,
+   "qualified_stage1": 16,
+   "qualified_stage2": 0,
+   "queue_left": 270,
+   "queue_total": 270,
+   "scenario2": null,
+   "scene": {
+    "other": 3,
+    "room": 2,
+    "white": 11
+   },
+   "single_item_labeled": 16,
+   "single_item_yes_conf2": 14,
+   "stage1_claude_pos_rate": 0.5667,
+   "stage1_n": 30,
+   "stage1_qualified": 16,
+   "stage1_qualified_rate": 0.5333,
+   "stage2_claude_pos_rate": null,
+   "stage2_n": 0,
+   "stage2_qualified": 0,
+   "stage2_qualified_rate": null,
+   "status": "達標",
+   "target": 13
+  },
+  "industrial|chair": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 8,
+     "values": {
+      "black": 25,
+      "blue": 3,
+      "brown": 7,
+      "gray": 1,
+      "green": 1,
+      "metallic": 18,
+      "red/pink": 2,
+      "white": 9
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "leather": 4,
+      "metal": 61,
+      "wood": 2
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "curved": 18,
+      "rectilinear": 49
+     }
+    }
+   },
+   "claude_pos": 70,
+   "confirm_rate": 0.9571,
+   "incomplete": 0,
+   "labeled": 135,
+   "n_stage1": 30,
+   "n_stage2": 105,
+   "qualified": 67,
+   "qualified_stage1": 16,
+   "qualified_stage2": 51,
+   "queue_left": 41,
+   "queue_total": 146,
+   "scenario2": {
+    "free_dims": {
+     "color": 8,
+     "material": 3,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 3,
+    "white": 64
+   },
+   "single_item_labeled": 67,
+   "single_item_yes_conf2": 16,
+   "stage1_claude_pos_rate": 0.5333,
+   "stage1_n": 30,
+   "stage1_qualified": 16,
+   "stage1_qualified_rate": 0.5333,
+   "stage2_claude_pos_rate": 0.5143,
+   "stage2_n": 105,
+   "stage2_qualified": 51,
+   "stage2_qualified_rate": 0.4857,
+   "status": "達標",
+   "target": 26
+  },
+  "industrial|chandelier_pendant": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 2,
+     "values": {
+      "black": 26,
+      "metallic": 10
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "glass": 4,
+      "metal": 33
+     }
+    },
+    "shape": {
+     "n_no_majority": 3,
+     "n_values": 5,
+     "values": {
+      "angular/geometric": 5,
+      "curved": 5,
+      "organic/irregular": 1,
+      "rectilinear": 5,
+      "round": 18
+     }
+    }
+   },
+   "claude_pos": 37,
+   "confirm_rate": 1.0,
+   "incomplete": 0,
+   "labeled": 62,
+   "n_stage1": 30,
+   "n_stage2": 32,
+   "qualified": 37,
+   "qualified_stage1": 15,
+   "qualified_stage2": 22,
+   "queue_left": 238,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 2,
+     "material": 2,
+     "shape": 5
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 3,
+    "room": 5,
+    "white": 29
+   },
+   "single_item_labeled": 37,
+   "single_item_yes_conf2": 33,
+   "stage1_claude_pos_rate": 0.5,
+   "stage1_n": 30,
+   "stage1_qualified": 15,
+   "stage1_qualified_rate": 0.5,
+   "stage2_claude_pos_rate": 0.6875,
+   "stage2_n": 32,
+   "stage2_qualified": 22,
+   "stage2_qualified_rate": 0.6875,
+   "status": "達標",
+   "target": 26
+  },
+  "industrial|lamp": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 5,
+     "values": {
+      "black": 18,
+      "brown": 1,
+      "metallic": 9,
+      "natural wood": 1,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "metal": 30,
+      "wood": 1
+     }
+    },
+    "shape": {
+     "n_no_majority": 7,
+     "n_values": 5,
+     "values": {
+      "angular/geometric": 3,
+      "curved": 5,
+      "organic/irregular": 4,
+      "rectilinear": 7,
+      "round": 5
+     }
+    }
+   },
+   "claude_pos": 32,
+   "confirm_rate": 0.9688,
+   "incomplete": 0,
+   "labeled": 50,
+   "n_stage1": 30,
+   "n_stage2": 20,
+   "qualified": 31,
+   "qualified_stage1": 18,
+   "qualified_stage2": 13,
+   "queue_left": 250,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 5,
+     "material": 2,
+     "shape": 5
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 3,
+    "room": 17,
+    "white": 11
+   },
+   "single_item_labeled": 31,
+   "single_item_yes_conf2": 27,
+   "stage1_claude_pos_rate": 0.6333,
+   "stage1_n": 30,
+   "stage1_qualified": 18,
+   "stage1_qualified_rate": 0.6,
+   "stage2_claude_pos_rate": 0.65,
+   "stage2_n": 20,
+   "stage2_qualified": 13,
+   "stage2_qualified_rate": 0.65,
+   "status": "達標",
+   "target": 26
+  },
+  "industrial|table": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 3,
+     "n_values": 4,
+     "values": {
+      "black": 8,
+      "brown": 2,
+      "gray": 3,
+      "natural wood": 16
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "metal": 9,
+      "stone/ceramic/concrete": 1,
+      "wood": 22
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "rectilinear": 27,
+      "round": 5
+     }
+    }
+   },
+   "claude_pos": 33,
+   "confirm_rate": 0.9697,
+   "incomplete": 0,
+   "labeled": 55,
+   "n_stage1": 30,
+   "n_stage2": 25,
+   "qualified": 32,
+   "qualified_stage1": 16,
+   "qualified_stage2": 16,
+   "queue_left": 245,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 4,
+     "material": 3,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 5,
+    "white": 27
+   },
+   "single_item_labeled": 32,
+   "single_item_yes_conf2": 31,
+   "stage1_claude_pos_rate": 0.5667,
+   "stage1_n": 30,
+   "stage1_qualified": 16,
+   "stage1_qualified_rate": 0.5333,
+   "stage2_claude_pos_rate": 0.64,
+   "stage2_n": 25,
+   "stage2_qualified": 16,
+   "stage2_qualified_rate": 0.64,
+   "status": "達標",
+   "target": 26
+  },
+  "industrial|wall_art": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 6,
+     "values": {
+      "beige/cream": 4,
+      "black": 3,
+      "gray": 2,
+      "metallic": 2,
+      "multicolor": 5,
+      "white": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 4,
+     "values": {
+      "fabric": 1,
+      "metal": 3,
+      "paper/canvas": 13,
+      "wood": 1
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "organic/irregular": 3,
+      "rectilinear": 15
+     }
+    }
+   },
+   "claude_pos": 18,
+   "confirm_rate": 1.0,
+   "incomplete": 0,
+   "labeled": 93,
+   "n_stage1": 30,
+   "n_stage2": 63,
+   "qualified": 18,
+   "qualified_stage1": 7,
+   "qualified_stage2": 11,
+   "queue_left": 68,
+   "queue_total": 131,
+   "scenario2": null,
+   "scene": {
+    "other": 7,
+    "room": 1,
+    "white": 10
+   },
+   "single_item_labeled": 18,
+   "single_item_yes_conf2": 14,
+   "stage1_claude_pos_rate": 0.2333,
+   "stage1_n": 30,
+   "stage1_qualified": 7,
+   "stage1_qualified_rate": 0.2333,
+   "stage2_claude_pos_rate": 0.1746,
+   "stage2_n": 63,
+   "stage2_qualified": 11,
+   "stage2_qualified_rate": 0.1746,
+   "status": "達標",
+   "target": 13
+  },
+  "mid_century|chair": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 9,
+     "values": {
+      "beige/cream": 3,
+      "black": 3,
+      "blue": 8,
+      "brown": 6,
+      "gray": 7,
+      "green": 3,
+      "red/pink": 2,
+      "white": 5,
+      "yellow/orange": 3
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 4,
+     "values": {
+      "fabric": 18,
+      "leather": 7,
+      "plastic/acrylic": 10,
+      "wood": 6
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "curved": 27,
+      "rectilinear": 14
+     }
+    }
+   },
+   "claude_pos": 41,
+   "confirm_rate": 1.0,
+   "incomplete": 0,
+   "labeled": 79,
+   "n_stage1": 30,
+   "n_stage2": 49,
+   "qualified": 41,
+   "qualified_stage1": 16,
+   "qualified_stage2": 25,
+   "queue_left": 221,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 9,
+     "material": 4,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 16,
+    "white": 25
+   },
+   "single_item_labeled": 41,
+   "single_item_yes_conf2": 26,
+   "stage1_claude_pos_rate": 0.5333,
+   "stage1_n": 30,
+   "stage1_qualified": 16,
+   "stage1_qualified_rate": 0.5333,
+   "stage2_claude_pos_rate": 0.5102,
+   "stage2_n": 49,
+   "stage2_qualified": 25,
+   "stage2_qualified_rate": 0.5102,
+   "status": "達標",
+   "target": 26
+  },
+  "mid_century|chandelier_pendant": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "black": 13,
+      "metallic": 29
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "glass": 4,
+      "metal": 38
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 4,
+     "values": {
+      "angular/geometric": 36,
+      "curved": 1,
+      "rectilinear": 1,
+      "round": 4
+     }
+    }
+   },
+   "claude_pos": 34,
+   "confirm_rate": 1.2353,
+   "incomplete": 0,
+   "labeled": 59,
+   "n_stage1": 30,
+   "n_stage2": 29,
+   "qualified": 42,
+   "qualified_stage1": 21,
+   "qualified_stage2": 21,
+   "queue_left": 241,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 2,
+     "material": 2,
+     "shape": 4
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 16,
+    "white": 26
+   },
+   "single_item_labeled": 42,
+   "single_item_yes_conf2": 42,
+   "stage1_claude_pos_rate": 0.5333,
+   "stage1_n": 30,
+   "stage1_qualified": 21,
+   "stage1_qualified_rate": 0.7,
+   "stage2_claude_pos_rate": 0.6207,
+   "stage2_n": 29,
+   "stage2_qualified": 21,
+   "stage2_qualified_rate": 0.7241,
+   "status": "達標",
+   "target": 26
+  },
+  "mid_century|lamp": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 2,
+     "n_values": 4,
+     "values": {
+      "black": 3,
+      "brown": 2,
+      "metallic": 22,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "metal": 27,
+      "stone/ceramic/concrete": 1,
+      "wood": 2
+     }
+    },
+    "shape": {
+     "n_no_majority": 5,
+     "n_values": 4,
+     "values": {
+      "angular/geometric": 4,
+      "curved": 9,
+      "rectilinear": 6,
+      "round": 6
+     }
+    }
+   },
+   "claude_pos": 38,
+   "confirm_rate": 0.7895,
+   "incomplete": 0,
+   "labeled": 125,
+   "n_stage1": 30,
+   "n_stage2": 95,
+   "qualified": 30,
+   "qualified_stage1": 13,
+   "qualified_stage2": 17,
+   "queue_left": 175,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 4,
+     "material": 3,
+     "shape": 4
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 1,
+    "room": 5,
+    "white": 24
+   },
+   "single_item_labeled": 30,
+   "single_item_yes_conf2": 25,
+   "stage1_claude_pos_rate": 0.5333,
+   "stage1_n": 30,
+   "stage1_qualified": 13,
+   "stage1_qualified_rate": 0.4333,
+   "stage2_claude_pos_rate": 0.2316,
+   "stage2_n": 95,
+   "stage2_qualified": 17,
+   "stage2_qualified_rate": 0.1789,
+   "status": "達標",
+   "target": 26
+  },
+  "mid_century|table": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 1,
+     "n_values": 7,
+     "values": {
+      "black": 4,
+      "blue": 1,
+      "brown": 9,
+      "metallic": 1,
+      "natural wood": 17,
+      "white": 5,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 4,
+     "values": {
+      "glass": 3,
+      "metal": 1,
+      "plastic/acrylic": 1,
+      "wood": 34
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "curved": 8,
+      "rectilinear": 21,
+      "round": 10
+     }
+    }
+   },
+   "claude_pos": 36,
+   "confirm_rate": 1.0833,
+   "incomplete": 0,
+   "labeled": 87,
+   "n_stage1": 30,
+   "n_stage2": 57,
+   "qualified": 39,
+   "qualified_stage1": 15,
+   "qualified_stage2": 24,
+   "queue_left": 213,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 7,
+     "material": 4,
+     "shape": 3
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 11,
+    "white": 28
+   },
+   "single_item_labeled": 39,
+   "single_item_yes_conf2": 36,
+   "stage1_claude_pos_rate": 0.4667,
+   "stage1_n": 30,
+   "stage1_qualified": 15,
+   "stage1_qualified_rate": 0.5,
+   "stage2_claude_pos_rate": 0.386,
+   "stage2_n": 57,
+   "stage2_qualified": 24,
+   "stage2_qualified_rate": 0.4211,
+   "status": "達標",
+   "target": 26
+  },
+  "mid_century|wall_art": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 4,
+     "values": {
+      "metallic": 1,
+      "multicolor": 17,
+      "red/pink": 1,
+      "yellow/orange": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "metal": 1,
+      "paper/canvas": 19
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "angular/geometric": 1,
+      "rectilinear": 19
+     }
+    }
+   },
+   "claude_pos": 25,
+   "confirm_rate": 0.8,
+   "incomplete": 0,
+   "labeled": 117,
+   "n_stage1": 30,
+   "n_stage2": 87,
+   "qualified": 20,
+   "qualified_stage1": 5,
+   "qualified_stage2": 15,
+   "queue_left": 183,
+   "queue_total": 270,
+   "scenario2": null,
+   "scene": {
+    "other": 3,
+    "white": 17
+   },
+   "single_item_labeled": 20,
+   "single_item_yes_conf2": 16,
+   "stage1_claude_pos_rate": 0.2333,
+   "stage1_n": 30,
+   "stage1_qualified": 5,
+   "stage1_qualified_rate": 0.1667,
+   "stage2_claude_pos_rate": 0.2069,
+   "stage2_n": 87,
+   "stage2_qualified": 15,
+   "stage2_qualified_rate": 0.1724,
+   "status": "達標",
+   "target": 13
+  },
+  "traditional|chair": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 8,
+     "values": {
+      "beige/cream": 4,
+      "black": 5,
+      "blue": 2,
+      "brown": 11,
+      "gray": 5,
+      "green": 2,
+      "metallic": 1,
+      "white": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 4,
+     "values": {
+      "fabric": 10,
+      "leather": 10,
+      "metal": 1,
+      "wood": 9
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "curved": 19,
+      "rectilinear": 12
+     }
+    }
+   },
+   "claude_pos": 32,
+   "confirm_rate": 0.9688,
+   "incomplete": 0,
+   "labeled": 85,
+   "n_stage1": 30,
+   "n_stage2": 55,
+   "qualified": 31,
+   "qualified_stage1": 10,
+   "qualified_stage2": 21,
+   "queue_left": 215,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 8,
+     "material": 4,
+     "shape": 2
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 8,
+    "white": 23
+   },
+   "single_item_labeled": 31,
+   "single_item_yes_conf2": 27,
+   "stage1_claude_pos_rate": 0.3667,
+   "stage1_n": 30,
+   "stage1_qualified": 10,
+   "stage1_qualified_rate": 0.3333,
+   "stage2_claude_pos_rate": 0.3818,
+   "stage2_n": 55,
+   "stage2_qualified": 21,
+   "stage2_qualified_rate": 0.3818,
+   "status": "達標",
+   "target": 26
+  },
+  "traditional|chandelier_pendant": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 5,
+     "values": {
+      "beige/cream": 1,
+      "black": 7,
+      "brown": 3,
+      "metallic": 22,
+      "white": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 2,
+     "values": {
+      "glass": 1,
+      "metal": 33
+     }
+    },
+    "shape": {
+     "n_no_majority": 2,
+     "n_values": 3,
+     "values": {
+      "curved": 27,
+      "rectilinear": 2,
+      "round": 3
+     }
+    }
+   },
+   "claude_pos": 36,
+   "confirm_rate": 0.9444,
+   "incomplete": 0,
+   "labeled": 87,
+   "n_stage1": 30,
+   "n_stage2": 57,
+   "qualified": 34,
+   "qualified_stage1": 13,
+   "qualified_stage2": 21,
+   "queue_left": 213,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 5,
+     "material": 2,
+     "shape": 3
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "white": 34
+   },
+   "single_item_labeled": 34,
+   "single_item_yes_conf2": 34,
+   "stage1_claude_pos_rate": 0.4667,
+   "stage1_n": 30,
+   "stage1_qualified": 13,
+   "stage1_qualified_rate": 0.4333,
+   "stage2_claude_pos_rate": 0.386,
+   "stage2_n": 57,
+   "stage2_qualified": 21,
+   "stage2_qualified_rate": 0.3684,
+   "status": "達標",
+   "target": 26
+  },
+  "traditional|lamp": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 3,
+     "n_values": 5,
+     "values": {
+      "black": 5,
+      "brown": 13,
+      "green": 1,
+      "metallic": 14,
+      "red/pink": 1
+     }
+    },
+    "material": {
+     "n_no_majority": 1,
+     "n_values": 4,
+     "values": {
+      "glass": 2,
+      "metal": 23,
+      "stone/ceramic/concrete": 4,
+      "wood": 7
+     }
+    },
+    "shape": {
+     "n_no_majority": 1,
+     "n_values": 3,
+     "values": {
+      "curved": 23,
+      "rectilinear": 12,
+      "round": 1
+     }
+    }
+   },
+   "claude_pos": 38,
+   "confirm_rate": 0.9737,
+   "incomplete": 0,
+   "labeled": 98,
+   "n_stage1": 30,
+   "n_stage2": 68,
+   "qualified": 37,
+   "qualified_stage1": 12,
+   "qualified_stage2": 25,
+   "queue_left": 202,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 5,
+     "material": 4,
+     "shape": 3
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "other": 2,
+    "room": 5,
+    "white": 30
+   },
+   "single_item_labeled": 37,
+   "single_item_yes_conf2": 29,
+   "stage1_claude_pos_rate": 0.4,
+   "stage1_n": 30,
+   "stage1_qualified": 12,
+   "stage1_qualified_rate": 0.4,
+   "stage2_claude_pos_rate": 0.3824,
+   "stage2_n": 68,
+   "stage2_qualified": 25,
+   "stage2_qualified_rate": 0.3676,
+   "status": "達標",
+   "target": 26
+  },
+  "traditional|table": {
+   "attrs": {
+    "color": {
+     "n_no_majority": 0,
+     "n_values": 7,
+     "values": {
+      "beige/cream": 1,
+      "black": 3,
+      "blue": 1,
+      "brown": 23,
+      "metallic": 2,
+      "natural wood": 1,
+      "white": 2
+     }
+    },
+    "material": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "metal": 2,
+      "stone/ceramic/concrete": 1,
+      "wood": 30
+     }
+    },
+    "shape": {
+     "n_no_majority": 0,
+     "n_values": 3,
+     "values": {
+      "curved": 4,
+      "rectilinear": 17,
+      "round": 12
+     }
+    }
+   },
+   "claude_pos": 34,
+   "confirm_rate": 0.9706,
+   "incomplete": 0,
+   "labeled": 85,
+   "n_stage1": 30,
+   "n_stage2": 55,
+   "qualified": 33,
+   "qualified_stage1": 11,
+   "qualified_stage2": 22,
+   "queue_left": 215,
+   "queue_total": 270,
+   "scenario2": {
+    "free_dims": {
+     "color": 7,
+     "material": 3,
+     "shape": 3
+    },
+    "n_free": 3
+   },
+   "scene": {
+    "room": 8,
+    "white": 25
+   },
+   "single_item_labeled": 33,
+   "single_item_yes_conf2": 31,
+   "stage1_claude_pos_rate": 0.3667,
+   "stage1_n": 30,
+   "stage1_qualified": 11,
+   "stage1_qualified_rate": 0.3667,
+   "stage2_claude_pos_rate": 0.4182,
+   "stage2_n": 55,
+   "stage2_qualified": 22,
+   "stage2_qualified_rate": 0.4,
+   "status": "達標",
+   "target": 26
+  }
+ },
+ "consistency": {
+  "stage1_27cells": {
+   "dims": {
+    "category": {
+     "kappa": 0.9333033139827925,
+     "n": 796,
+     "pairs": {
+      "claude-gemma": 0.9334170854271356,
+      "claude-qwen": 0.9484924623115578,
+      "qwen-gemma": 0.9535175879396985
+     }
+    },
+    "color": {
+     "kappa": 0.7140449072073106,
+     "n": 796,
+     "pairs": {
+      "claude-gemma": 0.6984924623115578,
+      "claude-qwen": 0.7663316582914573,
+      "qwen-gemma": 0.7826633165829145
+     }
+    },
+    "material": {
+     "kappa": 0.787084539771663,
+     "n": 796,
+     "pairs": {
+      "claude-gemma": 0.7914572864321608,
+      "claude-qwen": 0.8065326633165829,
+      "qwen-gemma": 0.8831658291457286
+     }
+    },
+    "shape": {
+     "kappa": 0.718200967500005,
+     "n": 796,
+     "pairs": {
+      "claude-gemma": 0.7701005025125628,
+      "claude-qwen": 0.8580402010050251,
+      "qwen-gemma": 0.785175879396985
+     }
+    },
+    "style": {
+     "kappa": 0.6720797258950187,
+     "n": 796,
+     "pairs": {
+      "claude-gemma": 0.6846733668341709,
+      "claude-qwen": 0.6796482412060302,
+      "qwen-gemma": 0.7587939698492462
+     }
+    }
+   },
+   "n_all3_ok": 796,
+   "n_items": 810
+  },
+  "stage2_new": {
+   "dims": {
+    "category": {
+     "kappa": 0.9344391187956443,
+     "n": 1831,
+     "pairs": {
+      "claude-gemma": 0.9377389404696886,
+      "claude-qwen": 0.9519388312397596,
+      "qwen-gemma": 0.9568541780447842
+     }
+    },
+    "color": {
+     "kappa": 0.695868269160461,
+     "n": 1831,
+     "pairs": {
+      "claude-gemma": 0.681594756963408,
+      "claude-qwen": 0.7307482250136538,
+      "qwen-gemma": 0.7853631895139268
+     }
+    },
+    "material": {
+     "kappa": 0.7520754103831236,
+     "n": 1831,
+     "pairs": {
+      "claude-gemma": 0.7673402512288368,
+      "claude-qwen": 0.7766247951938832,
+      "qwen-gemma": 0.85800109229929
+     }
+    },
+    "shape": {
+     "kappa": 0.6395190226472547,
+     "n": 1831,
+     "pairs": {
+      "claude-gemma": 0.718186783178591,
+      "claude-qwen": 0.8301474604041508,
+      "qwen-gemma": 0.7187329328235936
+     }
+    },
+    "style": {
+     "kappa": 0.6146174743974026,
+     "n": 1831,
+     "pairs": {
+      "claude-gemma": 0.638995084653195,
+      "claude-qwen": 0.622610595303113,
+      "qwen-gemma": 0.7056253413435282
+     }
+    }
+   },
+   "n_all3_ok": 1831,
+   "n_items": 1864
+  }
+ },
+ "cost": {
+  "budget_usd": 40.0,
+  "claude_main": {
+   "cache_creation_tokens": 1195313,
+   "calls": 97,
+   "limited_calls": 0,
+   "output_tokens": 377536,
+   "per_item_usd": 0.00926,
+   "usd": 17.2673
+  },
+  "claude_single_item": {
+   "cache_creation_tokens": 578322,
+   "calls": 46,
+   "limited_calls": 0,
+   "output_tokens": 38898,
+   "per_item_usd": 0.00607,
+   "usd": 5.4049
+  },
+  "claude_total_usd": 22.6722,
+  "local": {
+   "gemma": {
+    "failed": 33,
+    "n": 1864,
+    "sec_per_item": 3.77,
+    "total_hours": 1.954
+   },
+   "qwen": {
+    "failed": 0,
+    "n": 1864,
+    "sec_per_item": 8.67,
+    "total_hours": 4.49
+   }
+  },
+  "n_single_labeled": 891,
+  "n_stage2_items": 1864
+ },
+ "failed_annotations_in_complete_items": {
+  "claude": 0,
+  "gemma": 47,
+  "qwen": 0
+ },
+ "summary": {
+  "cells_met": [
+   "mid_century|chair",
+   "mid_century|table",
+   "mid_century|lamp",
+   "mid_century|chandelier_pendant",
+   "mid_century|wall_art",
+   "industrial|chair",
+   "industrial|table",
+   "industrial|lamp",
+   "industrial|chandelier_pendant",
+   "industrial|wall_art",
+   "farmhouse_rustic|chair",
+   "farmhouse_rustic|table",
+   "farmhouse_rustic|lamp",
+   "farmhouse_rustic|chandelier_pendant",
+   "farmhouse_rustic|wall_art",
+   "boho|chair",
+   "boho|lamp",
+   "boho|chandelier_pendant",
+   "boho|wall_art",
+   "coastal|chair",
+   "coastal|table",
+   "coastal|lamp",
+   "coastal|wall_art",
+   "traditional|chair",
+   "traditional|table",
+   "traditional|lamp",
+   "traditional|chandelier_pendant"
+  ],
+  "cells_short": [],
+  "qualified_total": 891,
+  "single_item_candidates_total": 706,
+  "target_total": 637
+ },
+ "total": {
+  "cells_done": 27,
+  "labeled_total": 2674,
+  "n_cells": 27,
+  "qualified_total": 891,
+  "topup_rounds_done": 1
+ }
+}

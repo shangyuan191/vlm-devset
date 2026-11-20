@@ -1,0 +1,1200 @@
+{
+ "n_qualified_total": 881,
+ "dropped": [
+  {
+   "qid": "item_0935-T3-c08",
+   "reasons": {
+    "合格不足 12": 200
+   }
+  },
+  {
+   "qid": "item_1851-T3-c12",
+   "reasons": {
+    "合格不足 12": 200
+   }
+  },
+  {
+   "qid": "item_0193-T3-c14",
+   "reasons": {
+    "合格不足 12": 200
+   }
+  }
+ ],
+ "relaxed": [
+  {
+   "qid": "item_1737-T3-c04",
+   "notes": [
+    "屬性陷阱只有 9 件，用風格 X 其他品項且 material=wood 的合格商品補 3 件"
+   ]
+  },
+  {
+   "qid": "item_2235-T3-c04",
+   "notes": [
+    "屬性陷阱只有 10 件，用風格 X 其他品項且 material=wood 的合格商品補 2 件"
+   ]
+  },
+  {
+   "qid": "item_0200-T3-c04",
+   "notes": [
+    "屬性陷阱只有 9 件，用風格 X 其他品項且 material=wood 的合格商品補 3 件"
+   ]
+  },
+  {
+   "qid": "item_2220-T3-c07",
+   "notes": [
+    "風格陷阱只有 5 件 color=natural wood，放寬為 color 任意補 3 件"
+   ]
+  },
+  {
+   "qid": "item_1956-T3-c07",
+   "notes": [
+    "風格陷阱只有 5 件 color=natural wood，放寬為 color 任意補 3 件"
+   ]
+  },
+  {
+   "qid": "item_1611-T3-c07",
+   "notes": [
+    "風格陷阱只有 5 件 color=natural wood，放寬為 color 任意補 3 件"
+   ]
+  },
+  {
+   "qid": "item_1172-T3-c11",
+   "notes": [
+    "屬性陷阱只有 11 件，用風格 X 其他品項且 material=rattan/wicker/rope 的合格商品補 1 件",
+    "風格陷阱只有 7 件 material=rattan/wicker/rope，放寬為 material 任意補 1 件"
+   ]
+  },
+  {
+   "qid": "item_0314-T3-c11",
+   "notes": [
+    "屬性陷阱只有 11 件，用風格 X 其他品項且 material=rattan/wicker/rope 的合格商品補 1 件",
+    "風格陷阱只有 7 件 material=rattan/wicker/rope，放寬為 material 任意補 1 件"
+   ]
+  },
+  {
+   "qid": "item_1161-T3-c11",
+   "notes": [
+    "屬性陷阱只有 11 件，用風格 X 其他品項且 material=rattan/wicker/rope 的合格商品補 1 件",
+    "風格陷阱只有 7 件 material=rattan/wicker/rope，放寬為 material 任意補 1 件"
+   ]
+  },
+  {
+   "qid": "item_0837-T3-c12",
+   "notes": [
+    "風格陷阱只有 1 件 material=rattan/wicker/rope，放寬為 material 任意補 7 件"
+   ]
+  },
+  {
+   "qid": "item_2254-T3-c12",
+   "notes": [
+    "風格陷阱只有 1 件 material=rattan/wicker/rope，放寬為 material 任意補 7 件"
+   ]
+  },
+  {
+   "qid": "item_1255-T3-c13",
+   "notes": [
+    "風格陷阱只有 1 件 color=beige/cream，放寬為 color 任意補 7 件"
+   ]
+  },
+  {
+   "qid": "item_0793-T3-c13",
+   "notes": [
+    "風格陷阱只有 1 件 color=beige/cream，放寬為 color 任意補 7 件"
+   ]
+  },
+  {
+   "qid": "item_1555-T3-c13",
+   "notes": [
+    "風格陷阱只有 1 件 color=beige/cream，放寬為 color 任意補 7 件"
+   ]
+  },
+  {
+   "qid": "item_1639-T3-c18",
+   "notes": [
+    "屬性陷阱只有 10 件，用風格 X 其他品項且 color=brown 的合格商品補 2 件"
+   ]
+  },
+  {
+   "qid": "item_1060-T3-c18",
+   "notes": [
+    "屬性陷阱只有 10 件，用風格 X 其他品項且 color=brown 的合格商品補 2 件"
+   ]
+  },
+  {
+   "qid": "item_1747-T3-c18",
+   "notes": [
+    "屬性陷阱只有 10 件，用風格 X 其他品項且 color=brown 的合格商品補 2 件"
+   ]
+  }
+ ],
+ "combos": [
+  {
+   "cell": "mid_century|chair",
+   "attr": "material",
+   "value": "fabric",
+   "n": 18,
+   "total": 41,
+   "excluded": 0.561,
+   "other_nd": {
+    "color": 7,
+    "shape": 2
+   },
+   "n_strict_queries": 9,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "mid_century|table",
+   "attr": "color",
+   "value": "natural wood",
+   "n": 17,
+   "total": 39,
+   "excluded": 0.564,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "n_strict_queries": 15,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "mid_century|chandelier_pendant",
+   "attr": "color",
+   "value": "metallic",
+   "n": 29,
+   "total": 42,
+   "excluded": 0.31,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "n_strict_queries": 30,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "industrial|chair",
+   "attr": "color",
+   "value": "black",
+   "n": 25,
+   "total": 66,
+   "excluded": 0.621,
+   "other_nd": {
+    "material": 2,
+    "shape": 2
+   },
+   "n_strict_queries": 11,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "industrial|table",
+   "attr": "material",
+   "value": "wood",
+   "n": 22,
+   "total": 32,
+   "excluded": 0.312,
+   "other_nd": {
+    "color": 3,
+    "shape": 2
+   },
+   "n_strict_queries": 6,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "industrial|table",
+   "attr": "color",
+   "value": "natural wood",
+   "n": 19,
+   "total": 32,
+   "excluded": 0.406,
+   "other_nd": {
+    "material": 2,
+    "shape": 2
+   },
+   "n_strict_queries": 6,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "farmhouse_rustic|chair",
+   "attr": "color",
+   "value": "brown",
+   "n": 12,
+   "total": 51,
+   "excluded": 0.765,
+   "other_nd": {
+    "material": 2,
+    "shape": 2
+   },
+   "n_strict_queries": 11,
+   "n_questions": 2,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "farmhouse_rustic|chair",
+   "attr": "color",
+   "value": "natural wood",
+   "n": 15,
+   "total": 51,
+   "excluded": 0.706,
+   "other_nd": {
+    "material": 2,
+    "shape": 2
+   },
+   "n_strict_queries": 11,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "farmhouse_rustic|lamp",
+   "attr": "material",
+   "value": "metal",
+   "n": 12,
+   "total": 37,
+   "excluded": 0.676,
+   "other_nd": {
+    "color": 4,
+    "shape": 4
+   },
+   "n_strict_queries": 5,
+   "n_questions": 2,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "farmhouse_rustic|lamp",
+   "attr": "material",
+   "value": "wood",
+   "n": 18,
+   "total": 37,
+   "excluded": 0.514,
+   "other_nd": {
+    "color": 5,
+    "shape": 3
+   },
+   "n_strict_queries": 5,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "farmhouse_rustic|chandelier_pendant",
+   "attr": "color",
+   "value": "natural wood",
+   "n": 18,
+   "total": 33,
+   "excluded": 0.455,
+   "other_nd": {
+    "material": 3,
+    "shape": 5
+   },
+   "n_strict_queries": 13,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "boho|chair",
+   "attr": "material",
+   "value": "rattan/wicker/rope",
+   "n": 22,
+   "total": 33,
+   "excluded": 0.333,
+   "other_nd": {
+    "color": 6,
+    "shape": 3
+   },
+   "n_strict_queries": 18,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "boho|lamp",
+   "attr": "material",
+   "value": "rattan/wicker/rope",
+   "n": 12,
+   "total": 29,
+   "excluded": 0.586,
+   "other_nd": {
+    "color": 5,
+    "shape": 3
+   },
+   "n_strict_queries": 3,
+   "n_questions": 2,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "boho|chandelier_pendant",
+   "attr": "color",
+   "value": "beige/cream",
+   "n": 20,
+   "total": 34,
+   "excluded": 0.412,
+   "other_nd": {
+    "material": 2,
+    "shape": 4
+   },
+   "n_strict_queries": 10,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "coastal|chair",
+   "attr": "color",
+   "value": "blue",
+   "n": 12,
+   "total": 30,
+   "excluded": 0.6,
+   "other_nd": {
+    "material": 3,
+    "shape": 2
+   },
+   "n_strict_queries": 5,
+   "n_questions": 2,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "coastal|chair",
+   "attr": "color",
+   "value": "white",
+   "n": 12,
+   "total": 30,
+   "excluded": 0.6,
+   "other_nd": {
+    "material": 4,
+    "shape": 2
+   },
+   "n_strict_queries": 5,
+   "n_questions": 2,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "coastal|table",
+   "attr": "material",
+   "value": "wood",
+   "n": 16,
+   "total": 32,
+   "excluded": 0.5,
+   "other_nd": {
+    "color": 4,
+    "shape": 3
+   },
+   "n_strict_queries": 13,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "coastal|table",
+   "attr": "color",
+   "value": "white",
+   "n": 14,
+   "total": 32,
+   "excluded": 0.562,
+   "other_nd": {
+    "material": 3,
+    "shape": 3
+   },
+   "n_strict_queries": 13,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "traditional|table",
+   "attr": "color",
+   "value": "brown",
+   "n": 23,
+   "total": 33,
+   "excluded": 0.303,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "n_strict_queries": 18,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "traditional|lamp",
+   "attr": "material",
+   "value": "metal",
+   "n": 23,
+   "total": 36,
+   "excluded": 0.361,
+   "other_nd": {
+    "color": 3,
+    "shape": 2
+   },
+   "n_strict_queries": 10,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "traditional|lamp",
+   "attr": "color",
+   "value": "brown",
+   "n": 13,
+   "total": 36,
+   "excluded": 0.639,
+   "other_nd": {
+    "material": 5,
+    "shape": 3
+   },
+   "n_strict_queries": 10,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "traditional|lamp",
+   "attr": "color",
+   "value": "metallic",
+   "n": 17,
+   "total": 36,
+   "excluded": 0.528,
+   "other_nd": {
+    "material": 3,
+    "shape": 2
+   },
+   "n_strict_queries": 10,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  },
+  {
+   "cell": "traditional|chandelier_pendant",
+   "attr": "color",
+   "value": "metallic",
+   "n": 22,
+   "total": 34,
+   "excluded": 0.353,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "n_strict_queries": 12,
+   "n_questions": 3,
+   "used_loose_queries": 0
+  }
+ ],
+ "combos_rejected": [
+  {
+   "cell": "mid_century|chair",
+   "attr": "material",
+   "value": "plastic/acrylic",
+   "n": 10,
+   "total": 41,
+   "excluded": 0.756,
+   "other_nd": {
+    "color": 5,
+    "shape": 1
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "mid_century|chair",
+   "attr": "color",
+   "value": "blue",
+   "n": 8,
+   "total": 41,
+   "excluded": 0.805,
+   "other_nd": {
+    "material": 3,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "mid_century|table",
+   "attr": "material",
+   "value": "wood",
+   "n": 34,
+   "total": 39,
+   "excluded": 0.128,
+   "other_nd": {
+    "color": 6,
+    "shape": 3
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "mid_century|table",
+   "attr": "color",
+   "value": "brown",
+   "n": 9,
+   "total": 39,
+   "excluded": 0.769,
+   "other_nd": {
+    "material": 1,
+    "shape": 3
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "mid_century|lamp",
+   "attr": "material",
+   "value": "metal",
+   "n": 27,
+   "total": 29,
+   "excluded": 0.069,
+   "other_nd": {
+    "color": 4,
+    "shape": 4
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "mid_century|lamp",
+   "attr": "color",
+   "value": "metallic",
+   "n": 22,
+   "total": 29,
+   "excluded": 0.241,
+   "other_nd": {
+    "material": 1,
+    "shape": 4
+   },
+   "why": [
+    "排除比例<30%",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "mid_century|chandelier_pendant",
+   "attr": "material",
+   "value": "metal",
+   "n": 38,
+   "total": 42,
+   "excluded": 0.095,
+   "other_nd": {
+    "color": 2,
+    "shape": 4
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "mid_century|chandelier_pendant",
+   "attr": "color",
+   "value": "black",
+   "n": 13,
+   "total": 42,
+   "excluded": 0.69,
+   "other_nd": {
+    "material": 1,
+    "shape": 2
+   },
+   "why": [
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|chair",
+   "attr": "material",
+   "value": "metal",
+   "n": 60,
+   "total": 66,
+   "excluded": 0.091,
+   "other_nd": {
+    "color": 8,
+    "shape": 2
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "industrial|chair",
+   "attr": "color",
+   "value": "metallic",
+   "n": 18,
+   "total": 66,
+   "excluded": 0.727,
+   "other_nd": {
+    "material": 1,
+    "shape": 2
+   },
+   "why": [
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|chair",
+   "attr": "color",
+   "value": "white",
+   "n": 9,
+   "total": 66,
+   "excluded": 0.864,
+   "other_nd": {
+    "material": 1,
+    "shape": 2
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|table",
+   "attr": "material",
+   "value": "metal",
+   "n": 9,
+   "total": 32,
+   "excluded": 0.719,
+   "other_nd": {
+    "color": 2,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "industrial|table",
+   "attr": "color",
+   "value": "black",
+   "n": 8,
+   "total": 32,
+   "excluded": 0.75,
+   "other_nd": {
+    "material": 1,
+    "shape": 2
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|lamp",
+   "attr": "material",
+   "value": "metal",
+   "n": 30,
+   "total": 31,
+   "excluded": 0.032,
+   "other_nd": {
+    "color": 5,
+    "shape": 5
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "industrial|lamp",
+   "attr": "color",
+   "value": "black",
+   "n": 18,
+   "total": 31,
+   "excluded": 0.419,
+   "other_nd": {
+    "material": 1,
+    "shape": 5
+   },
+   "why": [
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|lamp",
+   "attr": "color",
+   "value": "metallic",
+   "n": 9,
+   "total": 31,
+   "excluded": 0.71,
+   "other_nd": {
+    "material": 1,
+    "shape": 5
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|chandelier_pendant",
+   "attr": "material",
+   "value": "metal",
+   "n": 33,
+   "total": 37,
+   "excluded": 0.108,
+   "other_nd": {
+    "color": 2,
+    "shape": 5
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "industrial|chandelier_pendant",
+   "attr": "color",
+   "value": "black",
+   "n": 26,
+   "total": 37,
+   "excluded": 0.297,
+   "other_nd": {
+    "material": 1,
+    "shape": 5
+   },
+   "why": [
+    "排除比例<30%",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "industrial|chandelier_pendant",
+   "attr": "color",
+   "value": "metallic",
+   "n": 10,
+   "total": 37,
+   "excluded": 0.73,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "farmhouse_rustic|chair",
+   "attr": "material",
+   "value": "wood",
+   "n": 47,
+   "total": 51,
+   "excluded": 0.078,
+   "other_nd": {
+    "color": 7,
+    "shape": 2
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "farmhouse_rustic|chair",
+   "attr": "color",
+   "value": "white",
+   "n": 14,
+   "total": 51,
+   "excluded": 0.725,
+   "other_nd": {
+    "material": 1,
+    "shape": 2
+   },
+   "why": [
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "farmhouse_rustic|table",
+   "attr": "material",
+   "value": "wood",
+   "n": 30,
+   "total": 30,
+   "excluded": 0.0,
+   "other_nd": {
+    "color": 5,
+    "shape": 3
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "farmhouse_rustic|table",
+   "attr": "color",
+   "value": "natural wood",
+   "n": 14,
+   "total": 30,
+   "excluded": 0.533,
+   "other_nd": {
+    "material": 1,
+    "shape": 2
+   },
+   "why": [
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "farmhouse_rustic|lamp",
+   "attr": "color",
+   "value": "brown",
+   "n": 11,
+   "total": 37,
+   "excluded": 0.703,
+   "other_nd": {
+    "material": 3,
+    "shape": 3
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "farmhouse_rustic|chandelier_pendant",
+   "attr": "material",
+   "value": "wood",
+   "n": 24,
+   "total": 33,
+   "excluded": 0.273,
+   "other_nd": {
+    "color": 4,
+    "shape": 5
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "boho|chair",
+   "attr": "material",
+   "value": "fabric",
+   "n": 11,
+   "total": 33,
+   "excluded": 0.667,
+   "other_nd": {
+    "color": 5,
+    "shape": 1
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "boho|chair",
+   "attr": "color",
+   "value": "beige/cream",
+   "n": 10,
+   "total": 33,
+   "excluded": 0.697,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "boho|chair",
+   "attr": "color",
+   "value": "white",
+   "n": 10,
+   "total": 33,
+   "excluded": 0.697,
+   "other_nd": {
+    "material": 2,
+    "shape": 3
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "boho|lamp",
+   "attr": "color",
+   "value": "multicolor",
+   "n": 12,
+   "total": 29,
+   "excluded": 0.586,
+   "other_nd": {
+    "material": 4,
+    "shape": 1
+   },
+   "why": [
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "boho|chandelier_pendant",
+   "attr": "material",
+   "value": "rattan/wicker/rope",
+   "n": 33,
+   "total": 34,
+   "excluded": 0.029,
+   "other_nd": {
+    "color": 6,
+    "shape": 4
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "boho|chandelier_pendant",
+   "attr": "color",
+   "value": "natural wood",
+   "n": 9,
+   "total": 34,
+   "excluded": 0.735,
+   "other_nd": {
+    "material": 1,
+    "shape": 3
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "coastal|chair",
+   "attr": "material",
+   "value": "plastic/acrylic",
+   "n": 9,
+   "total": 30,
+   "excluded": 0.7,
+   "other_nd": {
+    "color": 3,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "coastal|chair",
+   "attr": "material",
+   "value": "wood",
+   "n": 8,
+   "total": 30,
+   "excluded": 0.733,
+   "other_nd": {
+    "color": 3,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "coastal|table",
+   "attr": "material",
+   "value": "glass",
+   "n": 8,
+   "total": 32,
+   "excluded": 0.75,
+   "other_nd": {
+    "color": 5,
+    "shape": 1
+   },
+   "why": [
+    "n<12",
+    "另兩屬性值數<2"
+   ]
+  },
+  {
+   "cell": "coastal|table",
+   "attr": "color",
+   "value": "blue",
+   "n": 8,
+   "total": 32,
+   "excluded": 0.75,
+   "other_nd": {
+    "material": 3,
+    "shape": 3
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "coastal|lamp",
+   "attr": "material",
+   "value": "stone/ceramic/concrete",
+   "n": 8,
+   "total": 26,
+   "excluded": 0.692,
+   "other_nd": {
+    "color": 4,
+    "shape": 3
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "traditional|chair",
+   "attr": "material",
+   "value": "fabric",
+   "n": 10,
+   "total": 30,
+   "excluded": 0.667,
+   "other_nd": {
+    "color": 4,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "traditional|chair",
+   "attr": "material",
+   "value": "leather",
+   "n": 10,
+   "total": 30,
+   "excluded": 0.667,
+   "other_nd": {
+    "color": 3,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "traditional|chair",
+   "attr": "material",
+   "value": "wood",
+   "n": 9,
+   "total": 30,
+   "excluded": 0.7,
+   "other_nd": {
+    "color": 4,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "traditional|chair",
+   "attr": "color",
+   "value": "brown",
+   "n": 11,
+   "total": 30,
+   "excluded": 0.633,
+   "other_nd": {
+    "material": 2,
+    "shape": 2
+   },
+   "why": [
+    "n<12"
+   ]
+  },
+  {
+   "cell": "traditional|table",
+   "attr": "material",
+   "value": "wood",
+   "n": 30,
+   "total": 33,
+   "excluded": 0.091,
+   "other_nd": {
+    "color": 6,
+    "shape": 3
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  },
+  {
+   "cell": "traditional|chandelier_pendant",
+   "attr": "material",
+   "value": "metal",
+   "n": 33,
+   "total": 34,
+   "excluded": 0.029,
+   "other_nd": {
+    "color": 5,
+    "shape": 3
+   },
+   "why": [
+    "排除比例<30%"
+   ]
+  }
+ ],
+ "n_questions": {
+  "T4": 108,
+  "T3": 64,
+  "T3|mid_century|chair": 3,
+  "T3|mid_century|table": 3,
+  "T3|mid_century|chandelier_pendant": 3,
+  "T3|industrial|chair": 3,
+  "T3|industrial|table": 6,
+  "T3|farmhouse_rustic|chair": 5,
+  "T3|farmhouse_rustic|lamp": 5,
+  "T3|farmhouse_rustic|chandelier_pendant": 3,
+  "T3|boho|chair": 3,
+  "T3|boho|lamp": 2,
+  "T3|boho|chandelier_pendant": 3,
+  "T3|coastal|chair": 4,
+  "T3|coastal|table": 6,
+  "T3|traditional|table": 3,
+  "T3|traditional|lamp": 9,
+  "T3|traditional|chandelier_pendant": 3
+ },
+ "F_size": {
+  "T4": {
+   "4": 108
+  },
+  "T3": {
+   "2": 64
+  }
+ },
+ "n_d": {
+  "T4|category": {
+   "3": 48,
+   "4": 60
+  },
+  "T4|color": {
+   "6": 33,
+   "7": 15,
+   "5": 29,
+   "4": 20,
+   "8": 3,
+   "3": 7,
+   "9": 1
+  },
+  "T4|material": {
+   "4": 33,
+   "5": 15,
+   "3": 31,
+   "6": 11,
+   "2": 15,
+   "7": 2,
+   "8": 1
+  },
+  "T4|shape": {
+   "3": 66,
+   "4": 35,
+   "5": 2,
+   "2": 5
+  },
+  "T3|color": {
+   "6": 3,
+   "3": 6,
+   "4": 7,
+   "5": 6
+  },
+  "T3|shape": {
+   "2": 34,
+   "3": 23,
+   "4": 6,
+   "5": 1
+  },
+  "T3|material": {
+   "2": 31,
+   "3": 6,
+   "4": 2,
+   "5": 3
+  }
+ },
+ "query_relaxed": [],
+ "n_combos": 23,
+ "n_cells_with_combo": 16,
+ "n_questions_total": 388,
+ "n_t3_queries_unique": 59
+}

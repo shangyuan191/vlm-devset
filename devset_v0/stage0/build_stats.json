@@ -1,0 +1,286 @@
+{
+ "seed": 0,
+ "keep": 300,
+ "reserve": 40,
+ "jaccard": 0.8,
+ "path_rules": {
+  "chair": "^Furniture > Living Room Furniture > Chairs$|^Furniture > Dining Room Furniture > Chairs$|^Furniture > Home Office Furniture > Home Office Chairs( > Home Office Desk Chairs)?$|^Patio Furniture & Accessories > Patio Seating > Chairs( > (Patio Dining Chairs|Lounge Chairs|Adirondack Chairs|Rocking Chairs|Sling Chairs))?$|^Patio Furniture & Accessories > Outdoor Furniture > Chairs$|^Patio Furniture & Accessories > Hammocks, Stands & Accessories > Hammock Chairs$|^Home & Kitchen > Furniture > Living Room Furniture > Chairs$",
+  "table": "^Furniture > Living Room Furniture > Tables( > (End Tables|Coffee Tables|Sofa & Console Tables|Nesting Tables|Pedestal Tables|Telephone Tables))?$|^Furniture > Dining Room Furniture > Tables$|^Patio Furniture & Accessories > Tables( > (Side Tables|Dining Tables|Coffee Tables|Bar Tables|Bistro Tables))?$|^Home & Kitchen > Furniture > Living Room Furniture > Tables$",
+  "lamp": "^Lighting & Ceiling Fans > Lamps & Shades > (Table Lamps|Floor Lamps)$|^Home & Kitchen > Lighting > Lamps > (Bedside & Table Lamps|Floor Lamps)$",
+  "chandelier_pendant": "^Lighting & Ceiling Fans > Ceiling Lights > (Pendant Lights|Chandeliers|Island Lights)$|^Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Pendant Lights$",
+  "wall_art": "^Wall Art( > (Posters & Prints|Paintings|Photographs|Mixed Media))?$|^Home & Kitchen > Artwork > (Prints|Photographs|Paintings|Posters|Mixed Media)$|^Home D[ée]cor Products > Tapestries$|^Home & Kitchen > Home D[ée]cor > Tapestries$|^Home D[ée]cor Products > Home D[ée]cor Accents > Sculptures > Wall Sculptures$"
+ },
+ "title_exclude": {
+  "chair": "\\bmassag|\\bpower lift\\b|\\blift (chair|recliner)s?\\b|\\bheat(ed|ing)?\\b|\\bstools?\\b|\\b(table|desk)s?\\s+(and|&|with)\\s+(\\d+\\s+)?chairs?\\b|\\bchairs?\\s+(and|&|with)\\s+(a\\s+)?(table|desk)\\b|\\b(dining|bistro|conversation|patio)\\s+sets?\\b|\\b(chair|seat)\\s+(pad|cushion|cover)s?\\b|\\bslipcovers?\\b|\\breplacement\\b",
+  "table": "\\bchairs?\\b|\\bstools?\\b|\\bbench(es)?\\b|\\b(dining|bistro|dinette)\\s+sets?\\b|\\btable\\s*(cloth|cover|runner|legs?|top only|pad|protector)s?\\b|\\btablecloths?\\b|\\breplacement\\b",
+  "lamp": "\\blamp\\s*shades?\\b(?!.*\\b(table|floor)\\s+lamp)|\\breplacement\\b|\\b(harp|finial)s?\\b|\\bbulbs? only\\b",
+  "chandelier_pendant": "\\breplacement\\b|\\b(shade|cord|chain|canopy)\\s+(only|kit|set)\\b|\\blight kit\\b|\\bceiling fans?\\b",
+  "wall_art": "\\b(decal|sticker)s?\\b|\\bwall\\s*paper\\b|\\bframes?\\s+only\\b"
+ },
+ "cells": {
+  "mid_century|chair": {
+   "kw_hits": 3427,
+   "title_dups_removed": 881,
+   "after_title_dedup": 2546,
+   "to_download": 340
+  },
+  "mid_century|table": {
+   "kw_hits": 1129,
+   "title_dups_removed": 154,
+   "after_title_dedup": 975,
+   "to_download": 340
+  },
+  "mid_century|lamp": {
+   "kw_hits": 505,
+   "title_dups_removed": 56,
+   "after_title_dedup": 449,
+   "to_download": 340
+  },
+  "mid_century|chandelier_pendant": {
+   "kw_hits": 577,
+   "title_dups_removed": 62,
+   "after_title_dedup": 515,
+   "to_download": 340
+  },
+  "mid_century|wall_art": {
+   "kw_hits": 487,
+   "title_dups_removed": 79,
+   "after_title_dedup": 408,
+   "to_download": 340
+  },
+  "industrial|chair": {
+   "kw_hits": 219,
+   "title_dups_removed": 41,
+   "after_title_dedup": 178,
+   "to_download": 178
+  },
+  "industrial|table": {
+   "kw_hits": 1774,
+   "title_dups_removed": 225,
+   "after_title_dedup": 1549,
+   "to_download": 340
+  },
+  "industrial|lamp": {
+   "kw_hits": 1044,
+   "title_dups_removed": 142,
+   "after_title_dedup": 902,
+   "to_download": 340
+  },
+  "industrial|chandelier_pendant": {
+   "kw_hits": 2193,
+   "title_dups_removed": 247,
+   "after_title_dedup": 1946,
+   "to_download": 340
+  },
+  "industrial|wall_art": {
+   "kw_hits": 192,
+   "title_dups_removed": 28,
+   "after_title_dedup": 164,
+   "to_download": 164
+  },
+  "farmhouse_rustic|chair": {
+   "kw_hits": 947,
+   "title_dups_removed": 138,
+   "after_title_dedup": 809,
+   "to_download": 340
+  },
+  "farmhouse_rustic|table": {
+   "kw_hits": 3711,
+   "title_dups_removed": 488,
+   "after_title_dedup": 3223,
+   "to_download": 340
+  },
+  "farmhouse_rustic|lamp": {
+   "kw_hits": 1244,
+   "title_dups_removed": 172,
+   "after_title_dedup": 1072,
+   "to_download": 340
+  },
+  "farmhouse_rustic|chandelier_pendant": {
+   "kw_hits": 3596,
+   "title_dups_removed": 308,
+   "after_title_dedup": 3288,
+   "to_download": 340
+  },
+  "farmhouse_rustic|wall_art": {
+   "kw_hits": 9096,
+   "title_dups_removed": 919,
+   "after_title_dedup": 8177,
+   "to_download": 340
+  },
+  "boho|chair": {
+   "kw_hits": 115,
+   "title_dups_removed": 22,
+   "after_title_dedup": 93,
+   "to_download": 93
+  },
+  "boho|table": {
+   "kw_hits": 88,
+   "title_dups_removed": 10,
+   "after_title_dedup": 78,
+   "to_download": 78
+  },
+  "boho|lamp": {
+   "kw_hits": 194,
+   "title_dups_removed": 22,
+   "after_title_dedup": 172,
+   "to_download": 172
+  },
+  "boho|chandelier_pendant": {
+   "kw_hits": 195,
+   "title_dups_removed": 23,
+   "after_title_dedup": 172,
+   "to_download": 172
+  },
+  "boho|wall_art": {
+   "kw_hits": 6768,
+   "title_dups_removed": 1556,
+   "after_title_dedup": 5212,
+   "to_download": 340
+  },
+  "coastal|chair": {
+   "kw_hits": 177,
+   "title_dups_removed": 14,
+   "after_title_dedup": 163,
+   "to_download": 163
+  },
+  "coastal|table": {
+   "kw_hits": 201,
+   "title_dups_removed": 24,
+   "after_title_dedup": 177,
+   "to_download": 177
+  },
+  "coastal|lamp": {
+   "kw_hits": 443,
+   "title_dups_removed": 66,
+   "after_title_dedup": 377,
+   "to_download": 340
+  },
+  "coastal|chandelier_pendant": {
+   "kw_hits": 88,
+   "title_dups_removed": 10,
+   "after_title_dedup": 78,
+   "to_download": 78
+  },
+  "coastal|wall_art": {
+   "kw_hits": 2718,
+   "title_dups_removed": 226,
+   "after_title_dedup": 2492,
+   "to_download": 340
+  },
+  "traditional|chair": {
+   "kw_hits": 1195,
+   "title_dups_removed": 172,
+   "after_title_dedup": 1023,
+   "to_download": 340
+  },
+  "traditional|table": {
+   "kw_hits": 1546,
+   "title_dups_removed": 264,
+   "after_title_dedup": 1282,
+   "to_download": 340
+  },
+  "traditional|lamp": {
+   "kw_hits": 2081,
+   "title_dups_removed": 347,
+   "after_title_dedup": 1734,
+   "to_download": 340
+  },
+  "traditional|chandelier_pendant": {
+   "kw_hits": 1819,
+   "title_dups_removed": 253,
+   "after_title_dedup": 1566,
+   "to_download": 340
+  },
+  "traditional|wall_art": {
+   "kw_hits": 1570,
+   "title_dups_removed": 165,
+   "after_title_dedup": 1405,
+   "to_download": 340
+  },
+  "none|chair": {
+   "no_style_candidates": 17938,
+   "title_dups_removed_while_sampling": 4,
+   "to_download": 340
+  },
+  "none|table": {
+   "no_style_candidates": 8161,
+   "title_dups_removed_while_sampling": 30,
+   "to_download": 340
+  },
+  "none|lamp": {
+   "no_style_candidates": 8402,
+   "title_dups_removed_while_sampling": 21,
+   "to_download": 340
+  },
+  "none|chandelier_pendant": {
+   "no_style_candidates": 6453,
+   "title_dups_removed_while_sampling": 22,
+   "to_download": 340
+  },
+  "none|wall_art": {
+   "no_style_candidates": 140005,
+   "title_dups_removed_while_sampling": 2,
+   "to_download": 340
+  }
+ },
+ "c1_item_counts": {},
+ "excluded": {
+  "chandelier_pendant|path_not_whitelisted": 4928,
+  "table|path_not_whitelisted": 3285,
+  "lamp|path_not_whitelisted": 1905,
+  "wall_art|path_not_whitelisted": 1780,
+  "chair|path_not_whitelisted": 668,
+  "chair|title_exclude:chair": 407,
+  "lamp|title_exclude:lamp": 377,
+  "table|title_exclude:table": 247,
+  "chandelier_pendant|title_exclude:chandelier_pendant": 245,
+  "wall_art|title_exclude:wall_art": 50
+ },
+ "no_main_image": {
+  "wall_art": 260,
+  "chair": 37,
+  "table": 19,
+  "chandelier_pendant": 12,
+  "lamp": 10
+ },
+ "multi_target_style": {
+  "chandelier_pendant": 3192,
+  "table": 1745,
+  "wall_art": 1710,
+  "lamp": 1140,
+  "chair": 253
+ },
+ "c1_cell_hits_same_def": {
+  "farmhouse_rustic|wall_art": 11009,
+  "boho|wall_art": 8976,
+  "farmhouse_rustic|chandelier_pendant": 8786,
+  "farmhouse_rustic|table": 7924,
+  "industrial|chandelier_pendant": 6942,
+  "mid_century|chair": 3897,
+  "traditional|chandelier_pendant": 3885,
+  "industrial|table": 3506,
+  "traditional|lamp": 3478,
+  "coastal|wall_art": 3275,
+  "farmhouse_rustic|lamp": 2800,
+  "industrial|lamp": 2161,
+  "traditional|table": 2002,
+  "traditional|wall_art": 1864,
+  "traditional|chair": 1628,
+  "mid_century|table": 1518,
+  "farmhouse_rustic|chair": 1306,
+  "mid_century|chandelier_pendant": 1275,
+  "mid_century|wall_art": 904,
+  "mid_century|lamp": 773,
+  "coastal|lamp": 743,
+  "boho|chandelier_pendant": 639,
+  "boho|table": 595,
+  "industrial|chair": 423,
+  "boho|lamp": 413,
+  "coastal|table": 330,
+  "coastal|chandelier_pendant": 301,
+  "industrial|wall_art": 249,
+  "coastal|chair": 234,
+  "boho|chair": 202
+ }
+}

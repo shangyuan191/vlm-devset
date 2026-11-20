@@ -1,0 +1,205 @@
+{
+ "dropped": [],
+ "queries_per_cell": {
+  "mid_century|chair": {
+   "eligible": 9,
+   "used": 5
+  },
+  "mid_century|table": {
+   "eligible": 15,
+   "used": 5
+  },
+  "mid_century|lamp": {
+   "eligible": 10,
+   "used": 5
+  },
+  "mid_century|chandelier_pendant": {
+   "eligible": 30,
+   "used": 5
+  },
+  "industrial|chair": {
+   "eligible": 11,
+   "used": 5
+  },
+  "industrial|table": {
+   "eligible": 6,
+   "used": 5
+  },
+  "industrial|lamp": {
+   "eligible": 17,
+   "used": 5
+  },
+  "industrial|chandelier_pendant": {
+   "eligible": 16,
+   "used": 5
+  },
+  "farmhouse_rustic|chair": {
+   "eligible": 11,
+   "used": 5
+  },
+  "farmhouse_rustic|table": {
+   "eligible": 17,
+   "used": 5
+  },
+  "farmhouse_rustic|lamp": {
+   "eligible": 5,
+   "used": 5
+  },
+  "farmhouse_rustic|chandelier_pendant": {
+   "eligible": 13,
+   "used": 5
+  },
+  "boho|chair": {
+   "eligible": 18,
+   "used": 5
+  },
+  "boho|lamp": {
+   "eligible": 3,
+   "used": 3
+  },
+  "boho|chandelier_pendant": {
+   "eligible": 10,
+   "used": 5
+  },
+  "coastal|chair": {
+   "eligible": 5,
+   "used": 5
+  },
+  "coastal|table": {
+   "eligible": 13,
+   "used": 5
+  },
+  "coastal|lamp": {
+   "eligible": 13,
+   "used": 5
+  },
+  "traditional|chair": {
+   "eligible": 14,
+   "used": 5
+  },
+  "traditional|table": {
+   "eligible": 18,
+   "used": 5
+  },
+  "traditional|lamp": {
+   "eligible": 10,
+   "used": 5
+  },
+  "traditional|chandelier_pendant": {
+   "eligible": 12,
+   "used": 5
+  }
+ },
+ "n_questions": {
+  "S1|traditional|lamp": 5,
+  "S1": 108,
+  "S2|traditional|lamp": 5,
+  "S2": 108,
+  "S1|coastal|chair": 5,
+  "S2|coastal|chair": 5,
+  "S1|farmhouse_rustic|table": 5,
+  "S2|farmhouse_rustic|table": 5,
+  "S1|traditional|table": 5,
+  "S2|traditional|table": 5,
+  "S1|boho|chandelier_pendant": 5,
+  "S2|boho|chandelier_pendant": 5,
+  "S1|mid_century|lamp": 5,
+  "S2|mid_century|lamp": 5,
+  "S1|industrial|table": 5,
+  "S2|industrial|table": 5,
+  "S1|industrial|chandelier_pendant": 5,
+  "S2|industrial|chandelier_pendant": 5,
+  "S1|mid_century|chandelier_pendant": 5,
+  "S2|mid_century|chandelier_pendant": 5,
+  "S1|industrial|lamp": 5,
+  "S2|industrial|lamp": 5,
+  "S1|farmhouse_rustic|chandelier_pendant": 5,
+  "S2|farmhouse_rustic|chandelier_pendant": 5,
+  "S1|industrial|chair": 5,
+  "S2|industrial|chair": 5,
+  "S1|boho|chair": 5,
+  "S2|boho|chair": 5,
+  "S1|traditional|chandelier_pendant": 5,
+  "S2|traditional|chandelier_pendant": 5,
+  "S1|traditional|chair": 5,
+  "S2|traditional|chair": 5,
+  "S1|coastal|lamp": 5,
+  "S2|coastal|lamp": 5,
+  "S1|mid_century|chair": 5,
+  "S2|mid_century|chair": 5,
+  "S1|mid_century|table": 5,
+  "S2|mid_century|table": 5,
+  "S1|boho|lamp": 3,
+  "S2|boho|lamp": 3,
+  "S1|farmhouse_rustic|lamp": 5,
+  "S2|farmhouse_rustic|lamp": 5,
+  "S1|coastal|table": 5,
+  "S2|coastal|table": 5,
+  "S1|farmhouse_rustic|chair": 5,
+  "S2|farmhouse_rustic|chair": 5
+ },
+ "relaxed": [],
+ "n_d": {
+  "S1|category": {
+   "4": 48,
+   "5": 60
+  },
+  "S1|color": {
+   "5": 26,
+   "6": 37,
+   "4": 13,
+   "7": 21,
+   "3": 7,
+   "8": 4
+  },
+  "S1|material": {
+   "3": 29,
+   "6": 8,
+   "4": 47,
+   "7": 8,
+   "2": 5,
+   "5": 10,
+   "8": 1
+  },
+  "S1|shape": {
+   "3": 53,
+   "4": 46,
+   "2": 7,
+   "5": 2
+  },
+  "S2|color": {
+   "3": 21,
+   "4": 29,
+   "2": 11,
+   "5": 23,
+   "6": 14,
+   "7": 9,
+   "8": 1
+  },
+  "S2|material": {
+   "2": 37,
+   "3": 26,
+   "5": 4,
+   "4": 18
+  },
+  "S2|shape": {
+   "2": 48,
+   "3": 31,
+   "4": 22,
+   "5": 6
+  }
+ },
+ "F_size": {
+  "S1": {
+   "4": 108
+  },
+  "S2": {
+   "3": 84,
+   "2": 24
+  }
+ },
+ "attr_ties_to_claude": 191,
+ "n_queries": 108,
+ "n_questions_total": 216,
+ "n_retried": 71
+}

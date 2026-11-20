@@ -1,0 +1,323 @@
+{
+ "phash_threshold": 4,
+ "keep": 300,
+ "n_pool": 9022,
+ "n_pool_cells": 7522,
+ "n_pool_distractor": 1500,
+ "images_total_bytes_in_pool": 1126782645,
+ "images_total_bytes_on_disk": 1262250725,
+ "download_ok": 10115,
+ "download_failed_total": 0,
+ "cells": {
+  "mid_century|chair": {
+   "distractor": false,
+   "kw_hits": 3427,
+   "after_title_dedup": 2546,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 340
+  },
+  "mid_century|table": {
+   "distractor": false,
+   "kw_hits": 1129,
+   "after_title_dedup": 975,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 340
+  },
+  "mid_century|lamp": {
+   "distractor": false,
+   "kw_hits": 505,
+   "after_title_dedup": 449,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 340
+  },
+  "mid_century|chandelier_pendant": {
+   "distractor": false,
+   "kw_hits": 577,
+   "after_title_dedup": 515,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 340
+  },
+  "mid_century|wall_art": {
+   "distractor": false,
+   "kw_hits": 487,
+   "after_title_dedup": 408,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 0,
+   "downloaded_candidates": 340
+  },
+  "industrial|chair": {
+   "distractor": false,
+   "kw_hits": 219,
+   "after_title_dedup": 178,
+   "in_pool": 176,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 178
+  },
+  "industrial|table": {
+   "distractor": false,
+   "kw_hits": 1774,
+   "after_title_dedup": 1549,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 340
+  },
+  "industrial|lamp": {
+   "distractor": false,
+   "kw_hits": 1044,
+   "after_title_dedup": 902,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 340
+  },
+  "industrial|chandelier_pendant": {
+   "distractor": false,
+   "kw_hits": 2193,
+   "after_title_dedup": 1946,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 340
+  },
+  "industrial|wall_art": {
+   "distractor": false,
+   "kw_hits": 192,
+   "after_title_dedup": 164,
+   "in_pool": 161,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 164
+  },
+  "farmhouse_rustic|chair": {
+   "distractor": false,
+   "kw_hits": 947,
+   "after_title_dedup": 809,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 5,
+   "downloaded_candidates": 340
+  },
+  "farmhouse_rustic|table": {
+   "distractor": false,
+   "kw_hits": 3711,
+   "after_title_dedup": 3223,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 0,
+   "downloaded_candidates": 340
+  },
+  "farmhouse_rustic|lamp": {
+   "distractor": false,
+   "kw_hits": 1244,
+   "after_title_dedup": 1072,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 340
+  },
+  "farmhouse_rustic|chandelier_pendant": {
+   "distractor": false,
+   "kw_hits": 3596,
+   "after_title_dedup": 3288,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 340
+  },
+  "farmhouse_rustic|wall_art": {
+   "distractor": false,
+   "kw_hits": 9096,
+   "after_title_dedup": 8177,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 340
+  },
+  "boho|chair": {
+   "distractor": false,
+   "kw_hits": 115,
+   "after_title_dedup": 93,
+   "in_pool": 88,
+   "download_failed": 0,
+   "phash_dup_removed": 5,
+   "downloaded_candidates": 93
+  },
+  "boho|table": {
+   "distractor": false,
+   "kw_hits": 88,
+   "after_title_dedup": 78,
+   "in_pool": 77,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 78
+  },
+  "boho|lamp": {
+   "distractor": false,
+   "kw_hits": 194,
+   "after_title_dedup": 172,
+   "in_pool": 146,
+   "download_failed": 0,
+   "phash_dup_removed": 26,
+   "downloaded_candidates": 172
+  },
+  "boho|chandelier_pendant": {
+   "distractor": false,
+   "kw_hits": 195,
+   "after_title_dedup": 172,
+   "in_pool": 171,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 172
+  },
+  "boho|wall_art": {
+   "distractor": false,
+   "kw_hits": 6768,
+   "after_title_dedup": 5212,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 6,
+   "downloaded_candidates": 340
+  },
+  "coastal|chair": {
+   "distractor": false,
+   "kw_hits": 177,
+   "after_title_dedup": 163,
+   "in_pool": 153,
+   "download_failed": 0,
+   "phash_dup_removed": 10,
+   "downloaded_candidates": 163
+  },
+  "coastal|table": {
+   "distractor": false,
+   "kw_hits": 201,
+   "after_title_dedup": 177,
+   "in_pool": 173,
+   "download_failed": 0,
+   "phash_dup_removed": 4,
+   "downloaded_candidates": 177
+  },
+  "coastal|lamp": {
+   "distractor": false,
+   "kw_hits": 443,
+   "after_title_dedup": 377,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 7,
+   "downloaded_candidates": 340
+  },
+  "coastal|chandelier_pendant": {
+   "distractor": false,
+   "kw_hits": 88,
+   "after_title_dedup": 78,
+   "in_pool": 77,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 78
+  },
+  "coastal|wall_art": {
+   "distractor": false,
+   "kw_hits": 2718,
+   "after_title_dedup": 2492,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 0,
+   "downloaded_candidates": 340
+  },
+  "traditional|chair": {
+   "distractor": false,
+   "kw_hits": 1195,
+   "after_title_dedup": 1023,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 5,
+   "downloaded_candidates": 340
+  },
+  "traditional|table": {
+   "distractor": false,
+   "kw_hits": 1546,
+   "after_title_dedup": 1282,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 0,
+   "downloaded_candidates": 340
+  },
+  "traditional|lamp": {
+   "distractor": false,
+   "kw_hits": 2081,
+   "after_title_dedup": 1734,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 340
+  },
+  "traditional|chandelier_pendant": {
+   "distractor": false,
+   "kw_hits": 1819,
+   "after_title_dedup": 1566,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 4,
+   "downloaded_candidates": 340
+  },
+  "traditional|wall_art": {
+   "distractor": false,
+   "kw_hits": 1570,
+   "after_title_dedup": 1405,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 340
+  },
+  "none|chair": {
+   "distractor": true,
+   "no_style_candidates": 17938,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 340
+  },
+  "none|table": {
+   "distractor": true,
+   "no_style_candidates": 8161,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 4,
+   "downloaded_candidates": 340
+  },
+  "none|lamp": {
+   "distractor": true,
+   "no_style_candidates": 8402,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 3,
+   "downloaded_candidates": 340
+  },
+  "none|chandelier_pendant": {
+   "distractor": true,
+   "no_style_candidates": 6453,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 2,
+   "downloaded_candidates": 340
+  },
+  "none|wall_art": {
+   "distractor": true,
+   "no_style_candidates": 140005,
+   "in_pool": 300,
+   "download_failed": 0,
+   "phash_dup_removed": 1,
+   "downloaded_candidates": 340
+  }
+ }
+}

@@ -1,0 +1,2630 @@
+{
+ "n_sample": 900,
+ "annotators": {
+  "claude": "Claude Opus 5.5",
+  "qwen": "Qwen3.8-27B-FP8",
+  "gemma": "gemma-4-12b-it"
+ },
+ "annotation_status": {
+  "claude": {
+   "n_records": 900,
+   "n_ok": 900,
+   "n_failed": 0,
+   "n_missing": 0
+  },
+  "qwen": {
+   "n_records": 900,
+   "n_ok": 900,
+   "n_failed": 0,
+   "n_missing": 0
+  },
+  "gemma": {
+   "n_records": 900,
+   "n_ok": 886,
+   "n_failed": 14,
+   "n_missing": 0
+  }
+ },
+ "overall": {
+  "n": 900,
+  "a_kw_accuracy": 0.48,
+  "b_unanimous_style": 0.58,
+  "c_qualified": 0.3478,
+  "c2_qualified_and_item_ok": 0.3067,
+  "e_item_mismatch_majority": 0.0711
+ },
+ "per_annotator_kw_accuracy": {
+  "claude": 0.4911,
+  "qwen": 0.48,
+  "gemma": 0.4689
+ },
+ "cells": {
+  "mid_century|chair": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 3427,
+   "after_title_dedup": 2546,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.6333,
+   "b_unanimous_style": 0.6333,
+   "c_qualified": 0.4667,
+   "c_qualified_k": 14,
+   "c_ci95": [
+    0.3023,
+    0.6386
+   ],
+   "c2_qualified_and_item_ok": 0.4667,
+   "c2_k": 14,
+   "d_usable_est": 1599,
+   "d_usable_ci95": [
+    1036,
+    2188
+   ],
+   "d_usable_est_dedup": 1188,
+   "d_usable_dedup_ci95": [
+    770,
+    1626
+   ],
+   "supply_c2_est": 1188,
+   "supply_c2_ci_low": 770,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0333,
+   "majority_style_dist": {
+    "mid-century modern": 19,
+    "modern minimalist": 4,
+    "scandinavian": 3,
+    "traditional": 2,
+    "(無多數)": 1,
+    "glam": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 8,
+    "material": 4,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "mid_century|table": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1129,
+   "after_title_dedup": 975,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.7,
+   "b_unanimous_style": 0.6,
+   "c_qualified": 0.4667,
+   "c_qualified_k": 14,
+   "c_ci95": [
+    0.3023,
+    0.6386
+   ],
+   "c2_qualified_and_item_ok": 0.4,
+   "c2_k": 12,
+   "d_usable_est": 527,
+   "d_usable_ci95": [
+    341,
+    721
+   ],
+   "d_usable_est_dedup": 455,
+   "d_usable_dedup_ci95": [
+    295,
+    623
+   ],
+   "supply_c2_est": 390,
+   "supply_c2_ci_low": 240,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.1333,
+   "majority_style_dist": {
+    "mid-century modern": 21,
+    "scandinavian": 4,
+    "modern minimalist": 3,
+    "traditional": 1,
+    "(無多數)": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 1,
+    "shape": 3
+   },
+   "verdict": "保留"
+  },
+  "mid_century|lamp": {
+   "n": 30,
+   "n_all3_valid": 29,
+   "kw_hits": 505,
+   "after_title_dedup": 449,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.4667,
+   "b_unanimous_style": 0.5667,
+   "c_qualified": 0.3667,
+   "c_qualified_k": 11,
+   "c_ci95": [
+    0.2187,
+    0.5449
+   ],
+   "c2_qualified_and_item_ok": 0.3667,
+   "c2_k": 11,
+   "d_usable_est": 185,
+   "d_usable_ci95": [
+    110,
+    275
+   ],
+   "d_usable_est_dedup": 165,
+   "d_usable_dedup_ci95": [
+    98,
+    245
+   ],
+   "supply_c2_est": 165,
+   "supply_c2_ci_low": 98,
+   "e_item_mismatch_majority": 0.0,
+   "e_item_mismatch_any": 0.0333,
+   "majority_style_dist": {
+    "mid-century modern": 14,
+    "modern minimalist": 10,
+    "(無多數)": 3,
+    "glam": 2,
+    "coastal": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 1,
+    "shape": 4
+   },
+   "verdict": "保留"
+  },
+  "mid_century|chandelier_pendant": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 577,
+   "after_title_dedup": 515,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.7667,
+   "b_unanimous_style": 0.8333,
+   "c_qualified": 0.6333,
+   "c_qualified_k": 19,
+   "c_ci95": [
+    0.4551,
+    0.7813
+   ],
+   "c2_qualified_and_item_ok": 0.4667,
+   "c2_k": 14,
+   "d_usable_est": 365,
+   "d_usable_ci95": [
+    263,
+    451
+   ],
+   "d_usable_est_dedup": 326,
+   "d_usable_dedup_ci95": [
+    234,
+    402
+   ],
+   "supply_c2_est": 240,
+   "supply_c2_ci_low": 156,
+   "e_item_mismatch_majority": 0.0,
+   "e_item_mismatch_any": 0.2,
+   "majority_style_dist": {
+    "mid-century modern": 23,
+    "modern minimalist": 4,
+    "traditional": 1,
+    "scandinavian": 1,
+    "glam": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 2,
+    "shape": 3
+   },
+   "verdict": "保留"
+  },
+  "mid_century|wall_art": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 487,
+   "after_title_dedup": 408,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.3667,
+   "b_unanimous_style": 0.4333,
+   "c_qualified": 0.1667,
+   "c_qualified_k": 5,
+   "c_ci95": [
+    0.0734,
+    0.3356
+   ],
+   "c2_qualified_and_item_ok": 0.1333,
+   "c2_k": 4,
+   "d_usable_est": 81,
+   "d_usable_ci95": [
+    36,
+    163
+   ],
+   "d_usable_est_dedup": 68,
+   "d_usable_dedup_ci95": [
+    30,
+    137
+   ],
+   "supply_c2_est": 54,
+   "supply_c2_ci_low": 22,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0333,
+   "majority_style_dist": {
+    "mid-century modern": 11,
+    "other": 9,
+    "modern minimalist": 4,
+    "traditional": 3,
+    "coastal": 2,
+    "bohemian": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 1,
+    "material": 1,
+    "shape": 1
+   },
+   "verdict": "可留但貴（合格率 < 20%，要標很多件）"
+  },
+  "industrial|chair": {
+   "n": 30,
+   "n_all3_valid": 29,
+   "kw_hits": 219,
+   "after_title_dedup": 178,
+   "in_pool": 176,
+   "a_kw_accuracy": 0.5667,
+   "b_unanimous_style": 0.6333,
+   "c_qualified": 0.5,
+   "c_qualified_k": 15,
+   "c_ci95": [
+    0.3315,
+    0.6685
+   ],
+   "c2_qualified_and_item_ok": 0.4333,
+   "c2_k": 13,
+   "d_usable_est": 110,
+   "d_usable_ci95": [
+    73,
+    146
+   ],
+   "d_usable_est_dedup": 89,
+   "d_usable_dedup_ci95": [
+    59,
+    119
+   ],
+   "supply_c2_est": 77,
+   "supply_c2_ci_low": 49,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.1333,
+   "majority_style_dist": {
+    "industrial": 17,
+    "modern minimalist": 3,
+    "(無多數)": 3,
+    "mid-century modern": 2,
+    "mixed/none": 1,
+    "glam": 1,
+    "farmhouse/rustic": 1,
+    "traditional": 1,
+    "bohemian": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 4,
+    "material": 1,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "industrial|table": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1774,
+   "after_title_dedup": 1549,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.7667,
+   "b_unanimous_style": 0.7667,
+   "c_qualified": 0.6333,
+   "c_qualified_k": 19,
+   "c_ci95": [
+    0.4551,
+    0.7813
+   ],
+   "c2_qualified_and_item_ok": 0.4667,
+   "c2_k": 14,
+   "d_usable_est": 1124,
+   "d_usable_ci95": [
+    807,
+    1386
+   ],
+   "d_usable_est_dedup": 981,
+   "d_usable_dedup_ci95": [
+    705,
+    1210
+   ],
+   "supply_c2_est": 723,
+   "supply_c2_ci_low": 468,
+   "e_item_mismatch_majority": 0.1333,
+   "e_item_mismatch_any": 0.2333,
+   "majority_style_dist": {
+    "industrial": 23,
+    "(無多數)": 2,
+    "modern minimalist": 2,
+    "scandinavian": 1,
+    "glam": 1,
+    "traditional": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 2,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "industrial|lamp": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1044,
+   "after_title_dedup": 902,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.7,
+   "b_unanimous_style": 0.5667,
+   "c_qualified": 0.5,
+   "c_qualified_k": 15,
+   "c_ci95": [
+    0.3315,
+    0.6685
+   ],
+   "c2_qualified_and_item_ok": 0.4667,
+   "c2_k": 14,
+   "d_usable_est": 522,
+   "d_usable_ci95": [
+    346,
+    698
+   ],
+   "d_usable_est_dedup": 451,
+   "d_usable_dedup_ci95": [
+    299,
+    603
+   ],
+   "supply_c2_est": 421,
+   "supply_c2_ci_low": 273,
+   "e_item_mismatch_majority": 0.0,
+   "e_item_mismatch_any": 0.0667,
+   "majority_style_dist": {
+    "industrial": 21,
+    "modern minimalist": 4,
+    "(無多數)": 2,
+    "mid-century modern": 2,
+    "glam": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 1,
+    "shape": 5
+   },
+   "verdict": "保留"
+  },
+  "industrial|chandelier_pendant": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 2193,
+   "after_title_dedup": 1946,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.6333,
+   "b_unanimous_style": 0.7,
+   "c_qualified": 0.4667,
+   "c_qualified_k": 14,
+   "c_ci95": [
+    0.3023,
+    0.6386
+   ],
+   "c2_qualified_and_item_ok": 0.4333,
+   "c2_k": 13,
+   "d_usable_est": 1023,
+   "d_usable_ci95": [
+    663,
+    1400
+   ],
+   "d_usable_est_dedup": 908,
+   "d_usable_dedup_ci95": [
+    588,
+    1243
+   ],
+   "supply_c2_est": 843,
+   "supply_c2_ci_low": 533,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.1667,
+   "majority_style_dist": {
+    "industrial": 19,
+    "mid-century modern": 5,
+    "(無多數)": 3,
+    "traditional": 1,
+    "farmhouse/rustic": 1,
+    "modern minimalist": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 1,
+    "shape": 4
+   },
+   "verdict": "保留"
+  },
+  "industrial|wall_art": {
+   "n": 30,
+   "n_all3_valid": 29,
+   "kw_hits": 192,
+   "after_title_dedup": 164,
+   "in_pool": 161,
+   "a_kw_accuracy": 0.3667,
+   "b_unanimous_style": 0.3333,
+   "c_qualified": 0.2,
+   "c_qualified_k": 6,
+   "c_ci95": [
+    0.095,
+    0.3731
+   ],
+   "c2_qualified_and_item_ok": 0.1667,
+   "c2_k": 5,
+   "d_usable_est": 38,
+   "d_usable_ci95": [
+    18,
+    72
+   ],
+   "d_usable_est_dedup": 33,
+   "d_usable_dedup_ci95": [
+    16,
+    61
+   ],
+   "supply_c2_est": 27,
+   "supply_c2_ci_low": 12,
+   "e_item_mismatch_majority": 0.1,
+   "e_item_mismatch_any": 0.2333,
+   "majority_style_dist": {
+    "industrial": 11,
+    "other": 8,
+    "(無多數)": 4,
+    "mixed/none": 3,
+    "modern minimalist": 2,
+    "traditional": 1,
+    "scandinavian": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 1,
+    "shape": 1
+   },
+   "verdict": "勉強（量少：估計 13–26 件，或 95% 下界不到 13 件）"
+  },
+  "farmhouse_rustic|chair": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 947,
+   "after_title_dedup": 809,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.1333,
+   "b_unanimous_style": 0.4,
+   "c_qualified": 0.0667,
+   "c_qualified_k": 2,
+   "c_ci95": [
+    0.0185,
+    0.2132
+   ],
+   "c2_qualified_and_item_ok": 0.0667,
+   "c2_k": 2,
+   "d_usable_est": 63,
+   "d_usable_ci95": [
+    17,
+    202
+   ],
+   "d_usable_est_dedup": 54,
+   "d_usable_dedup_ci95": [
+    15,
+    173
+   ],
+   "supply_c2_est": 54,
+   "supply_c2_ci_low": 15,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0333,
+   "majority_style_dist": {
+    "traditional": 14,
+    "mixed/none": 5,
+    "farmhouse/rustic": 4,
+    "mid-century modern": 3,
+    "(無多數)": 2,
+    "modern minimalist": 2
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 1,
+    "shape": 2
+   },
+   "verdict": "可留但貴（合格率 < 20%，要標很多件）"
+  },
+  "farmhouse_rustic|table": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 3711,
+   "after_title_dedup": 3223,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.4333,
+   "b_unanimous_style": 0.6333,
+   "c_qualified": 0.2667,
+   "c_qualified_k": 8,
+   "c_ci95": [
+    0.1418,
+    0.4445
+   ],
+   "c2_qualified_and_item_ok": 0.2,
+   "c2_k": 6,
+   "d_usable_est": 990,
+   "d_usable_ci95": [
+    526,
+    1649
+   ],
+   "d_usable_est_dedup": 859,
+   "d_usable_dedup_ci95": [
+    457,
+    1433
+   ],
+   "supply_c2_est": 645,
+   "supply_c2_ci_low": 306,
+   "e_item_mismatch_majority": 0.2,
+   "e_item_mismatch_any": 0.2333,
+   "majority_style_dist": {
+    "farmhouse/rustic": 13,
+    "industrial": 9,
+    "traditional": 2,
+    "modern minimalist": 2,
+    "mid-century modern": 2,
+    "bohemian": 1,
+    "other": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 4,
+    "material": 1,
+    "shape": 1
+   },
+   "verdict": "保留"
+  },
+  "farmhouse_rustic|lamp": {
+   "n": 30,
+   "n_all3_valid": 28,
+   "kw_hits": 1244,
+   "after_title_dedup": 1072,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.1667,
+   "b_unanimous_style": 0.6,
+   "c_qualified": 0.0667,
+   "c_qualified_k": 2,
+   "c_ci95": [
+    0.0185,
+    0.2132
+   ],
+   "c2_qualified_and_item_ok": 0.0667,
+   "c2_k": 2,
+   "d_usable_est": 83,
+   "d_usable_ci95": [
+    23,
+    265
+   ],
+   "d_usable_est_dedup": 71,
+   "d_usable_dedup_ci95": [
+    20,
+    229
+   ],
+   "supply_c2_est": 71,
+   "supply_c2_ci_low": 20,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.1,
+   "majority_style_dist": {
+    "traditional": 7,
+    "industrial": 6,
+    "farmhouse/rustic": 5,
+    "modern minimalist": 4,
+    "(無多數)": 3,
+    "glam": 2,
+    "other": 2,
+    "bohemian": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 1,
+    "shape": 2
+   },
+   "verdict": "可留但貴（合格率 < 20%，要標很多件）"
+  },
+  "farmhouse_rustic|chandelier_pendant": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 3596,
+   "after_title_dedup": 3288,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.3,
+   "b_unanimous_style": 0.5667,
+   "c_qualified": 0.2333,
+   "c_qualified_k": 7,
+   "c_ci95": [
+    0.1179,
+    0.4093
+   ],
+   "c2_qualified_and_item_ok": 0.2333,
+   "c2_k": 7,
+   "d_usable_est": 839,
+   "d_usable_ci95": [
+    424,
+    1472
+   ],
+   "d_usable_est_dedup": 767,
+   "d_usable_dedup_ci95": [
+    388,
+    1346
+   ],
+   "supply_c2_est": 767,
+   "supply_c2_ci_low": 388,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0667,
+   "majority_style_dist": {
+    "industrial": 12,
+    "farmhouse/rustic": 9,
+    "modern minimalist": 4,
+    "glam": 2,
+    "bohemian": 1,
+    "traditional": 1,
+    "(無多數)": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 1,
+    "shape": 4
+   },
+   "verdict": "保留"
+  },
+  "farmhouse_rustic|wall_art": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 9096,
+   "after_title_dedup": 8177,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.6,
+   "b_unanimous_style": 0.6333,
+   "c_qualified": 0.5,
+   "c_qualified_k": 15,
+   "c_ci95": [
+    0.3315,
+    0.6685
+   ],
+   "c2_qualified_and_item_ok": 0.4667,
+   "c2_k": 14,
+   "d_usable_est": 4548,
+   "d_usable_ci95": [
+    3016,
+    6080
+   ],
+   "d_usable_est_dedup": 4088,
+   "d_usable_dedup_ci95": [
+    2711,
+    5466
+   ],
+   "supply_c2_est": 3816,
+   "supply_c2_ci_low": 2472,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0667,
+   "majority_style_dist": {
+    "farmhouse/rustic": 18,
+    "other": 5,
+    "traditional": 4,
+    "bohemian": 1,
+    "glam": 1,
+    "coastal": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 5,
+    "material": 3,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "boho|chair": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 115,
+   "after_title_dedup": 93,
+   "in_pool": 88,
+   "a_kw_accuracy": 0.7667,
+   "b_unanimous_style": 0.6333,
+   "c_qualified": 0.5,
+   "c_qualified_k": 15,
+   "c_ci95": [
+    0.3315,
+    0.6685
+   ],
+   "c2_qualified_and_item_ok": 0.5,
+   "c2_k": 15,
+   "d_usable_est": 58,
+   "d_usable_ci95": [
+    38,
+    77
+   ],
+   "d_usable_est_dedup": 46,
+   "d_usable_dedup_ci95": [
+    31,
+    62
+   ],
+   "supply_c2_est": 46,
+   "supply_c2_ci_low": 31,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0333,
+   "majority_style_dist": {
+    "bohemian": 23,
+    "mid-century modern": 3,
+    "glam": 1,
+    "(無多數)": 1,
+    "scandinavian": 1,
+    "mixed/none": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 6,
+    "material": 2,
+    "shape": 3
+   },
+   "verdict": "保留"
+  },
+  "boho|table": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 88,
+   "after_title_dedup": 78,
+   "in_pool": 77,
+   "a_kw_accuracy": 0.1,
+   "b_unanimous_style": 0.5333,
+   "c_qualified": 0.1,
+   "c_qualified_k": 3,
+   "c_ci95": [
+    0.0346,
+    0.2562
+   ],
+   "c2_qualified_and_item_ok": 0.0333,
+   "c2_k": 1,
+   "d_usable_est": 9,
+   "d_usable_ci95": [
+    3,
+    23
+   ],
+   "d_usable_est_dedup": 8,
+   "d_usable_dedup_ci95": [
+    3,
+    20
+   ],
+   "supply_c2_est": 3,
+   "supply_c2_ci_low": 0,
+   "e_item_mismatch_majority": 0.3667,
+   "e_item_mismatch_any": 0.5,
+   "majority_style_dist": {
+    "scandinavian": 9,
+    "modern minimalist": 3,
+    "glam": 3,
+    "bohemian": 3,
+    "industrial": 3,
+    "mid-century modern": 3,
+    "farmhouse/rustic": 2,
+    "coastal": 1,
+    "traditional": 1,
+    "(無多數)": 1,
+    "other": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 1,
+    "material": 1,
+    "shape": 1
+   },
+   "verdict": "建議拿掉（合格商品估計不到 13 件）"
+  },
+  "boho|lamp": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 194,
+   "after_title_dedup": 172,
+   "in_pool": 146,
+   "a_kw_accuracy": 0.2333,
+   "b_unanimous_style": 0.6,
+   "c_qualified": 0.2,
+   "c_qualified_k": 6,
+   "c_ci95": [
+    0.095,
+    0.3731
+   ],
+   "c2_qualified_and_item_ok": 0.1,
+   "c2_k": 3,
+   "d_usable_est": 39,
+   "d_usable_ci95": [
+    18,
+    72
+   ],
+   "d_usable_est_dedup": 34,
+   "d_usable_dedup_ci95": [
+    16,
+    64
+   ],
+   "supply_c2_est": 17,
+   "supply_c2_ci_low": 6,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.2,
+   "majority_style_dist": {
+    "other": 17,
+    "bohemian": 7,
+    "(無多數)": 2,
+    "glam": 2,
+    "scandinavian": 1,
+    "traditional": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 2,
+    "shape": 2
+   },
+   "verdict": "勉強（量少：估計 13–26 件，或 95% 下界不到 13 件）"
+  },
+  "boho|chandelier_pendant": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 195,
+   "after_title_dedup": 172,
+   "in_pool": 171,
+   "a_kw_accuracy": 0.7333,
+   "b_unanimous_style": 0.6667,
+   "c_qualified": 0.6333,
+   "c_qualified_k": 19,
+   "c_ci95": [
+    0.4551,
+    0.7813
+   ],
+   "c2_qualified_and_item_ok": 0.5667,
+   "c2_k": 17,
+   "d_usable_est": 124,
+   "d_usable_ci95": [
+    89,
+    152
+   ],
+   "d_usable_est_dedup": 109,
+   "d_usable_dedup_ci95": [
+    78,
+    134
+   ],
+   "supply_c2_est": 97,
+   "supply_c2_ci_low": 67,
+   "e_item_mismatch_majority": 0.0,
+   "e_item_mismatch_any": 0.1333,
+   "majority_style_dist": {
+    "bohemian": 22,
+    "glam": 2,
+    "traditional": 1,
+    "farmhouse/rustic": 1,
+    "mid-century modern": 1,
+    "industrial": 1,
+    "(無多數)": 1,
+    "other": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 6,
+    "material": 1,
+    "shape": 3
+   },
+   "verdict": "保留"
+  },
+  "boho|wall_art": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 6768,
+   "after_title_dedup": 5212,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.8,
+   "b_unanimous_style": 0.8333,
+   "c_qualified": 0.6667,
+   "c_qualified_k": 20,
+   "c_ci95": [
+    0.4878,
+    0.8077
+   ],
+   "c2_qualified_and_item_ok": 0.5333,
+   "c2_k": 16,
+   "d_usable_est": 4512,
+   "d_usable_ci95": [
+    3301,
+    5466
+   ],
+   "d_usable_est_dedup": 3475,
+   "d_usable_dedup_ci95": [
+    2542,
+    4210
+   ],
+   "supply_c2_est": 2780,
+   "supply_c2_ci_low": 1884,
+   "e_item_mismatch_majority": 0.1333,
+   "e_item_mismatch_any": 0.1667,
+   "majority_style_dist": {
+    "bohemian": 24,
+    "other": 4,
+    "modern minimalist": 1,
+    "farmhouse/rustic": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 2,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "coastal|chair": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 177,
+   "after_title_dedup": 163,
+   "in_pool": 153,
+   "a_kw_accuracy": 0.3333,
+   "b_unanimous_style": 0.4667,
+   "c_qualified": 0.2333,
+   "c_qualified_k": 7,
+   "c_ci95": [
+    0.1179,
+    0.4093
+   ],
+   "c2_qualified_and_item_ok": 0.2,
+   "c2_k": 6,
+   "d_usable_est": 41,
+   "d_usable_ci95": [
+    21,
+    72
+   ],
+   "d_usable_est_dedup": 38,
+   "d_usable_dedup_ci95": [
+    19,
+    67
+   ],
+   "supply_c2_est": 33,
+   "supply_c2_ci_low": 15,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.0667,
+   "majority_style_dist": {
+    "coastal": 10,
+    "(無多數)": 6,
+    "farmhouse/rustic": 5,
+    "bohemian": 2,
+    "scandinavian": 2,
+    "mixed/none": 2,
+    "other": 1,
+    "traditional": 1,
+    "modern minimalist": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 4,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "coastal|table": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 201,
+   "after_title_dedup": 177,
+   "in_pool": 173,
+   "a_kw_accuracy": 0.2667,
+   "b_unanimous_style": 0.3667,
+   "c_qualified": 0.1333,
+   "c_qualified_k": 4,
+   "c_ci95": [
+    0.0531,
+    0.2968
+   ],
+   "c2_qualified_and_item_ok": 0.1,
+   "c2_k": 3,
+   "d_usable_est": 27,
+   "d_usable_ci95": [
+    11,
+    60
+   ],
+   "d_usable_est_dedup": 24,
+   "d_usable_dedup_ci95": [
+    9,
+    53
+   ],
+   "supply_c2_est": 18,
+   "supply_c2_ci_low": 6,
+   "e_item_mismatch_majority": 0.1333,
+   "e_item_mismatch_any": 0.2333,
+   "majority_style_dist": {
+    "farmhouse/rustic": 10,
+    "coastal": 8,
+    "(無多數)": 2,
+    "bohemian": 2,
+    "modern minimalist": 2,
+    "scandinavian": 2,
+    "mixed/none": 1,
+    "other": 1,
+    "traditional": 1,
+    "mid-century modern": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 2,
+    "shape": 1
+   },
+   "verdict": "勉強（量少：估計 13–26 件，或 95% 下界不到 13 件）"
+  },
+  "coastal|lamp": {
+   "n": 30,
+   "n_all3_valid": 24,
+   "kw_hits": 443,
+   "after_title_dedup": 377,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.5,
+   "b_unanimous_style": 0.4,
+   "c_qualified": 0.2333,
+   "c_qualified_k": 7,
+   "c_ci95": [
+    0.1179,
+    0.4093
+   ],
+   "c2_qualified_and_item_ok": 0.2333,
+   "c2_k": 7,
+   "d_usable_est": 103,
+   "d_usable_ci95": [
+    52,
+    181
+   ],
+   "d_usable_est_dedup": 88,
+   "d_usable_dedup_ci95": [
+    44,
+    154
+   ],
+   "supply_c2_est": 88,
+   "supply_c2_ci_low": 44,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.2333,
+   "majority_style_dist": {
+    "coastal": 15,
+    "(無多數)": 5,
+    "industrial": 4,
+    "other": 2,
+    "glam": 2,
+    "modern minimalist": 1,
+    "bohemian": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 5,
+    "material": 6,
+    "shape": 4
+   },
+   "verdict": "保留"
+  },
+  "coastal|chandelier_pendant": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 88,
+   "after_title_dedup": 78,
+   "in_pool": 77,
+   "a_kw_accuracy": 0.2333,
+   "b_unanimous_style": 0.5,
+   "c_qualified": 0.1333,
+   "c_qualified_k": 4,
+   "c_ci95": [
+    0.0531,
+    0.2968
+   ],
+   "c2_qualified_and_item_ok": 0.1333,
+   "c2_k": 4,
+   "d_usable_est": 12,
+   "d_usable_ci95": [
+    5,
+    26
+   ],
+   "d_usable_est_dedup": 10,
+   "d_usable_dedup_ci95": [
+    4,
+    23
+   ],
+   "supply_c2_est": 10,
+   "supply_c2_ci_low": 4,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.0333,
+   "majority_style_dist": {
+    "coastal": 7,
+    "glam": 5,
+    "farmhouse/rustic": 4,
+    "(無多數)": 3,
+    "traditional": 3,
+    "bohemian": 3,
+    "industrial": 3,
+    "modern minimalist": 2
+   },
+   "distinct_values_among_c2": {
+    "color": 2,
+    "material": 2,
+    "shape": 2
+   },
+   "verdict": "建議拿掉（合格商品估計不到 13 件）"
+  },
+  "coastal|wall_art": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 2718,
+   "after_title_dedup": 2492,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.8333,
+   "b_unanimous_style": 0.6,
+   "c_qualified": 0.5333,
+   "c_qualified_k": 16,
+   "c_ci95": [
+    0.3614,
+    0.6977
+   ],
+   "c2_qualified_and_item_ok": 0.4667,
+   "c2_k": 14,
+   "d_usable_est": 1450,
+   "d_usable_ci95": [
+    982,
+    1896
+   ],
+   "d_usable_est_dedup": 1329,
+   "d_usable_dedup_ci95": [
+    901,
+    1739
+   ],
+   "supply_c2_est": 1163,
+   "supply_c2_ci_low": 753,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.2,
+   "majority_style_dist": {
+    "coastal": 25,
+    "other": 2,
+    "farmhouse/rustic": 1,
+    "traditional": 1,
+    "mid-century modern": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 6,
+    "material": 3,
+    "shape": 3
+   },
+   "verdict": "保留"
+  },
+  "traditional|chair": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1195,
+   "after_title_dedup": 1023,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.3667,
+   "b_unanimous_style": 0.4333,
+   "c_qualified": 0.2667,
+   "c_qualified_k": 8,
+   "c_ci95": [
+    0.1418,
+    0.4445
+   ],
+   "c2_qualified_and_item_ok": 0.2667,
+   "c2_k": 8,
+   "d_usable_est": 319,
+   "d_usable_ci95": [
+    169,
+    531
+   ],
+   "d_usable_est_dedup": 273,
+   "d_usable_dedup_ci95": [
+    145,
+    455
+   ],
+   "supply_c2_est": 273,
+   "supply_c2_ci_low": 145,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.0667,
+   "majority_style_dist": {
+    "traditional": 11,
+    "modern minimalist": 7,
+    "mixed/none": 4,
+    "farmhouse/rustic": 3,
+    "industrial": 2,
+    "mid-century modern": 1,
+    "(無多數)": 1,
+    "glam": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 6,
+    "material": 4,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "traditional|table": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1546,
+   "after_title_dedup": 1282,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.5333,
+   "b_unanimous_style": 0.6667,
+   "c_qualified": 0.4,
+   "c_qualified_k": 12,
+   "c_ci95": [
+    0.2459,
+    0.5768
+   ],
+   "c2_qualified_and_item_ok": 0.3667,
+   "c2_k": 11,
+   "d_usable_est": 618,
+   "d_usable_ci95": [
+    380,
+    892
+   ],
+   "d_usable_est_dedup": 513,
+   "d_usable_dedup_ci95": [
+    315,
+    739
+   ],
+   "supply_c2_est": 470,
+   "supply_c2_ci_low": 280,
+   "e_item_mismatch_majority": 0.2333,
+   "e_item_mismatch_any": 0.3,
+   "majority_style_dist": {
+    "traditional": 16,
+    "(無多數)": 4,
+    "farmhouse/rustic": 4,
+    "glam": 3,
+    "modern minimalist": 3
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 1,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "traditional|lamp": {
+   "n": 30,
+   "n_all3_valid": 27,
+   "kw_hits": 2081,
+   "after_title_dedup": 1734,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.5333,
+   "b_unanimous_style": 0.6,
+   "c_qualified": 0.4,
+   "c_qualified_k": 12,
+   "c_ci95": [
+    0.2459,
+    0.5768
+   ],
+   "c2_qualified_and_item_ok": 0.4,
+   "c2_k": 12,
+   "d_usable_est": 832,
+   "d_usable_ci95": [
+    512,
+    1200
+   ],
+   "d_usable_est_dedup": 694,
+   "d_usable_dedup_ci95": [
+    426,
+    1000
+   ],
+   "supply_c2_est": 694,
+   "supply_c2_ci_low": 426,
+   "e_item_mismatch_majority": 0.0,
+   "e_item_mismatch_any": 0.1333,
+   "majority_style_dist": {
+    "traditional": 16,
+    "(無多數)": 4,
+    "glam": 3,
+    "modern minimalist": 3,
+    "other": 2,
+    "mid-century modern": 1,
+    "coastal": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 3,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "traditional|chandelier_pendant": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1819,
+   "after_title_dedup": 1566,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.5,
+   "b_unanimous_style": 0.5667,
+   "c_qualified": 0.4,
+   "c_qualified_k": 12,
+   "c_ci95": [
+    0.2459,
+    0.5768
+   ],
+   "c2_qualified_and_item_ok": 0.4,
+   "c2_k": 12,
+   "d_usable_est": 728,
+   "d_usable_ci95": [
+    447,
+    1049
+   ],
+   "d_usable_est_dedup": 626,
+   "d_usable_dedup_ci95": [
+    385,
+    903
+   ],
+   "supply_c2_est": 626,
+   "supply_c2_ci_low": 385,
+   "e_item_mismatch_majority": 0.0667,
+   "e_item_mismatch_any": 0.0667,
+   "majority_style_dist": {
+    "traditional": 15,
+    "industrial": 5,
+    "(無多數)": 3,
+    "modern minimalist": 2,
+    "farmhouse/rustic": 1,
+    "coastal": 1,
+    "other": 1,
+    "mixed/none": 1,
+    "glam": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 3,
+    "material": 1,
+    "shape": 2
+   },
+   "verdict": "保留"
+  },
+  "traditional|wall_art": {
+   "n": 30,
+   "n_all3_valid": 30,
+   "kw_hits": 1570,
+   "after_title_dedup": 1405,
+   "in_pool": 300,
+   "a_kw_accuracy": 0.0667,
+   "b_unanimous_style": 0.6333,
+   "c_qualified": 0.0667,
+   "c_qualified_k": 2,
+   "c_ci95": [
+    0.0185,
+    0.2132
+   ],
+   "c2_qualified_and_item_ok": 0.0667,
+   "c2_k": 2,
+   "d_usable_est": 105,
+   "d_usable_ci95": [
+    29,
+    335
+   ],
+   "d_usable_est_dedup": 94,
+   "d_usable_dedup_ci95": [
+    26,
+    300
+   ],
+   "supply_c2_est": 94,
+   "supply_c2_ci_low": 26,
+   "e_item_mismatch_majority": 0.0333,
+   "e_item_mismatch_any": 0.1667,
+   "majority_style_dist": {
+    "other": 20,
+    "bohemian": 4,
+    "traditional": 2,
+    "mixed/none": 1,
+    "coastal": 1,
+    "modern minimalist": 1,
+    "(無多數)": 1
+   },
+   "distinct_values_among_c2": {
+    "color": 1,
+    "material": 1,
+    "shape": 1
+   },
+   "verdict": "可留但貴（合格率 < 20%，要標很多件）"
+  }
+ },
+ "by_style": {
+  "mid_century": {
+   "n": 150,
+   "a_kw_accuracy": 0.5867,
+   "b_unanimous_style": 0.6133,
+   "c_qualified": 0.42,
+   "c2_qualified_and_item_ok": 0.3667,
+   "e_item_mismatch_majority": 0.02
+  },
+  "industrial": {
+   "n": 150,
+   "a_kw_accuracy": 0.6067,
+   "b_unanimous_style": 0.6,
+   "c_qualified": 0.46,
+   "c2_qualified_and_item_ok": 0.3933,
+   "e_item_mismatch_majority": 0.0733
+  },
+  "farmhouse_rustic": {
+   "n": 150,
+   "a_kw_accuracy": 0.3267,
+   "b_unanimous_style": 0.5667,
+   "c_qualified": 0.2267,
+   "c2_qualified_and_item_ok": 0.2067,
+   "e_item_mismatch_majority": 0.0733
+  },
+  "boho": {
+   "n": 150,
+   "a_kw_accuracy": 0.5267,
+   "b_unanimous_style": 0.6533,
+   "c_qualified": 0.42,
+   "c2_qualified_and_item_ok": 0.3467,
+   "e_item_mismatch_majority": 0.1133
+  },
+  "coastal": {
+   "n": 150,
+   "a_kw_accuracy": 0.4333,
+   "b_unanimous_style": 0.4667,
+   "c_qualified": 0.2533,
+   "c2_qualified_and_item_ok": 0.2267,
+   "e_item_mismatch_majority": 0.0667
+  },
+  "traditional": {
+   "n": 150,
+   "a_kw_accuracy": 0.4,
+   "b_unanimous_style": 0.58,
+   "c_qualified": 0.3067,
+   "c2_qualified_and_item_ok": 0.3,
+   "e_item_mismatch_majority": 0.08
+  }
+ },
+ "by_item": {
+  "chair": {
+   "n": 180,
+   "a_kw_accuracy": 0.4667,
+   "b_unanimous_style": 0.5333,
+   "c_qualified": 0.3389,
+   "c2_qualified_and_item_ok": 0.3222,
+   "e_item_mismatch_majority": 0.05
+  },
+  "table": {
+   "n": 180,
+   "a_kw_accuracy": 0.4667,
+   "b_unanimous_style": 0.5944,
+   "c_qualified": 0.3333,
+   "c2_qualified_and_item_ok": 0.2611,
+   "e_item_mismatch_majority": 0.1833
+  },
+  "lamp": {
+   "n": 180,
+   "a_kw_accuracy": 0.4333,
+   "b_unanimous_style": 0.5556,
+   "c_qualified": 0.2944,
+   "c2_qualified_and_item_ok": 0.2722,
+   "e_item_mismatch_majority": 0.0222
+  },
+  "chandelier_pendant": {
+   "n": 180,
+   "a_kw_accuracy": 0.5278,
+   "b_unanimous_style": 0.6389,
+   "c_qualified": 0.4167,
+   "c2_qualified_and_item_ok": 0.3722,
+   "e_item_mismatch_majority": 0.0333
+  },
+  "wall_art": {
+   "n": 180,
+   "a_kw_accuracy": 0.5056,
+   "b_unanimous_style": 0.5778,
+   "c_qualified": 0.3556,
+   "c2_qualified_and_item_ok": 0.3056,
+   "e_item_mismatch_majority": 0.0667
+  }
+ },
+ "dims": {
+  "style": {
+   "n_items_all3_valid": 886,
+   "fleiss_kappa": 0.671,
+   "unanimous": 0.5892,
+   "pairwise": {
+    "claude-qwen": 0.6783,
+    "claude-gemma": 0.684,
+    "qwen-gemma": 0.754
+   },
+   "conf_dist": {
+    "claude": {
+     "1": 129,
+     "2": 480,
+     "3": 291
+    },
+    "qwen": {
+     "1": 0,
+     "2": 399,
+     "3": 501
+    },
+    "gemma": {
+     "1": 0,
+     "2": 58,
+     "3": 828
+    }
+   },
+   "value_dist": {
+    "claude": {
+     "mixed/none": 128,
+     "industrial": 122,
+     "mid-century modern": 99,
+     "bohemian": 99,
+     "traditional": 92,
+     "coastal": 88,
+     "farmhouse/rustic": 87,
+     "other": 80,
+     "modern minimalist": 52,
+     "glam": 29,
+     "scandinavian": 24
+    },
+    "qwen": {
+     "industrial": 143,
+     "traditional": 134,
+     "mid-century modern": 126,
+     "other": 99,
+     "modern minimalist": 98,
+     "bohemian": 84,
+     "farmhouse/rustic": 77,
+     "coastal": 75,
+     "glam": 33,
+     "scandinavian": 26,
+     "mixed/none": 5
+    },
+    "gemma": {
+     "industrial": 133,
+     "mid-century modern": 119,
+     "bohemian": 107,
+     "traditional": 106,
+     "farmhouse/rustic": 104,
+     "modern minimalist": 92,
+     "coastal": 63,
+     "other": 58,
+     "glam": 43,
+     "scandinavian": 35,
+     "mixed/none": 26
+    }
+   }
+  },
+  "category": {
+   "n_items_all3_valid": 886,
+   "fleiss_kappa": 0.9249,
+   "unanimous": 0.9074,
+   "pairwise": {
+    "claude-qwen": 0.9436,
+    "claude-gemma": 0.9255,
+    "qwen-gemma": 0.9447
+   },
+   "conf_dist": {
+    "claude": {
+     "1": 6,
+     "2": 69,
+     "3": 825
+    },
+    "qwen": {
+     "1": 0,
+     "2": 5,
+     "3": 895
+    },
+    "gemma": {
+     "1": 0,
+     "2": 19,
+     "3": 867
+    }
+   },
+   "value_dist": {
+    "claude": {
+     "lamp": 179,
+     "wall art": 176,
+     "chair": 171,
+     "chandelier/pendant": 163,
+     "table": 150,
+     "cabinet/storage": 27,
+     "other lighting": 19,
+     "other": 6,
+     "stool/ottoman": 4,
+     "sofa": 2,
+     "shelf": 2,
+     "rug": 1
+    },
+    "qwen": {
+     "lamp": 175,
+     "chandelier/pendant": 175,
+     "chair": 170,
+     "wall art": 166,
+     "table": 145,
+     "cabinet/storage": 24,
+     "other": 14,
+     "stool/ottoman": 10,
+     "other lighting": 10,
+     "shelf": 5,
+     "rug": 4,
+     "sofa": 2
+    },
+    "gemma": {
+     "chandelier/pendant": 174,
+     "chair": 172,
+     "wall art": 161,
+     "lamp": 160,
+     "table": 151,
+     "cabinet/storage": 17,
+     "other lighting": 15,
+     "other": 14,
+     "stool/ottoman": 11,
+     "shelf": 4,
+     "sofa": 4,
+     "rug": 3
+    }
+   }
+  },
+  "color": {
+   "n_items_all3_valid": 886,
+   "fleiss_kappa": 0.7123,
+   "unanimous": 0.64,
+   "pairwise": {
+    "claude-qwen": 0.763,
+    "claude-gemma": 0.6941,
+    "qwen-gemma": 0.7856
+   },
+   "conf_dist": {
+    "claude": {
+     "1": 69,
+     "2": 393,
+     "3": 438
+    },
+    "qwen": {
+     "1": 0,
+     "2": 48,
+     "3": 852
+    },
+    "gemma": {
+     "1": 1,
+     "2": 48,
+     "3": 837
+    }
+   },
+   "value_dist": {
+    "claude": {
+     "metallic": 140,
+     "black": 132,
+     "natural wood": 130,
+     "multicolor": 109,
+     "white": 107,
+     "gray": 71,
+     "beige/cream": 70,
+     "brown": 67,
+     "blue": 41,
+     "red/pink": 15,
+     "yellow/orange": 10,
+     "green": 8
+    },
+    "qwen": {
+     "metallic": 149,
+     "black": 147,
+     "multicolor": 146,
+     "natural wood": 103,
+     "brown": 92,
+     "white": 80,
+     "beige/cream": 60,
+     "gray": 53,
+     "blue": 36,
+     "red/pink": 15,
+     "yellow/orange": 13,
+     "green": 6
+    },
+    "gemma": {
+     "metallic": 159,
+     "multicolor": 150,
+     "brown": 140,
+     "black": 138,
+     "white": 97,
+     "natural wood": 94,
+     "gray": 32,
+     "blue": 30,
+     "beige/cream": 21,
+     "red/pink": 10,
+     "yellow/orange": 9,
+     "green": 6
+    }
+   }
+  },
+  "material": {
+   "n_items_all3_valid": 886,
+   "fleiss_kappa": 0.7811,
+   "unanimous": 0.7393,
+   "pairwise": {
+    "claude-qwen": 0.8014,
+    "claude-gemma": 0.781,
+    "qwen-gemma": 0.8815
+   },
+   "conf_dist": {
+    "claude": {
+     "1": 72,
+     "2": 220,
+     "3": 608
+    },
+    "qwen": {
+     "1": 0,
+     "2": 111,
+     "3": 789
+    },
+    "gemma": {
+     "1": 3,
+     "2": 173,
+     "3": 710
+    }
+   },
+   "value_dist": {
+    "claude": {
+     "metal": 255,
+     "wood": 199,
+     "fabric": 116,
+     "paper/canvas": 112,
+     "rattan/wicker/rope": 52,
+     "plastic/acrylic": 49,
+     "glass": 46,
+     "stone/ceramic/concrete": 37,
+     "leather": 34
+    },
+    "qwen": {
+     "metal": 280,
+     "wood": 218,
+     "paper/canvas": 123,
+     "fabric": 80,
+     "glass": 64,
+     "rattan/wicker/rope": 62,
+     "leather": 32,
+     "stone/ceramic/concrete": 27,
+     "plastic/acrylic": 14
+    },
+    "gemma": {
+     "metal": 252,
+     "wood": 204,
+     "paper/canvas": 118,
+     "glass": 96,
+     "fabric": 89,
+     "rattan/wicker/rope": 62,
+     "leather": 35,
+     "plastic/acrylic": 20,
+     "stone/ceramic/concrete": 10
+    }
+   }
+  },
+  "shape": {
+   "n_items_all3_valid": 886,
+   "fleiss_kappa": 0.7287,
+   "unanimous": 0.7302,
+   "pairwise": {
+    "claude-qwen": 0.8646,
+    "claude-gemma": 0.7788,
+    "qwen-gemma": 0.7946
+   },
+   "conf_dist": {
+    "claude": {
+     "1": 39,
+     "2": 318,
+     "3": 543
+    },
+    "qwen": {
+     "1": 0,
+     "2": 110,
+     "3": 790
+    },
+    "gemma": {
+     "1": 0,
+     "2": 143,
+     "3": 743
+    }
+   },
+   "value_dist": {
+    "claude": {
+     "rectilinear": 453,
+     "round": 199,
+     "curved": 160,
+     "angular/geometric": 50,
+     "organic/irregular": 38
+    },
+    "qwen": {
+     "rectilinear": 428,
+     "round": 217,
+     "curved": 157,
+     "angular/geometric": 50,
+     "organic/irregular": 48
+    },
+    "gemma": {
+     "rectilinear": 338,
+     "curved": 233,
+     "round": 204,
+     "angular/geometric": 83,
+     "organic/irregular": 28
+    }
+   }
+  }
+ },
+ "style_disagreement_pairs": {
+  "mixed/none ↔ modern minimalist": 43,
+  "mid-century modern ↔ modern minimalist": 28,
+  "mixed/none ↔ traditional": 24,
+  "farmhouse/rustic ↔ traditional": 23,
+  "mid-century modern ↔ mixed/none": 22,
+  "farmhouse/rustic ↔ mixed/none": 22,
+  "mixed/none ↔ other": 20,
+  "industrial ↔ modern minimalist": 18,
+  "bohemian ↔ other": 16,
+  "coastal ↔ farmhouse/rustic": 16,
+  "mid-century modern ↔ scandinavian": 16,
+  "industrial ↔ mixed/none": 15,
+  "other ↔ traditional": 15,
+  "farmhouse/rustic ↔ industrial": 14,
+  "coastal ↔ glam": 13
+ },
+ "kw_style_vs_annotator_style": {
+  "claude": {
+   "mid_century": {
+    "mid-century modern": 82,
+    "modern minimalist": 19,
+    "mixed/none": 12,
+    "other": 9,
+    "scandinavian": 8,
+    "glam": 6,
+    "traditional": 5,
+    "bohemian": 3,
+    "coastal": 3,
+    "farmhouse/rustic": 2,
+    "industrial": 1
+   },
+   "industrial": {
+    "industrial": 88,
+    "mixed/none": 28,
+    "modern minimalist": 8,
+    "other": 7,
+    "mid-century modern": 6,
+    "farmhouse/rustic": 5,
+    "glam": 3,
+    "scandinavian": 2,
+    "traditional": 2,
+    "bohemian": 1
+   },
+   "farmhouse_rustic": {
+    "farmhouse/rustic": 55,
+    "mixed/none": 26,
+    "traditional": 24,
+    "industrial": 17,
+    "modern minimalist": 11,
+    "other": 6,
+    "glam": 4,
+    "bohemian": 3,
+    "mid-century modern": 3,
+    "scandinavian": 1
+   },
+   "boho": {
+    "bohemian": 82,
+    "other": 23,
+    "scandinavian": 10,
+    "mixed/none": 9,
+    "glam": 7,
+    "mid-century modern": 6,
+    "farmhouse/rustic": 5,
+    "modern minimalist": 3,
+    "industrial": 2,
+    "traditional": 2,
+    "coastal": 1
+   },
+   "coastal": {
+    "coastal": 82,
+    "mixed/none": 20,
+    "farmhouse/rustic": 14,
+    "bohemian": 8,
+    "industrial": 7,
+    "traditional": 6,
+    "other": 5,
+    "modern minimalist": 4,
+    "scandinavian": 3,
+    "glam": 1
+   },
+   "traditional": {
+    "traditional": 53,
+    "mixed/none": 33,
+    "other": 30,
+    "glam": 8,
+    "industrial": 7,
+    "modern minimalist": 7,
+    "farmhouse/rustic": 6,
+    "bohemian": 2,
+    "mid-century modern": 2,
+    "coastal": 2
+   }
+  },
+  "qwen": {
+   "mid_century": {
+    "mid-century modern": 90,
+    "modern minimalist": 29,
+    "other": 9,
+    "traditional": 8,
+    "scandinavian": 8,
+    "industrial": 2,
+    "glam": 2,
+    "bohemian": 1,
+    "coastal": 1
+   },
+   "industrial": {
+    "industrial": 91,
+    "other": 15,
+    "modern minimalist": 14,
+    "mid-century modern": 12,
+    "traditional": 8,
+    "scandinavian": 3,
+    "glam": 3,
+    "farmhouse/rustic": 3,
+    "mixed/none": 1
+   },
+   "farmhouse_rustic": {
+    "farmhouse/rustic": 45,
+    "traditional": 32,
+    "industrial": 29,
+    "modern minimalist": 16,
+    "other": 11,
+    "mid-century modern": 6,
+    "glam": 5,
+    "coastal": 3,
+    "bohemian": 2,
+    "mixed/none": 1
+   },
+   "boho": {
+    "bohemian": 73,
+    "other": 24,
+    "mid-century modern": 13,
+    "scandinavian": 10,
+    "traditional": 8,
+    "modern minimalist": 6,
+    "glam": 5,
+    "coastal": 4,
+    "industrial": 3,
+    "farmhouse/rustic": 3,
+    "mixed/none": 1
+   },
+   "coastal": {
+    "coastal": 65,
+    "farmhouse/rustic": 19,
+    "other": 14,
+    "modern minimalist": 13,
+    "glam": 10,
+    "traditional": 10,
+    "industrial": 8,
+    "scandinavian": 4,
+    "bohemian": 4,
+    "mid-century modern": 3
+   },
+   "traditional": {
+    "traditional": 68,
+    "other": 26,
+    "modern minimalist": 20,
+    "industrial": 10,
+    "glam": 8,
+    "farmhouse/rustic": 7,
+    "bohemian": 4,
+    "coastal": 2,
+    "mid-century modern": 2,
+    "mixed/none": 2,
+    "scandinavian": 1
+   }
+  },
+  "gemma": {
+   "mid_century": {
+    "mid-century modern": 86,
+    "modern minimalist": 31,
+    "scandinavian": 11,
+    "traditional": 6,
+    "other": 6,
+    "glam": 5,
+    "coastal": 3,
+    "(失敗)": 1,
+    "bohemian": 1
+   },
+   "industrial": {
+    "industrial": 85,
+    "modern minimalist": 16,
+    "mid-century modern": 13,
+    "other": 7,
+    "scandinavian": 5,
+    "mixed/none": 5,
+    "glam": 5,
+    "farmhouse/rustic": 5,
+    "traditional": 4,
+    "(失敗)": 2,
+    "bohemian": 2,
+    "coastal": 1
+   },
+   "farmhouse_rustic": {
+    "farmhouse/rustic": 54,
+    "industrial": 28,
+    "traditional": 23,
+    "modern minimalist": 14,
+    "mid-century modern": 7,
+    "mixed/none": 6,
+    "other": 6,
+    "bohemian": 5,
+    "glam": 4,
+    "(失敗)": 2,
+    "coastal": 1
+   },
+   "boho": {
+    "bohemian": 82,
+    "other": 18,
+    "scandinavian": 11,
+    "glam": 10,
+    "mid-century modern": 7,
+    "traditional": 6,
+    "farmhouse/rustic": 5,
+    "industrial": 5,
+    "modern minimalist": 4,
+    "mixed/none": 2
+   },
+   "coastal": {
+    "coastal": 54,
+    "farmhouse/rustic": 29,
+    "bohemian": 12,
+    "glam": 10,
+    "industrial": 8,
+    "modern minimalist": 7,
+    "scandinavian": 6,
+    "(失敗)": 6,
+    "traditional": 6,
+    "mixed/none": 5,
+    "other": 4,
+    "mid-century modern": 3
+   },
+   "traditional": {
+    "traditional": 61,
+    "modern minimalist": 20,
+    "other": 17,
+    "farmhouse/rustic": 11,
+    "glam": 9,
+    "mixed/none": 8,
+    "industrial": 7,
+    "bohemian": 5,
+    "coastal": 4,
+    "mid-century modern": 3,
+    "(失敗)": 3,
+    "scandinavian": 2
+   }
+  }
+ },
+ "claude_cost": {
+  "n_calls_main": 46,
+  "n_calls_limited": 1,
+  "n_calls_resend": 0,
+  "n_items_ok": 900,
+  "usd_main_total": 8.2891,
+  "usd_per_item": 0.0092,
+  "tokens_main_total": {
+   "input": 92,
+   "cache_write": 575331,
+   "cache_read": 272309,
+   "output": 181582,
+   "thinking": 90596
+  },
+  "tokens_per_item": {
+   "input": 0.1,
+   "cache_write": 639.3,
+   "cache_read": 302.6,
+   "output": 201.8,
+   "thinking": 100.7
+  },
+  "wall_s_per_item": 1.7687,
+  "models_seen": [
+   "claude-opus-5-5"
+  ],
+  "recheck": {
+   "n_calls": 8,
+   "usd_total": 0.4198
+  },
+  "usd_all_calls": 8.709
+ },
+ "local_cost": {
+  "qwen": {
+   "n": 900,
+   "n_ok": 900,
+   "n_retried": 0,
+   "sec_per_item_mean": 8.7064,
+   "total_min": 130.596,
+   "prompt_tokens_mean": 4290.3,
+   "failure_reasons": {}
+  },
+  "gemma": {
+   "n": 900,
+   "n_ok": 886,
+   "n_retried": 14,
+   "sec_per_item_mean": 3.7284,
+   "total_min": 55.9267,
+   "prompt_tokens_mean": 4254.1,
+   "failure_reasons": {
+    "ValueError: material='ceramic' not in options": 8,
+    "ValueError: material='resin' not in options": 3,
+    "ValueError: style='pop art' not in options": 1,
+    "ValueError: style='tropical' not in options": 1,
+    "ValueError: color='red' not in options": 1
+   }
+  }
+ },
+ "batch_size_recheck": {
+  "n": 40,
+  "agreement": {
+   "style": 0.9,
+   "category": 1.0,
+   "color": 0.95,
+   "material": 0.975,
+   "shape": 0.975
+  }
+ },
+ "stage2_plan": {
+  "A_每格13件合格（同格題目共用）": {
+   "need_qualified_per_cell": 13,
+   "new_items_to_annotate": 1071,
+   "cells_infeasible_c0": [],
+   "cells_capped_by_supply": [
+    "boho|table",
+    "coastal|chandelier_pendant"
+   ],
+   "claude_usd": 9.85,
+   "quotas_5h": [
+    0.7,
+    1.0
+   ],
+   "qwen_hours": 2.5902,
+   "gemma_hours": 1.1092,
+   "per_cell": {
+    "mid_century|chair": {
+     "need_total": 28,
+     "annotate_total_capped": 28,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 44
+    },
+    "mid_century|table": {
+     "need_total": 33,
+     "annotate_total_capped": 33,
+     "new": 3,
+     "feasible": true,
+     "need_total_if_ci_low": 53
+    },
+    "mid_century|lamp": {
+     "need_total": 36,
+     "annotate_total_capped": 36,
+     "new": 6,
+     "feasible": true,
+     "need_total_if_ci_low": 60
+    },
+    "mid_century|chandelier_pendant": {
+     "need_total": 28,
+     "annotate_total_capped": 28,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 44
+    },
+    "mid_century|wall_art": {
+     "need_total": 98,
+     "annotate_total_capped": 98,
+     "new": 68,
+     "feasible": true,
+     "need_total_if_ci_low": 245
+    },
+    "industrial|chair": {
+     "need_total": 31,
+     "annotate_total_capped": 31,
+     "new": 1,
+     "feasible": true,
+     "need_total_if_ci_low": 48
+    },
+    "industrial|table": {
+     "need_total": 28,
+     "annotate_total_capped": 28,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 44
+    },
+    "industrial|lamp": {
+     "need_total": 28,
+     "annotate_total_capped": 28,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 44
+    },
+    "industrial|chandelier_pendant": {
+     "need_total": 31,
+     "annotate_total_capped": 31,
+     "new": 1,
+     "feasible": true,
+     "need_total_if_ci_low": 48
+    },
+    "industrial|wall_art": {
+     "need_total": 78,
+     "annotate_total_capped": 78,
+     "new": 48,
+     "feasible": true,
+     "need_total_if_ci_low": 178
+    },
+    "farmhouse_rustic|chair": {
+     "need_total": 195,
+     "annotate_total_capped": 195,
+     "new": 165,
+     "feasible": true,
+     "need_total_if_ci_low": 704
+    },
+    "farmhouse_rustic|table": {
+     "need_total": 65,
+     "annotate_total_capped": 65,
+     "new": 35,
+     "feasible": true,
+     "need_total_if_ci_low": 137
+    },
+    "farmhouse_rustic|lamp": {
+     "need_total": 195,
+     "annotate_total_capped": 195,
+     "new": 165,
+     "feasible": true,
+     "need_total_if_ci_low": 704
+    },
+    "farmhouse_rustic|chandelier_pendant": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 111
+    },
+    "farmhouse_rustic|wall_art": {
+     "need_total": 28,
+     "annotate_total_capped": 28,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 44
+    },
+    "boho|chair": {
+     "need_total": 26,
+     "annotate_total_capped": 26,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 40
+    },
+    "boho|table": {
+     "need_total": 391,
+     "annotate_total_capped": 78,
+     "new": 48,
+     "feasible": false,
+     "need_total_if_ci_low": 2201
+    },
+    "boho|lamp": {
+     "need_total": 130,
+     "annotate_total_capped": 130,
+     "new": 100,
+     "feasible": true,
+     "need_total_if_ci_low": 376
+    },
+    "boho|chandelier_pendant": {
+     "need_total": 23,
+     "annotate_total_capped": 23,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 34
+    },
+    "boho|wall_art": {
+     "need_total": 25,
+     "annotate_total_capped": 25,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 36
+    },
+    "coastal|chair": {
+     "need_total": 65,
+     "annotate_total_capped": 65,
+     "new": 35,
+     "feasible": true,
+     "need_total_if_ci_low": 137
+    },
+    "coastal|table": {
+     "need_total": 130,
+     "annotate_total_capped": 130,
+     "new": 100,
+     "feasible": true,
+     "need_total_if_ci_low": 376
+    },
+    "coastal|lamp": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 111
+    },
+    "coastal|chandelier_pendant": {
+     "need_total": 98,
+     "annotate_total_capped": 78,
+     "new": 48,
+     "feasible": false,
+     "need_total_if_ci_low": 245
+    },
+    "coastal|wall_art": {
+     "need_total": 28,
+     "annotate_total_capped": 28,
+     "new": 0,
+     "feasible": true,
+     "need_total_if_ci_low": 44
+    },
+    "traditional|chair": {
+     "need_total": 49,
+     "annotate_total_capped": 49,
+     "new": 19,
+     "feasible": true,
+     "need_total_if_ci_low": 92
+    },
+    "traditional|table": {
+     "need_total": 36,
+     "annotate_total_capped": 36,
+     "new": 6,
+     "feasible": true,
+     "need_total_if_ci_low": 60
+    },
+    "traditional|lamp": {
+     "need_total": 33,
+     "annotate_total_capped": 33,
+     "new": 3,
+     "feasible": true,
+     "need_total_if_ci_low": 53
+    },
+    "traditional|chandelier_pendant": {
+     "need_total": 33,
+     "annotate_total_capped": 33,
+     "new": 3,
+     "feasible": true,
+     "need_total_if_ci_low": 53
+    },
+    "traditional|wall_art": {
+     "need_total": 195,
+     "annotate_total_capped": 195,
+     "new": 165,
+     "feasible": true,
+     "need_total_if_ci_low": 704
+    }
+   }
+  },
+  "B_每格26件合格（2題不重複）": {
+   "need_qualified_per_cell": 26,
+   "new_items_to_annotate": 2651,
+   "cells_infeasible_c0": [],
+   "cells_capped_by_supply": [
+    "boho|table",
+    "boho|lamp",
+    "coastal|table",
+    "coastal|chandelier_pendant"
+   ],
+   "claude_usd": 24.39,
+   "quotas_5h": [
+    1.6,
+    2.4
+   ],
+   "qwen_hours": 6.4113,
+   "gemma_hours": 2.7456,
+   "per_cell": {
+    "mid_century|chair": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 87
+    },
+    "mid_century|table": {
+     "need_total": 65,
+     "annotate_total_capped": 65,
+     "new": 35,
+     "feasible": true,
+     "need_total_if_ci_low": 106
+    },
+    "mid_century|lamp": {
+     "need_total": 71,
+     "annotate_total_capped": 71,
+     "new": 41,
+     "feasible": true,
+     "need_total_if_ci_low": 119
+    },
+    "mid_century|chandelier_pendant": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 87
+    },
+    "mid_century|wall_art": {
+     "need_total": 196,
+     "annotate_total_capped": 196,
+     "new": 166,
+     "feasible": true,
+     "need_total_if_ci_low": 490
+    },
+    "industrial|chair": {
+     "need_total": 61,
+     "annotate_total_capped": 61,
+     "new": 31,
+     "feasible": true,
+     "need_total_if_ci_low": 95
+    },
+    "industrial|table": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 87
+    },
+    "industrial|lamp": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 87
+    },
+    "industrial|chandelier_pendant": {
+     "need_total": 61,
+     "annotate_total_capped": 61,
+     "new": 31,
+     "feasible": true,
+     "need_total_if_ci_low": 95
+    },
+    "industrial|wall_art": {
+     "need_total": 156,
+     "annotate_total_capped": 156,
+     "new": 126,
+     "feasible": true,
+     "need_total_if_ci_low": 355
+    },
+    "farmhouse_rustic|chair": {
+     "need_total": 390,
+     "annotate_total_capped": 390,
+     "new": 360,
+     "feasible": true,
+     "need_total_if_ci_low": 1408
+    },
+    "farmhouse_rustic|table": {
+     "need_total": 130,
+     "annotate_total_capped": 130,
+     "new": 100,
+     "feasible": true,
+     "need_total_if_ci_low": 274
+    },
+    "farmhouse_rustic|lamp": {
+     "need_total": 390,
+     "annotate_total_capped": 390,
+     "new": 360,
+     "feasible": true,
+     "need_total_if_ci_low": 1408
+    },
+    "farmhouse_rustic|chandelier_pendant": {
+     "need_total": 112,
+     "annotate_total_capped": 112,
+     "new": 82,
+     "feasible": true,
+     "need_total_if_ci_low": 221
+    },
+    "farmhouse_rustic|wall_art": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 87
+    },
+    "boho|chair": {
+     "need_total": 52,
+     "annotate_total_capped": 52,
+     "new": 22,
+     "feasible": true,
+     "need_total_if_ci_low": 79
+    },
+    "boho|table": {
+     "need_total": 781,
+     "annotate_total_capped": 78,
+     "new": 48,
+     "feasible": false,
+     "need_total_if_ci_low": 4401
+    },
+    "boho|lamp": {
+     "need_total": 260,
+     "annotate_total_capped": 172,
+     "new": 142,
+     "feasible": false,
+     "need_total_if_ci_low": 752
+    },
+    "boho|chandelier_pendant": {
+     "need_total": 46,
+     "annotate_total_capped": 46,
+     "new": 16,
+     "feasible": true,
+     "need_total_if_ci_low": 67
+    },
+    "boho|wall_art": {
+     "need_total": 49,
+     "annotate_total_capped": 49,
+     "new": 19,
+     "feasible": true,
+     "need_total_if_ci_low": 72
+    },
+    "coastal|chair": {
+     "need_total": 130,
+     "annotate_total_capped": 130,
+     "new": 100,
+     "feasible": true,
+     "need_total_if_ci_low": 274
+    },
+    "coastal|table": {
+     "need_total": 260,
+     "annotate_total_capped": 177,
+     "new": 147,
+     "feasible": false,
+     "need_total_if_ci_low": 752
+    },
+    "coastal|lamp": {
+     "need_total": 112,
+     "annotate_total_capped": 112,
+     "new": 82,
+     "feasible": true,
+     "need_total_if_ci_low": 221
+    },
+    "coastal|chandelier_pendant": {
+     "need_total": 196,
+     "annotate_total_capped": 78,
+     "new": 48,
+     "feasible": false,
+     "need_total_if_ci_low": 490
+    },
+    "coastal|wall_art": {
+     "need_total": 56,
+     "annotate_total_capped": 56,
+     "new": 26,
+     "feasible": true,
+     "need_total_if_ci_low": 87
+    },
+    "traditional|chair": {
+     "need_total": 98,
+     "annotate_total_capped": 98,
+     "new": 68,
+     "feasible": true,
+     "need_total_if_ci_low": 184
+    },
+    "traditional|table": {
+     "need_total": 71,
+     "annotate_total_capped": 71,
+     "new": 41,
+     "feasible": true,
+     "need_total_if_ci_low": 119
+    },
+    "traditional|lamp": {
+     "need_total": 65,
+     "annotate_total_capped": 65,
+     "new": 35,
+     "feasible": true,
+     "need_total_if_ci_low": 106
+    },
+    "traditional|chandelier_pendant": {
+     "need_total": 65,
+     "annotate_total_capped": 65,
+     "new": 35,
+     "feasible": true,
+     "need_total_if_ci_low": 106
+    },
+    "traditional|wall_art": {
+     "need_total": 390,
+     "annotate_total_capped": 390,
+     "new": 360,
+     "feasible": true,
+     "need_total_if_ci_low": 1408
+    }
+   }
+  },
+  "C_標完整個商品池（格子部分）": {
+   "new_items_to_annotate": 6622,
+   "claude_usd": 60.92,
+   "quotas_5h": [
+    4.1,
+    6.1
+   ],
+   "qwen_hours": 16.0149,
+   "gemma_hours": 6.8582
+  }
+ },
+ "quota_usd_assumption": [
+  10,
+  15
+ ],
+ "review_sample": {
+  "n": 60,
+  "why": {
+   "三方風格各不相同": 40,
+   "風格 2 比 1 或有標註失敗": 20
+  }
+ }
+}

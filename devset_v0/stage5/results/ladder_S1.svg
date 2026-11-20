@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" font-family="sans-serif" font-size="11"><rect width="100%" height="100%" fill="white"/>
+<text x="60" y="16" font-size="13">EffCov@5 ladder — S1（x: img、g0…g5、g5−style；虛線 = Random）</text>
+<line x1="60" x2="600" y1="350" y2="350" stroke="#ddd"/><text x="54" y="354" text-anchor="end">0.00</text>
+<line x1="60" x2="600" y1="286" y2="286" stroke="#ddd"/><text x="54" y="290" text-anchor="end">0.15</text>
+<line x1="60" x2="600" y1="222" y2="222" stroke="#ddd"/><text x="54" y="226" text-anchor="end">0.31</text>
+<line x1="60" x2="600" y1="158" y2="158" stroke="#ddd"/><text x="54" y="162" text-anchor="end">0.46</text>
+<line x1="60" x2="600" y1="94" y2="94" stroke="#ddd"/><text x="54" y="98" text-anchor="end">0.62</text>
+<line x1="60" x2="600" y1="30" y2="30" stroke="#ddd"/><text x="54" y="34" text-anchor="end">0.77</text>
+<text x="60" y="366" text-anchor="middle">img</text>
+<text x="137" y="366" text-anchor="middle">g0</text>
+<text x="214" y="366" text-anchor="middle">g1</text>
+<text x="291" y="366" text-anchor="middle">g2</text>
+<text x="369" y="366" text-anchor="middle">g3</text>
+<text x="446" y="366" text-anchor="middle">g4</text>
+<text x="523" y="366" text-anchor="middle">g5</text>
+<text x="600" y="366" text-anchor="middle">g5−style</text>
+<line x1="60" x2="600" y1="214" y2="214" stroke="#888" stroke-dasharray="5,4"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="60,108"/><circle cx="60" cy="108" r="3" fill="#1f77b4"/>
+<line x1="610" x2="630" y1="40" y2="40" stroke="#1f77b4" stroke-width="2"/><text x="635" y="44">qwen38-27b‡</text>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="2" points="60,128"/><circle cx="60" cy="128" r="3" fill="#ff7f0e"/>
+<line x1="610" x2="630" y1="58" y2="58" stroke="#ff7f0e" stroke-width="2"/><text x="635" y="62">qwen36-35b</text>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2" points="60,129 137,209 214,59 291,121 369,162 446,159 523,161 600,222"/><circle cx="60" cy="129" r="3" fill="#2ca02c"/><circle cx="137" cy="209" r="3" fill="#2ca02c"/><circle cx="214" cy="59" r="3" fill="#2ca02c"/><circle cx="291" cy="121" r="3" fill="#2ca02c"/><circle cx="369" cy="162" r="3" fill="#2ca02c"/><circle cx="446" cy="159" r="3" fill="#2ca02c"/><circle cx="523" cy="161" r="3" fill="#2ca02c"/><circle cx="600" cy="222" r="3" fill="#2ca02c"/>
+<line x1="610" x2="630" y1="76" y2="76" stroke="#2ca02c" stroke-width="2"/><text x="635" y="80">gemma4-12b‡</text>
+<polyline fill="none" stroke="#d62728" stroke-width="2" points="60,120 137,215 214,74 291,141 369,147 446,143 523,144 600,224"/><circle cx="60" cy="120" r="3" fill="#d62728"/><circle cx="137" cy="215" r="3" fill="#d62728"/><circle cx="214" cy="74" r="3" fill="#d62728"/><circle cx="291" cy="141" r="3" fill="#d62728"/><circle cx="369" cy="147" r="3" fill="#d62728"/><circle cx="446" cy="143" r="3" fill="#d62728"/><circle cx="523" cy="144" r="3" fill="#d62728"/><circle cx="600" cy="224" r="3" fill="#d62728"/>
+<line x1="610" x2="630" y1="94" y2="94" stroke="#d62728" stroke-width="2"/><text x="635" y="98">qwen35-9b</text>
+<polyline fill="none" stroke="#9467bd" stroke-width="2" points="60,147 137,221 214,93 291,158 369,173 446,172 523,176 600,228"/><circle cx="60" cy="147" r="3" fill="#9467bd"/><circle cx="137" cy="221" r="3" fill="#9467bd"/><circle cx="214" cy="93" r="3" fill="#9467bd"/><circle cx="291" cy="158" r="3" fill="#9467bd"/><circle cx="369" cy="173" r="3" fill="#9467bd"/><circle cx="446" cy="172" r="3" fill="#9467bd"/><circle cx="523" cy="176" r="3" fill="#9467bd"/><circle cx="600" cy="228" r="3" fill="#9467bd"/>
+<line x1="610" x2="630" y1="112" y2="112" stroke="#9467bd" stroke-width="2"/><text x="635" y="116">qwen35-4b</text>
+<polyline fill="none" stroke="#8c564b" stroke-width="2" points="60,194 137,232 214,135 291,190 369,189 446,184 523,185 600,231"/><circle cx="60" cy="194" r="3" fill="#8c564b"/><circle cx="137" cy="232" r="3" fill="#8c564b"/><circle cx="214" cy="135" r="3" fill="#8c564b"/><circle cx="291" cy="190" r="3" fill="#8c564b"/><circle cx="369" cy="189" r="3" fill="#8c564b"/><circle cx="446" cy="184" r="3" fill="#8c564b"/><circle cx="523" cy="185" r="3" fill="#8c564b"/><circle cx="600" cy="231" r="3" fill="#8c564b"/>
+<line x1="610" x2="630" y1="130" y2="130" stroke="#8c564b" stroke-width="2"/><text x="635" y="134">internvl35-1tile</text>
+<polyline fill="none" stroke="#e377c2" stroke-width="2" points="60,183 137,227 214,147 291,166 369,176 446,174 523,176 600,232"/><circle cx="60" cy="183" r="3" fill="#e377c2"/><circle cx="137" cy="227" r="3" fill="#e377c2"/><circle cx="214" cy="147" r="3" fill="#e377c2"/><circle cx="291" cy="166" r="3" fill="#e377c2"/><circle cx="369" cy="176" r="3" fill="#e377c2"/><circle cx="446" cy="174" r="3" fill="#e377c2"/><circle cx="523" cy="176" r="3" fill="#e377c2"/><circle cx="600" cy="232" r="3" fill="#e377c2"/>
+<line x1="610" x2="630" y1="148" y2="148" stroke="#e377c2" stroke-width="2"/><text x="635" y="152">llavaov2-8b</text>
+</svg>

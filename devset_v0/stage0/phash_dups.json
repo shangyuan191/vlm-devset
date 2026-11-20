@@ -1,0 +1,710 @@
+[
+{
+"removed": "B00RZT0T6E",
+"kept": "B00IC6WBY2",
+"dist": 4,
+"cell": "mid_century|chair"
+},
+{
+"removed": "B07F3ZFGVL",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "mid_century|chair"
+},
+{
+"removed": "B083TFV5HP",
+"kept": "B08SBPCSSN",
+"dist": 0,
+"cell": "mid_century|chair"
+},
+{
+"removed": "B0C6YRZMW8",
+"kept": "B078FBC5J7",
+"dist": 0,
+"cell": "mid_century|table"
+},
+{
+"removed": "B091SMDB5V",
+"kept": "B07978X438",
+"dist": 0,
+"cell": "mid_century|table"
+},
+{
+"removed": "B07TFB128L",
+"kept": "B07Q237XWH",
+"dist": 2,
+"cell": "mid_century|table"
+},
+{
+"removed": "B08ZD2VC37",
+"kept": "B0B7663NMY",
+"dist": 0,
+"cell": "mid_century|lamp"
+},
+{
+"removed": "B01NCW6VZM",
+"kept": "B09J1QV5NW",
+"dist": 4,
+"cell": "mid_century|lamp"
+},
+{
+"removed": "B0925S2HYX",
+"kept": "B09P4YP4LF",
+"dist": 0,
+"cell": "mid_century|chandelier_pendant"
+},
+{
+"removed": "B07S77WK4Y",
+"kept": "B07SDLJT6K",
+"dist": 2,
+"cell": "mid_century|chandelier_pendant"
+},
+{
+"removed": "B07X64BNLR",
+"kept": "B07X43RCDY",
+"dist": 2,
+"cell": "industrial|chair"
+},
+{
+"removed": "B088YWRBDQ",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "industrial|chair"
+},
+{
+"removed": "B095YGZZSX",
+"kept": "B095YD6B3B",
+"dist": 4,
+"cell": "industrial|table"
+},
+{
+"removed": "B07J69P7NM",
+"kept": "B07KJY3CZK",
+"dist": 0,
+"cell": "industrial|table"
+},
+{
+"removed": "B07ZT3YTJS",
+"kept": "B0787RWB5B",
+"dist": 2,
+"cell": "industrial|lamp"
+},
+{
+"removed": "B093T46487",
+"kept": "B08W8BNLFJ",
+"dist": 0,
+"cell": "industrial|lamp"
+},
+{
+"removed": "B09GXCGN12",
+"kept": "B08W8BNLFJ",
+"dist": 2,
+"cell": "industrial|lamp"
+},
+{
+"removed": "B07M84L9QL",
+"kept": "B07N8FRVFD",
+"dist": 2,
+"cell": "industrial|chandelier_pendant"
+},
+{
+"removed": "B082CVN82H",
+"kept": "B085DFDR3X",
+"dist": 0,
+"cell": "industrial|chandelier_pendant"
+},
+{
+"removed": "B0B7TNYHKB",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "industrial|wall_art"
+},
+{
+"removed": "B06WGSKJ7G",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "industrial|wall_art"
+},
+{
+"removed": "B0BG3ZPTFF",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "industrial|wall_art"
+},
+{
+"removed": "B08X3PX9VC",
+"kept": "B08LBJTV9T",
+"dist": 0,
+"cell": "farmhouse_rustic|chair"
+},
+{
+"removed": "B07DG6NBJT",
+"kept": "B01BKB9YF4",
+"dist": 4,
+"cell": "farmhouse_rustic|chair"
+},
+{
+"removed": "B07JZ4W3WG",
+"kept": "B07JZJ2N6D",
+"dist": 4,
+"cell": "farmhouse_rustic|chair"
+},
+{
+"removed": "B088N1PLSH",
+"kept": "B01ABWECEQ",
+"dist": 2,
+"cell": "farmhouse_rustic|chair"
+},
+{
+"removed": "B01MPYA56E",
+"kept": "B07JZL9GTM",
+"dist": 4,
+"cell": "farmhouse_rustic|chair"
+},
+{
+"removed": "B09ZYJL3DX",
+"kept": "B0BKZF6CD7",
+"dist": 0,
+"cell": "farmhouse_rustic|lamp"
+},
+{
+"removed": "B0B1PDXH4J",
+"kept": "B09HKKCY6C",
+"dist": 0,
+"cell": "farmhouse_rustic|lamp"
+},
+{
+"removed": "B0887FZZGN",
+"kept": "B07Z2854WF",
+"dist": 0,
+"cell": "farmhouse_rustic|lamp"
+},
+{
+"removed": "B07VL4HKFJ",
+"kept": "B07N8FRVFD",
+"dist": 0,
+"cell": "farmhouse_rustic|chandelier_pendant"
+},
+{
+"removed": "B01LMPN5GM",
+"kept": "B00DIIUOHU",
+"dist": 4,
+"cell": "farmhouse_rustic|chandelier_pendant"
+},
+{
+"removed": "B00XTNL0RW",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "farmhouse_rustic|wall_art"
+},
+{
+"removed": "B0BL41GRC7",
+"kept": "B0BL794MZS",
+"dist": 0,
+"cell": "boho|chair"
+},
+{
+"removed": "B08ZSPJVRM",
+"kept": "B084VPJ18M",
+"dist": 0,
+"cell": "boho|chair"
+},
+{
+"removed": "B07JG1DBLN",
+"kept": "B07JW57LPK",
+"dist": 0,
+"cell": "boho|chair"
+},
+{
+"removed": "B07JF3GHM4",
+"kept": "B07JW1GM3Z",
+"dist": 0,
+"cell": "boho|chair"
+},
+{
+"removed": "B082XVRBYS",
+"kept": "B00NPXBV84",
+"dist": 4,
+"cell": "boho|chair"
+},
+{
+"removed": "B0BBKN2KK2",
+"kept": "B0C58L4T3P",
+"dist": 0,
+"cell": "boho|table"
+},
+{
+"removed": "B0BR5FHM5J",
+"kept": "B0BTYGGRW7",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09BR1PD4S",
+"kept": "B09BN9NKT5",
+"dist": 4,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09MVZSQ85",
+"kept": "B09NDDTQTB",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09PDP9JFF",
+"kept": "B09N3D34W2",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09BQRT2P5",
+"kept": "B09GG4RXVW",
+"dist": 4,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09C6B4FVC",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09BJQNCMR",
+"kept": "B09NKQ3M3Z",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09DG8VBJ9",
+"kept": "B09NKQ3M3Z",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09BVTRFYC",
+"kept": "B09BN9NKT5",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09P1HHSB9",
+"kept": "B09NKQ3M3Z",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09N3FCTMF",
+"kept": "B09N3D34W2",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BZPCH2MY",
+"kept": "B0BTYGGRW7",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BQ6TKTKN",
+"kept": "B0BTYGGRW7",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BN3H5B54",
+"kept": "B09NDK8PR2",
+"dist": 2,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0C331V6CJ",
+"kept": "B0BTYGGRW7",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09CHBT3BT",
+"kept": "B09NKQ3M3Z",
+"dist": 2,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09CQ6DF3P",
+"kept": "B09N3D34W2",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09NBQXV99",
+"kept": "B09GG4RXVW",
+"dist": 2,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BZPKYLXQ",
+"kept": "B0BTYGGRW7",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09TPJJFQZ",
+"kept": "B09N3D34W2",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BPS866GT",
+"kept": "B0BTYGGRW7",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0C5J28PQ3",
+"kept": "B0C58HV1RX",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BTM16KDF",
+"kept": "B09NKQ3M3Z",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BN3873DD",
+"kept": "B09BN9NKT5",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B0BRQD7714",
+"kept": "B09GNG9RMG",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B09C6D98V6",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "boho|lamp"
+},
+{
+"removed": "B014YVUPI2",
+"kept": "B014YVWMJM",
+"dist": 4,
+"cell": "boho|chandelier_pendant"
+},
+{
+"removed": "B09GFFNYR5",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "boho|wall_art"
+},
+{
+"removed": "B08LGQJCSR",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "boho|wall_art"
+},
+{
+"removed": "B099Z5K56T",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "boho|wall_art"
+},
+{
+"removed": "B08TH8PDJN",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "boho|wall_art"
+},
+{
+"removed": "B07MNDRXV5",
+"kept": "B01LW59331",
+"dist": 0,
+"cell": "boho|wall_art"
+},
+{
+"removed": "B07QKCGDHV",
+"kept": "B09BHHQNF1",
+"dist": 4,
+"cell": "boho|wall_art"
+},
+{
+"removed": "B09QG3MY8L",
+"kept": "B09QG35VKJ",
+"dist": 2,
+"cell": "coastal|chair"
+},
+{
+"removed": "B09QG51T4C",
+"kept": "B09QG35VKJ",
+"dist": 0,
+"cell": "coastal|chair"
+},
+{
+"removed": "B07MQWWRHF",
+"kept": "B07ZTPBTF5",
+"dist": 4,
+"cell": "coastal|chair"
+},
+{
+"removed": "B081S44LFR",
+"kept": "B081S4DMDM",
+"dist": 0,
+"cell": "coastal|chair"
+},
+{
+"removed": "B09QFZYZ59",
+"kept": "B09QG35VKJ",
+"dist": 2,
+"cell": "coastal|chair"
+},
+{
+"removed": "B09B9WBFMF",
+"kept": "B09B9Z2FYF",
+"dist": 0,
+"cell": "coastal|chair"
+},
+{
+"removed": "B0861ZRJD1",
+"kept": "B0B76J4XK5",
+"dist": 4,
+"cell": "coastal|chair"
+},
+{
+"removed": "B00UHGKUH0",
+"kept": "B07C2Q8NYX",
+"dist": 0,
+"cell": "coastal|chair"
+},
+{
+"removed": "B004WOTL6Y",
+"kept": "B07CGQY59Z",
+"dist": 2,
+"cell": "coastal|chair"
+},
+{
+"removed": "B0081ZHZOU",
+"kept": "B07C8GFCJG",
+"dist": 0,
+"cell": "coastal|chair"
+},
+{
+"removed": "B007XP6108",
+"kept": "B009EK69FM",
+"dist": 2,
+"cell": "coastal|table"
+},
+{
+"removed": "B0861ZP7LH",
+"kept": "B009EK66A0",
+"dist": 0,
+"cell": "coastal|table"
+},
+{
+"removed": "B00ALBHUWY",
+"kept": "B00ALBHT98",
+"dist": 4,
+"cell": "coastal|table"
+},
+{
+"removed": "B0924GL3TF",
+"kept": "B0923HHTYJ",
+"dist": 4,
+"cell": "coastal|table"
+},
+{
+"removed": "B09JDTNHT6",
+"kept": "B08DM4BJJQ",
+"dist": 0,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B0789G4XJT",
+"kept": "B07BY1JDWX",
+"dist": 2,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B07SLKQCD5",
+"kept": "B078JR1XW5",
+"dist": 0,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B079SVH5S4",
+"kept": "B0B1XHYPV5",
+"dist": 2,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B00H9YK0Q4",
+"kept": "B00LP7NWLG",
+"dist": 0,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B00W78HHHC",
+"kept": "B015Z9JOTS",
+"dist": 0,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B08P3QGD8L",
+"kept": "B08PG1K3NP",
+"dist": 0,
+"cell": "coastal|lamp"
+},
+{
+"removed": "B093PR42KG",
+"kept": "B09QRPPYPN",
+"dist": 2,
+"cell": "coastal|chandelier_pendant"
+},
+{
+"removed": "B094PYF9N9",
+"kept": "B00SJRNMXS",
+"dist": 4,
+"cell": "traditional|chair"
+},
+{
+"removed": "B076H3Q434",
+"kept": "B07CV5KWVG",
+"dist": 4,
+"cell": "traditional|chair"
+},
+{
+"removed": "B09BDTHBKB",
+"kept": "B07JZJ2N6D",
+"dist": 4,
+"cell": "traditional|chair"
+},
+{
+"removed": "B09RVTTVPY",
+"kept": "B07JZHTJ5D",
+"dist": 4,
+"cell": "traditional|chair"
+},
+{
+"removed": "B074BZ3XR1",
+"kept": "B004AJJCE2",
+"dist": 2,
+"cell": "traditional|chair"
+},
+{
+"removed": "B002DRTMCU",
+"kept": "B0B1XHYPV5",
+"dist": 4,
+"cell": "traditional|lamp"
+},
+{
+"removed": "B001Q1HOT2",
+"kept": "B073P39KQP",
+"dist": 4,
+"cell": "traditional|lamp"
+},
+{
+"removed": "B0015E9N4O",
+"kept": "B073P39KQP",
+"dist": 4,
+"cell": "traditional|lamp"
+},
+{
+"removed": "B000PH0ANA",
+"kept": "B003Q72MR8",
+"dist": 0,
+"cell": "traditional|chandelier_pendant"
+},
+{
+"removed": "B07MW3ZN1Y",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "traditional|chandelier_pendant"
+},
+{
+"removed": "B0BHC89RLL",
+"kept": "B0BTPFH7ZL",
+"dist": 4,
+"cell": "traditional|chandelier_pendant"
+},
+{
+"removed": "B07MW8C9PF",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "traditional|chandelier_pendant"
+},
+{
+"removed": "B0787BPVXS",
+"kept": "B07BDCGWJD",
+"dist": 0,
+"cell": "traditional|wall_art"
+},
+{
+"removed": "B000089G1T",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|chair"
+},
+{
+"removed": "B07YWCT44W",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|table"
+},
+{
+"removed": "B0B5ZXQDD8",
+"kept": "B0C52NF6HM",
+"dist": 2,
+"cell": "none|table"
+},
+{
+"removed": "B000BK54WI",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|table"
+},
+{
+"removed": "B09683HKWG",
+"kept": "B096Y4MRT3",
+"dist": 2,
+"cell": "none|table"
+},
+{
+"removed": "B000077DDZ",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|lamp"
+},
+{
+"removed": "B07354MSY9",
+"kept": "B08P242745",
+"dist": 0,
+"cell": "none|lamp"
+},
+{
+"removed": "B08HYZSJW5",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|lamp"
+},
+{
+"removed": "B0BD1PXW8F",
+"kept": "B082JH9VVD",
+"dist": 4,
+"cell": "none|chandelier_pendant"
+},
+{
+"removed": "B07N196K6L",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|chandelier_pendant"
+},
+{
+"removed": "B0B7TF2X2K",
+"kept": "B07641C9LN",
+"dist": 0,
+"cell": "none|wall_art"
+}
+]
