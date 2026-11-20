@@ -1,3 +1,5 @@
+> **2026-11-20 更新（USER_DECISIONS ⑬）**：`img_goldstyle` 與它的比較對象 style_given 已移出實驗矩陣；下文關於這兩個條件的設計只是歷史紀錄。
+
 # 開發集 v0：階段 5（正確 caption 階梯）守則（2026-11-19 起，無人值守；Skyler 已確認設計）
 
 你是無人值守的 agent。使用者 Skyler（博一新生）**不會回答問題**，不要呼叫 AskUserQuestion。自己判斷，判斷寫進 `V/DECISIONS.md`（每條附理由）。

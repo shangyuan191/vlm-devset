@@ -50,7 +50,7 @@ def render(content):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--model', required=True); ap.add_argument('--url', required=True)
-    ap.add_argument('--conditions', default=','.join(ORDER_CONDS)); ap.add_argument('--no-think', action='store_true')
+    ap.add_argument('--conditions', default=''); ap.add_argument('--no-think', action='store_true')
     ap.add_argument('--orders', default='o0,o1,o2'); ap.add_argument('--limit-queries', type=int, default=0); ap.add_argument('--tag', default='')
     ap.add_argument('--dump-prompts', action='store_true')
     a = ap.parse_args()
@@ -65,7 +65,9 @@ def main():
             content, _ = build(q, list(q['candidates']), cond)
             (V / 'logs' / f'prompt_example_{cond}.txt').write_text(f'# {q["qid"]}（完整文字；[IMAGE] = 一張圖）\n' + render(content) + '\n')
         return
-    for cond in a.conditions.split(','):
+    # USER_DECISIONS ⑬：img_goldstyle 不再屬於主實驗；正式跑預設跳過（smoke 仍含，維持 32 筆檢查）
+    conds = a.conditions or ','.join(c for c in ORDER_CONDS if c != 'img_goldstyle' or a.tag == '_smoke')
+    for cond in conds.split(','):
         for order in a.orders.split(','):
             path = out / f'select{a.tag}_{cond}_{order}.jsonl'; have = done_keys(path, 'qid')
             with open(path, 'a') as fh:

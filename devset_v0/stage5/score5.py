@@ -9,8 +9,8 @@ M = S3.M; QS = S3.QS; QD = S3.QD; mean = S3.mean; sd = S3.sd; boot_ci = S3.boot_
 MODELS = S3.MODELS; ORDERS = ['o0', 'o1', 'o2']
 ANNOT = {'qwen38-27b', 'gemma4-12b'}
 CAPC = ['cap_g0', 'cap_g1', 'cap_g2', 'cap_g3', 'cap_g4', 'cap_g5', 'cap_g5_nostyle']
-LADDER = ['img'] + CAPC            # img / style_given 來自階段 3
-ALLC = LADDER + ['img_goldstyle', 'style_given']
+LADDER = ['img'] + CAPC            # img 來自階段 3
+ALLC = LADDER   # USER_DECISIONS ⑬：拿掉 img_goldstyle、style_given
 TXT = ['siglip2txt-top5', 'siglip2txt-mmr-std']; TXTC = [c for c in CAPC if c != 'cap_g0']
 PATH = lambda m, c, o: (T if c in ('img', 'style_given') else V) / 'out' / m / f'select_{c}_{o}.jsonl'
 LBL = {'img': 'img', 'cap_g0': 'g0', 'cap_g1': 'g1', 'cap_g2': 'g2', 'cap_g3': 'g3', 'cap_g4': 'g4', 'cap_g5': 'g5', 'cap_g5_nostyle': 'g5−style', 'img_goldstyle': 'img+gold', 'style_given': 'img+self'}
@@ -83,17 +83,6 @@ def main():
                         x, y = qv(m, a, q['qid'], key), qv(m, b, q['qid'], key)
                         if x is not None and y is not None: d.append(x - y)
                     out['paired'][f'{m}|{sc}|{lab}|{key}'] = boot_ci(d, seed=7)
-    # caption 寫錯的損失
-    for m in MODELS:
-        sp = {r['query_id']: r for r in map(json.loads, open(T / 'out' / m / 'style.jsonl'))}
-        right = {k for k, r in sp.items() if r['status'] == 'ok' and r['answer'] == r['gold']}
-        for sc in scs:
-            for g, sel in (('all', lambda q: True), ('style_right', lambda q: q['query_id'] in right), ('style_wrong', lambda q: q['query_id'] not in right)):
-                for key in ('Align', 'EffCov'):
-                    qs = [q for q in QS if q['scenario'] == sc and sel(q)]
-                    d = [qv(m, 'img_goldstyle', q['qid'], key) - qv(m, 'style_given', q['qid'], key) for q in qs
-                         if qv(m, 'img_goldstyle', q['qid'], key) is not None and qv(m, 'style_given', q['qid'], key) is not None]
-                    out['loss'][f'{m}|{sc}|{g}|{key}'] = (boot_ci(d, seed=9) or {}) | {'n_questions': len(qs), 'n_queries': len({q['query_id'] for q in qs})}
     json.dump(out, open(V / 'results/scores5.json', 'w'), ensure_ascii=False, indent=1)
     write_md(out); write_svgs(out)
 
@@ -107,29 +96,23 @@ def ci(p, sig=True):
 
 def write_md(o):
     C = o['cells']; L = ['# 階段 5 計分（score5.py 產生；數字來源 results/scores5.json）\n',
-                       'ĺ 表中數字 = 3 個順序平均；`‡` = 標註者模型；`*` = 95% CI（題目層級 bootstrap）不含 0；g5−style = cap_g5_nostyle；img = 只看圖（階段 3）；img+self = 圖 + 模型自己寫的風格（style_given）；img+gold = 圖 + 正確風格。\n'.replace('ĺ ', '')]
+                       'ĺ 表中數字 = 3 個順序平均；`‡` = 標註者模型；`*` = 95% CI（題目層級 bootstrap）不含 0；g5−style = cap_g5_nostyle；img = 只看參考圖（階段 3）。\n'.replace('ĺ ', '')]
     for key in ('Align', 'EffCov'):
         for sc in ('S1', 'S2'):
-            L.append(f'\n## 階梯表：{key}@5（{sc}）\n\n| 模型 | ' + ' | '.join(LBL[c] for c in LADDER + ['img_goldstyle', 'style_given']) + ' |\n|---|' + '---|' * (len(LADDER) + 2))
+            L.append(f'\n## 階梯表：{key}@5（{sc}）\n\n| 模型 | ' + ' | '.join(LBL[c] for c in LADDER) + ' |\n|---|' + '---|' * len(LADDER))
             for m in MODELS:
-                L.append(f'| {nm(m)} | ' + ' | '.join(f(C.get(f'{m}|{c}|{sc}', {}).get(key)) for c in LADDER + ['img_goldstyle', 'style_given']) + ' |')
+                L.append(f'| {nm(m)} | ' + ' | '.join(f(C.get(f'{m}|{c}|{sc}', {}).get(key)) for c in LADDER) + ' |')
             for b in TXT:
-                L.append(f'| {b} | ' + ' | '.join(f(C.get(f'{b}|{c}|{sc}', {}).get(key)) if c in TXTC else '–' for c in LADDER + ['img_goldstyle', 'style_given']) + ' |')
+                L.append(f'| {b} | ' + ' | '.join(f(C.get(f'{b}|{c}|{sc}', {}).get(key)) if c in TXTC else '–' for c in LADDER) + ' |')
             for b in ('siglip2-top5', 'siglip2-mmr-std'):
-                L.append(f'| {b}（階段 3，以圖找圖） | ' + f(C.get(f'{b}|img|{sc}', {}).get(key)) + ' |' + ' – |' * (len(LADDER) + 1))
-            L.append(f"| Random | " + ' | '.join(f(o['random'][sc][key]) for _ in [0]) + ' |' + ' – |' * (len(LADDER) + 1))
+                L.append(f'| {b}（階段 3，以圖找圖） | ' + f(C.get(f'{b}|img|{sc}', {}).get(key)) + ' |' + ' – |' * (len(LADDER) - 1))
+            L.append(f"| Random | " + ' | '.join(f(o['random'][sc][key]) for _ in [0]) + ' |' + ' – |' * (len(LADDER) - 1))
     for key in ('Align', 'EffCov'):
         for sc in ('S1', 'S2'):
             labs = ['g1−g0', 'g2−g1', 'g3−g2', 'g4−g3', 'g5−g4', 'g5−g5_nostyle', 'g1−img']
             L.append(f'\n## 每一階的配對差：{key}@5（{sc}）\n\n| 模型 | ' + ' | '.join(labs) + ' |\n|---|' + '---|' * len(labs))
             for m in MODELS:
                 L.append(f'| {nm(m)} | ' + ' | '.join(ci(o['paired'].get(f'{m}|{sc}|{l}|{key}')) for l in labs) + ' |')
-    for key in ('Align', 'EffCov'):
-        for sc in ('S1', 'S2'):
-            L.append(f'\n## caption 寫錯的損失：img+gold − img+self（{key}@5，{sc}）\n\n| 模型 | 全部 | 模型風格答對（題數） | 模型風格答錯（題數） |\n|---|---|---|---|')
-            for m in MODELS:
-                g = lambda n: (ci(o['loss'].get(f'{m}|{sc}|{n}|{key}')) + f" (n={o['loss'].get(f'{m}|{sc}|{n}|{key}', {}).get('n_questions')}, query {o['loss'].get(f'{m}|{sc}|{n}|{key}', {}).get('n_queries')})")
-                L.append(f'| {nm(m)} | {g("all")} | {g("style_right")} | {g("style_wrong")} |')
     for sc in ('S1', 'S2'):
         L.append(f'\n## 找相似的傾向：CopyQ@5 顏色 / 材質（選中的合格商品中，和參考圖相同的比例）與 EffCov@5（{sc}）\n\n| 模型 | ' + ' | '.join(LBL[c] for c in ALLC) + ' |\n|---|' + '---|' * len(ALLC))
         for m in MODELS:

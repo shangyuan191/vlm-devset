@@ -39,3 +39,9 @@
 - 216 題（S1、S2）× 3 個候選順序 × 7 模型；加入 SigLIP2 文字檢索基準線（top-5、MMR）。
 - GPU：這次允許用 nvidia-smi GPU 4；RTX 4080 只試給 qwen35-4b；3070 放不下任何模型，不用。
 - 設計見 `stage5/RUNBOOK.md`。
+
+## ⑬ 主實驗只給參考圖；caption 階梯併入主實驗（2026-11-20）
+- 拿掉「圖 + 模型自己寫的風格名稱」（style_given）以及模型寫風格名稱那一步；也拿掉「圖 + 正確風格」（img_goldstyle）。理由：主實驗想看的是只給 query image 的表現。
+- 情境一、二（216 題）的主實驗條件 = 只給參考圖（img）+ caption 階梯 G0–G5、G5_nostyle（沒有圖），每個條件 3 種候選順序；Negation、多重限制維持「參考圖 + 中文題目句」× 3 順序。
+- 展示（投影片、導讀文件、題目檢視器、GitHub）都拿掉 style_given / img_goldstyle；本機 stage3、stage5 的原始輸出保留不刪。stage5 之後的模型不再跑 img_goldstyle（smoke 例外）。
+- 投影片與導讀文件先不放任何實驗結果，只放預計要跑的實驗矩陣（模型、題目、條件、指標）。
