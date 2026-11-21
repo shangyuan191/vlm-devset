@@ -13,7 +13,7 @@
 | `devset_v0/stage4/` | Negation、多重限制題與其選品程式；合成 query（`gen_syn.py`、`gen_syn_claude.py`，目前不在實驗矩陣） |
 | `devset_v0/stage5/` | 正確 caption 階梯、SigLIP2 文字檢索基準線（還在跑） |
 | `devset_v0/USER_DECISIONS.md` | 研究者的決定；各 stage 的 `DECISIONS.md` 是執行時的判斷紀錄 |
-| `overnight_2026-11-14/D_main_table/metrics.py` | 計分（Align@5、EffCov@5、Div@5、Oracle、Random） |
+| `overnight_2026-11-14/D_main_table/metrics.py` | 計分（Precision@5、EffCov@5、Div@5、Oracle、Random；程式裡 Precision@5 叫 `align`） |
 | `overnight_2026-11-14/C1_category/c1_stats.py` | 品項與風格關鍵字規則 |
 
 ## 每一題的候選從哪來
@@ -54,8 +54,10 @@
 
 ## 指標
 
-- **Align@5**：選中的 5 件裡，符合題目條件（風格、品項等）的比例 = 選對幾件 ÷ 5。
-- **EffCov@5（Effective Coverage，有效覆蓋率）**：對每個「自由維度」（題目沒限制、而且正確答案裡至少有 2 種值的屬性），算「選對的商品在這個維度有幾種不同的值 ÷ min(5, 正確答案在這個維度有幾種值)」，再對所有自由維度取平均。只算選對的商品，所以亂選湊多樣拿不到分。公式在 `overnight_2026-11-14/D_main_table/metrics.py` 的 `score()`。概念上沿用 ImageCLEFPhoto 2008 的子主題召回（S-recall）。
+- **Precision@5**：選中的 5 件裡，符合題目條件（風格、品項等）的比例 = 選對幾件 ÷ 5，就是標準的 precision。各 stage 的 RUNBOOK、程式和舊文件裡叫 Align@5 / `align`，是同一個指標。
+- **EffCov@5（Effective Coverage，有效覆蓋率）**：對每個「自由維度」（題目沒限制、而且正確答案裡至少有 2 種值的屬性），算「選對的商品在這個維度有幾種不同的值 ÷ min(5, 正確答案在這個維度有幾種值)」，再對所有自由維度取平均。只算選對的商品，所以亂選湊多樣拿不到分。公式在 `overnight_2026-11-14/D_main_table/metrics.py` 的 `score()`。核心沿用 subtopic recall（S-recall：前 K 個結果涵蓋的子主題數 ÷ 子主題總數，只有相關的文件才算涵蓋）；ImageCLEFphoto 2008 的多樣性任務也是用 P@20 配 cluster recall@20（即 S-recall）。我們的改動：子主題換成自由維度的屬性值、各維度分開算再平均、分母用 min(5, …) 讓最佳解 = 1。
+  - Zhai, C., Cohen, W. W., & Lafferty, J. (2003). Beyond Independent Relevance: Methods and Evaluation Metrics for Subtopic Retrieval. *SIGIR 2003*, pp. 10–17.
+  - Arni, T., Clough, P., Sanderson, M., & Grubinger, M. (2008). Overview of the ImageCLEFphoto 2008 Photographic Retrieval Task. *Working Notes of the CLEF 2008 Workshop*, Aarhus, Denmark.
 - **Oracle**：拿著正確答案、窮舉所有 5 件組合的最高 EffCov@5；出題時要求每題都等於 1.00。
 
 ## 基準線
