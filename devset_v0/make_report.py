@@ -216,7 +216,7 @@ RUNBOOK 指定的 (d)「命中總數 × (c)」與 95% 區間、(e) 品項不符�
 ### 6.1 實測成本（`results/stage1_analysis.json` 的 `claude_cost`、`local_cost`）
 
 - **Claude Opus 5.5**：主標註 {cl['n_calls_main']} 次呼叫（{cl['n_calls_limited']} 次碰到用量上限，花費 $0），{cl['n_items_ok']} 件共 **${cl['usd_main_total']:.2f}**，每件 **${cl['usd_per_item']:.4f}**。每件平均 tokens：寫入快取 {cl['tokens_per_item']['cache_write']:.0f}、讀快取 {cl['tokens_per_item']['cache_read']:.0f}、輸出 {cl['tokens_per_item']['output']:.0f}（其中思考 {cl['tokens_per_item']['thinking']:.0f}）。批量檢查另花 ${cl['recheck']['usd_total']:.2f}。**Claude 標註總花費 ${cl['usd_all_calls']:.2f}**（上限 $30）。
-  - 比 RUNBOOK 預估的每件 $0.003–0.006 高，因為 Opus 5.5 預設會思考（輸出約一半是思考）。我沒有關掉它（DECISIONS 第 16 條）。
+  - 比 RUNBOOK 預估的每件 $0.003–0.006 高，因為 Opus 5.5 預設會思考（輸出約一半是思考）。我沒有關掉它（DECISIONS 第 15 條）。
 - **Qwen3.8-27B**：每件 {loc['qwen']['sec_per_item_mean']:.1f} 秒；**gemma-4-12b**：每件 {loc['gemma']['sec_per_item_mean']:.1f} 秒。兩個都各佔兩張 5090。每件輸入約 4,300 tokens，其中準則文字佔大部分（每次都重送整份準則）。
 - 等卡：兩個模型 17:01 UTC 開始排隊，Gemma 18:09 做完、Qwen 20:22 做完，都沒有超過 4 小時。
 
