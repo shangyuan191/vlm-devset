@@ -13,8 +13,7 @@ N, SEED, LONG = 30, 0, 768
 pool = [json.loads(l) for l in open(HERE.parent / 'stage0' / 'pool.jsonl')]
 cells = collections.defaultdict(list)
 for p in pool:
-    if not p['distractor']:
-        cells[p['cell']].append(p)
+    cells[p['cell']].append(p)
 picked, short = [], {}
 for c in sorted(cells):
     rows = sorted(cells[c], key=lambda p: p['parent_asin'])

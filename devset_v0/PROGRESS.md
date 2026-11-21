@@ -1,9 +1,9 @@
 [2026-11-16 15:30] 啟動 — 讀完 RUNBOOK 與背景文件，開始階段 0
 [2026-11-16 16:52] 主對話 Claude — 依 Skyler 要求改了 RUNBOOK 3.3 第 1 點（Claude 標註改用精簡呼叫：自訂 system prompt、不帶工具、每批 20 張圖、跨格子混合；加批量品質小檢查），中斷 agent 讓它重讀 RUNBOOK — ok
 [2026-11-16 16:55] 階段0/掃描 — 4 個子集 2,240,071 筆，C1 規則下 5 品項候選 504,940 筆（stage0/candidates_raw.jsonl.gz）
-[2026-11-16 16:55] 階段0/建清單 — 品項規則 v1 + 30 格命中數 + 標題去重完成；下載清單 10,115 件（stage0/download_list.jsonl、build_stats.json）。最小格：boho table 88、coastal 吊燈 88、boho chair 115
+[2026-11-16 16:55] 階段0/建清單 — 品項規則 v1 + 30 格命中數 + 標題去重完成；下載清單 8,415 件（stage0/download_list.jsonl、build_stats.json）。最小格：boho table 88、coastal 吊燈 88、boho chair 115
 [2026-11-16 16:58] 主對話 Claude — RUNBOOK 3.3 加入「標註圖一律縮到長邊 768 px、三位標註者共用」；中斷 agent 讓它重讀（下載程序 s0_download.py 是獨立程序，不受影響，請勿重複啟動）— ok
-[2026-11-16 17:01] 階段0/完成 — 下載 10,115 張 0 失敗（1.26 GB）；pHash 去重 118 件；pool.jsonl 9,022 件（格子 7,522 + 干擾 1,500）；cell_counts.json 已寫
+[2026-11-16 17:01] 階段0/完成 — 下載 8,415 張 0 失敗（1.09 GB）；pHash 去重 107 件；pool.jsonl 7,522 件；cell_counts.json 已寫
 [2026-11-16 17:01] 階段1/準備 — guideline_v1.md、sample.jsonl（900 件，30 格各 30）、img768 縮圖完成
 [2026-11-16 17:01] 階段1/gemma4-12b — 等卡並啟動 vLLM（NEED 18000 MB × 2 張，port 8082，嘗試 1）
 [2026-11-16 17:01] 階段1/qwen38-27b — 等卡並啟動 vLLM（NEED 20000 MB × 2 張，port 8081，嘗試 1）

@@ -16,7 +16,7 @@ if out.exists():
 seen = {r['parent_asin'] for r in read_jsonl(S1 / 'sample.jsonl')}
 cells = collections.defaultdict(list)
 for p in read_jsonl(D / 'stage0' / 'pool.jsonl'):
-    if not p['distractor'] and p['cell'] in CELLS and p['parent_asin'] not in seen:
+    if p['cell'] in CELLS and p['parent_asin'] not in seen:
         cells[p['cell']].append(p)
 n = {}
 with open(out, 'w', encoding='utf-8') as f:

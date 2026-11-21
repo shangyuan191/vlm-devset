@@ -21,10 +21,9 @@ D = `/mnt/raid0/home/skyler/vlm-diverse-retrieval/devset_v0/`，R = `/mnt/raid0/
 ## 2. 階段 0：建商品池（不花 Claude 標註額度）
 1. 從本機 Amazon Reviews 2023 子集（C1 報告「總量」那張表的來源）用 C1 的 `ITEM_RULES` 決定品項、`STYLE_REGEX` 決定「關鍵字風格」，撈出 30 格的候選。只用有主圖 URL 的商品。注意 C4 提到的誤抓（例如 sofa table / console table 不是沙發；有按摩功能的躺椅），必要時修品項規則，修了什麼寫進 DECISIONS.md。
 2. 每格記下「關鍵字命中總數」（這是之後算可用量的分母），然後每格最多隨機保留 300 件（seed 0）進商品池。
-3. 另外建「無風格關鍵字」的干擾池：5 個品項各隨機 300 件，標題與 details 都不含任何風格字詞（之後當隨機干擾項；階段 1 不標它）。
-4. 去重複（C4 第 4 節）：同 store 且去掉顏色、尺寸字詞後標題 token Jaccard ≥ 0.8 視為同款只留一件；下載圖片後再用感知雜湊（pHash）去掉近似重複。
-5. 下載主圖到 `R/data/derived/devset_images/<parent_asin>.jpg`（用 metadata 裡最大的主圖；平行 ≤ 8、失敗重試 3 次、記錄失敗）。總大小上限 5 GB；`/mnt/raid0` 可用空間低於 250 GB 就停止並記錄。
-6. 輸出 `D/stage0/pool.jsonl`（每件：parent_asin、title、store、來源子集、類別路徑、品項、關鍵字風格、圖片路徑、sha256、phash、是否在干擾池）與 `D/stage0/cell_counts.json`（每格命中總數、去重後數量、入池數量、下載失敗數）。
+3. 去重複（C4 第 4 節）：同 store 且去掉顏色、尺寸字詞後標題 token Jaccard ≥ 0.8 視為同款只留一件；下載圖片後再用感知雜湊（pHash）去掉近似重複。
+4. 下載主圖到 `R/data/derived/devset_images/<parent_asin>.jpg`（用 metadata 裡最大的主圖；平行 ≤ 8、失敗重試 3 次、記錄失敗）。總大小上限 5 GB；`/mnt/raid0` 可用空間低於 250 GB 就停止並記錄。
+5. 輸出 `D/stage0/pool.jsonl`（每件：parent_asin、title、store、來源子集、類別路徑、品項、關鍵字風格、圖片路徑、sha256、phash）與 `D/stage0/cell_counts.json`（每格命中總數、去重後數量、入池數量、下載失敗數）。
 
 ## 3. 階段 1：每格抽 30 件做三方標註（= 階段 2 的第一批，標註之後直接沿用）
 ### 3.1 準則 v1

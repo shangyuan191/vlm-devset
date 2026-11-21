@@ -53,7 +53,7 @@ def scan(job):
             dstyle = details.get('Style') if c1.filled(details.get('Style')) else None
             st_title = c1.styles_of(title)
             st_detail = c1.styles_of(c1.norm_val(dstyle)) if dstyle else []
-            # 「任何風格字詞」：標題 + details 的所有值（干擾池要求兩者都不含）
+            # 「任何風格字詞」：標題 + details 的所有值
             dtext = ' | '.join(c1.norm_val(v) for v in details.values())
             st_any_detail = c1.styles_of(dtext)
             rows.append(json.dumps({

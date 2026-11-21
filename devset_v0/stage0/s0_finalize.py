@@ -2,7 +2,7 @@
 
 pHash：自己用 PIL + numpy 寫（R/.venv 沒有 imagehash，不安裝套件）。做法同 imagehash.phash：
 灰階 → 縮成 32×32 → 2D DCT → 取左上 8×8 低頻 → 和中位數比大小 → 64 bit。兩張圖的距離 = 不同 bit 數（Hamming）。
-距離 <= PHASH_T 視為近似重複，只留先出現的（順序 = 格子順序 → 格內 rank；干擾池排最後）。
+距離 <= PHASH_T 視為近似重複，只留先出現的（順序 = 格子順序 → 格內 rank）。
 
 用法： .venv/bin/python -B devset_v0/stage0/s0_finalize.py     （結果固定，可重跑）
 """
@@ -78,7 +78,7 @@ def main():
                      'categories': r['categories'], 'item': item, 'kw_style': r['kw_style'], 'cell': c,
                      'kw_style_title': r['style_title'], 'kw_style_detail': r['style_detail'], 'details_style': r['details_style'],
                      'image_path': f'data/derived/devset_images/{a}.jpg', 'image_wh': list(size), 'image_bytes': nbytes,
-                     'img_kind': r['img_kind'], 'sha256': sha, 'phash': f'{h:016x}', 'distractor': r['distractor'], 'rank': r['rank']})
+                     'img_kind': r['img_kind'], 'sha256': sha, 'phash': f'{h:016x}', 'rank': r['rank']})
     with open(HERE / 'pool.jsonl', 'w', encoding='utf-8') as f:
         for p in pool:
             f.write(json.dumps(p, ensure_ascii=False) + '\n')
@@ -87,14 +87,10 @@ def main():
         pc = per[c]
         base = {'in_pool': pc['in_pool'], 'download_failed': pc['download_failed'], 'phash_dup_removed': pc['phash_dup_removed'],
                 'downloaded_candidates': b['to_download']}
-        if c.startswith('none|'):
-            cells[c] = {'distractor': True, 'no_style_candidates': b['no_style_candidates'], **base}
-        else:
-            cells[c] = {'distractor': False, 'kw_hits': b['kw_hits'], 'after_title_dedup': b['after_title_dedup'], **base}
-    out = {'phash_threshold': PHASH_T, 'keep': KEEP, 'n_pool': len(pool), 'n_pool_cells': sum(not p['distractor'] for p in pool),
-           'n_pool_distractor': sum(p['distractor'] for p in pool),
+        cells[c] = {'kw_hits': b['kw_hits'], 'after_title_dedup': b['after_title_dedup'], **base}
+    out = {'phash_threshold': PHASH_T, 'keep': KEEP, 'n_pool': len(pool), 'n_pool_cells': len(pool),
            'images_total_bytes_in_pool': sum(p['image_bytes'] for p in pool),
-           'images_total_bytes_on_disk': sum(p.stat().st_size for p in IMG.glob('*.jpg')),
+           'images_total_bytes_on_disk': sum((IMG / f"{a}.jpg").stat().st_size for a, d in dl.items() if d['ok']),
            'download_ok': sum(1 for d in dl.values() if d['ok']), 'download_failed_total': sum(1 for d in dl.values() if not d['ok']),
            'cells': cells}
     (HERE / 'cell_counts.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')

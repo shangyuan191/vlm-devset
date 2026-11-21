@@ -8,7 +8,7 @@
 風格格子：標題或 details['Style'] 命中 C1 STYLE_REGEX；6 個目標風格中「剛好命中 1 個」才進格子。
 
 用法： .venv/bin/python -B devset_v0/stage0/s0_build_pool.py
-輸出： stage0/download_list.jsonl（每格前 KEEP+RESERVE 件 + 干擾池）、stage0/build_stats.json
+輸出： stage0/download_list.jsonl（每格前 KEEP+RESERVE 件）、stage0/build_stats.json
 """
 import collections
 import gzip
@@ -110,7 +110,6 @@ class Deduper:
 
 def main():
     cells = collections.defaultdict(list)       # (style, item) -> rows
-    nostyle = collections.defaultdict(list)     # item -> rows
     st = {'c1_item_counts': collections.Counter(), 'excluded': collections.Counter(), 'no_main_image': collections.Counter(),
           'multi_target_style': collections.Counter(), 'c1_cell_hits_same_def': collections.Counter()}
     for line in gzip.open(HERE / 'candidates_raw.jsonl.gz', 'rt', encoding='utf-8'):
@@ -132,8 +131,6 @@ def main():
             cells[(tg[0], it)].append(r)
         elif len(tg) > 1:
             st['multi_target_style'][it] += 1
-        elif not r['style_title'] and not r['style_any_detail']:
-            nostyle[it].append(r)
 
     dd = Deduper()
     out, cell_stats = [], {}
@@ -153,24 +150,7 @@ def main():
             cell_stats[f'{s}|{it}'] = {'kw_hits': len(rows), 'title_dups_removed': ndup, 'after_title_dedup': len(kept),
                                        'to_download': min(len(kept), KEEP + RESERVE)}
             for rank, r in enumerate(kept[:KEEP + RESERVE]):
-                out.append({**r, 'cell': f'{s}|{it}', 'distractor': False, 'rank': rank})
-    for it in ITEMS:
-        rows = sorted(nostyle[it], key=lambda r: r['parent_asin'])
-        random.Random(f'{SEED}-nostyle-{it}').shuffle(rows)
-        kept, ndup = [], 0
-        for r in rows:
-            if len(kept) >= KEEP + RESERVE:
-                break
-            toks = norm_tokens(r['title'])
-            if dd.dup_of(r['store'], toks):
-                ndup += 1
-                continue
-            dd.add(r['store'], toks, r['parent_asin'])
-            kept.append(r)
-        cell_stats[f'none|{it}'] = {'no_style_candidates': len(rows), 'title_dups_removed_while_sampling': ndup,
-                                    'to_download': len(kept)}
-        for rank, r in enumerate(kept):
-            out.append({**r, 'kw_style': None, 'cell': f'none|{it}', 'distractor': True, 'rank': rank})
+                out.append({**r, 'cell': f'{s}|{it}', 'rank': rank})
 
     with open(HERE / 'download_list.jsonl', 'w', encoding='utf-8') as f:
         for r in out:

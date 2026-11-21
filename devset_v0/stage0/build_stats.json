@@ -197,31 +197,6 @@
    "title_dups_removed": 165,
    "after_title_dedup": 1405,
    "to_download": 340
-  },
-  "none|chair": {
-   "no_style_candidates": 17938,
-   "title_dups_removed_while_sampling": 4,
-   "to_download": 340
-  },
-  "none|table": {
-   "no_style_candidates": 8161,
-   "title_dups_removed_while_sampling": 30,
-   "to_download": 340
-  },
-  "none|lamp": {
-   "no_style_candidates": 8402,
-   "title_dups_removed_while_sampling": 21,
-   "to_download": 340
-  },
-  "none|chandelier_pendant": {
-   "no_style_candidates": 6453,
-   "title_dups_removed_while_sampling": 22,
-   "to_download": 340
-  },
-  "none|wall_art": {
-   "no_style_candidates": 140005,
-   "title_dups_removed_while_sampling": 2,
-   "to_download": 340
   }
  },
  "c1_item_counts": {},
