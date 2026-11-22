@@ -9,9 +9,9 @@
 | `devset_v0/RUNBOOK.md`、`stage0/`、`stage1/` | 建商品池、每格試標 30 件（三方標註：Claude Opus 5.5、Qwen3.8-27B、gemma-4-12B） |
 | `devset_v0/stage1/guideline_v1.md` | 三位標註者共用的標註準則（system prompt 全文的來源） |
 | `devset_v0/stage2/` | 補標到每格湊滿合格數、單一商品欄位（`single_item_prompt.md`） |
-| `devset_v0/stage3/` | 出題（情境一、二）、「只給參考圖」的選品程式、SigLIP2 基準線 |
+| `devset_v0/stage3/` | 出題（情境一、二）、「只給參考圖」的選品程式 |
 | `devset_v0/stage4/` | Negation、多重限制題與其選品程式；合成 query（`gen_syn.py`、`gen_syn_claude.py`，目前不在實驗矩陣） |
-| `devset_v0/stage5/` | 正確 caption 階梯、SigLIP2 文字檢索基準線（還在跑） |
+| `devset_v0/stage5/` | 正確 caption 階梯 |
 | `devset_v0/USER_DECISIONS.md` | 研究者的決定；各 stage 的 `DECISIONS.md` 是執行時的判斷紀錄 |
 | `overnight_2026-11-14/D_main_table/metrics.py` | 計分（Precision@5、EffCov@5、Div@5、Oracle、Random；程式裡 Precision@5 叫 `align`） |
 | `overnight_2026-11-14/C1_category/c1_stats.py` | 品項與風格關鍵字規則 |
@@ -42,13 +42,13 @@
 
 ## 實驗矩陣（USER_DECISIONS ⑬）
 
-| 題型（題數） | 條件 | 參考圖 | 文字描述（標註的正確答案） | SigLIP2 基準線 |
-|---|---|---|---|---|
-| 情境一、二（216） | 只給參考圖 | ✔ | 無 | 以圖找圖 |
-| 情境一、二（216） | G0 | ✘ | 無 | — |
-| 情境一、二（216） | G1 → G5 | ✘ | 依序：風格、＋品項、＋材質、＋顏色、＋形狀 | 以文字找圖 |
-| 情境一、二（216） | G5 去風格 | ✘ | 品項、材質、顏色、形狀 | 以文字找圖 |
-| Negation、多重限制（172） | 參考圖＋題目句 | ✔ | 題目句寫的限制 | 以圖找圖 |
+| 題型（題數） | 條件 | 參考圖 | 文字描述（標註的正確答案） |
+|---|---|---|---|
+| 情境一、二（216） | 只給參考圖 | ✔ | 無 |
+| 情境一、二（216） | G0 | ✘ | 無 |
+| 情境一、二（216） | G1 → G5 | ✘ | 依序：風格、＋品項、＋材質、＋顏色、＋形狀 |
+| 情境一、二（216） | G5 去風格 | ✘ | 品項、材質、顏色、形狀 |
+| Negation、多重限制（172） | 參考圖＋題目句 | ✔ | 題目句寫的限制 |
 
 每個條件 × 7 個 VLM × 3 種候選順序。早期設計裡的「圖＋模型自己寫的風格名稱」（style_given）和「圖＋正確風格」（img_goldstyle）已移出實驗矩陣，相關程式（`stage3/run_style.py` 等）保留但不再使用。
 
@@ -62,6 +62,6 @@
 
 ## 基準線
 
-非 VLM 基準線用 SigLIP2（so400m-patch14-384）：只看圖的 top-5 與 MMR（`devset_v0/stage3/baselines.py`），以及階段 5 的文字檢索 top-5 與 MMR（`devset_v0/stage5/siglip_text.py`）。早期另有一個會讀標註屬性的「屬性輪流」版（siglip2-mmr-free），因為用了模型看不到的標註答案、不是公平的比較對象，已經移除它的結果檔；
+目前實驗矩陣只有 7 個 VLM，沒有非 VLM 的基準線。早期跑過的 SigLIP2 以圖找圖、以文字找圖程式（`devset_v0/stage3/baselines.py`、`devset_v0/stage5/siglip_text.py`）保留在 repo，但不在實驗矩陣裡；要不要加 embedding 模型當對照還在討論。
 
 **沒有放進來的**：實驗結果（`stage3–5/out/`、分數、白話報告、Opus 審查、進度紀錄）、商品圖片（請依 Amazon Reviews 2023 的條款自行下載）、模型權重、執行 log、agent 對話紀錄、API 呼叫的花費紀錄。
